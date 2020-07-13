@@ -1,0 +1,583 @@
+2016-03-02 00:00:33,150 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-03-02 00:00:33,494 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-03-02 00:00:33,603 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-03-02 00:00:33,603 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Familia\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files (x86)\Java\jre1.8.0_60\lib\endorsed
+	java.ext.dirs = C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files (x86)\Java\jre1.8.0_60
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Client VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Familia\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\Users\Familia\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Familia/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 32
+	sun.boot.class.path = C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_60\classes
+	sun.boot.library.path = C:\Program Files (x86)\Java\jre1.8.0_60\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Familia/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot Client Compiler
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Familia\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-03-02 00:00:33,603 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Familia/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-03-02 00:00:35,027 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 8) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-03-02 00:00:35,027 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-03-02 00:00:35,133 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found jboss-as-kitchensink-html5-mobile.war in deployment directory. To trigger deployment create a file called jboss-as-kitchensink-html5-mobile.war.dodeploy
+2016-03-02 00:00:35,133 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineweb_v2.war in deployment directory. To trigger deployment create a file called vitrineweb_v2.war.dodeploy
+2016-03-02 00:00:35,133 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineweb.war in deployment directory. To trigger deployment create a file called vitrineweb.war.dodeploy
+2016-03-02 00:00:35,164 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-03-02 00:00:35,196 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2016-03-02 00:00:35,211 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2016-03-02 00:00:35,258 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-03-02 00:00:35,274 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-03-02 00:00:35,274 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-03-02 00:00:35,321 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-03-02 00:00:35,368 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-03-02 00:00:35,430 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-03-02 00:00:35,477 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-03-02 00:00:35,961 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-03-02 00:00:36,321 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-03-02 00:00:36,515 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-03-02 00:00:36,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-03-02 00:00:37,722 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-03-02 00:00:37,804 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-03-02 00:00:38,101 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2016-03-02 00:00:38,851 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Familia\wildfly-9.0.2.Final/welcome-content
+2016-03-02 00:00:39,202 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-03-02 00:00:39,202 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-03-02 00:00:39,358 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2016-03-02 00:00:39,952 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2016-03-02 00:00:40,078 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-03-02 00:00:40,844 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-03-02 00:00:41,578 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Familia\wildfly-9.0.2.Final\standalone\deployments
+2016-03-02 00:00:41,619 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 00:00:41,619 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 00:00:41,619 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "vitrineweb.war" (runtime-name: "vitrineweb.war")
+2016-03-02 00:00:43,150 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-03-02 00:00:44,201 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 00:00:44,280 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 00:00:44,593 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 00:00:44,593 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 00:00:44,780 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 00:00:44,796 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 00:00:45,843 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2016-03-02 00:00:46,384 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.3.10.Final}
+2016-03-02 00:00:46,431 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2016-03-02 00:00:46,446 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2016-03-02 00:00:47,009 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 00:00:47,009 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 00:00:47,441 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /vitrineweb
+2016-03-02 00:00:47,659 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 00:00:47,738 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 00:00:47,909 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.16 (SP1)
+2016-03-02 00:00:47,925 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 00:00:48,331 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 67) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 00:00:48,613 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 67) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-03-02 00:00:49,145 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 67) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 00:00:49,160 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 67) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 00:00:49,504 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 67) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 00:00:50,448 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 67) HHH000227: Running hbm2ddl schema export
+2016-03-02 00:00:50,495 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 67) HHH000230: Schema export complete
+2016-03-02 00:00:52,526 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 67) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 00:00:52,936 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 00:00:53,014 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineweb_v2.war" (runtime-name : "vitrineweb_v2.war")
+2016-03-02 00:00:53,014 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineweb.war" (runtime-name : "vitrineweb.war")
+2016-03-02 00:00:53,014 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "jboss-as-kitchensink-html5-mobile.war" (runtime-name : "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 00:00:53,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-03-02 00:00:53,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-03-02 00:00:53,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 20582ms - Started 483 of 667 services (243 services are lazy, passive or on-demand)
+2016-03-02 12:26:23,589 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-03-02 12:26:25,459 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-03-02 12:26:25,746 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-03-02 12:26:25,762 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Familia\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files (x86)\Java\jre1.8.0_60\lib\endorsed
+	java.ext.dirs = C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files (x86)\Java\jre1.8.0_60
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Client VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Familia\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\Users\Familia\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Familia/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 32
+	sun.boot.class.path = C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_60\classes
+	sun.boot.library.path = C:\Program Files (x86)\Java\jre1.8.0_60\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Familia/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot Client Compiler
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Familia\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-03-02 12:26:25,777 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Familia/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-03-02 12:26:34,825 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-03-02 12:26:34,832 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-03-02 12:26:35,067 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found jboss-as-kitchensink-html5-mobile.war in deployment directory. To trigger deployment create a file called jboss-as-kitchensink-html5-mobile.war.dodeploy
+2016-03-02 12:26:35,067 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineweb_v2.war in deployment directory. To trigger deployment create a file called vitrineweb_v2.war.dodeploy
+2016-03-02 12:26:35,067 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineweb.war in deployment directory. To trigger deployment create a file called vitrineweb.war.dodeploy
+2016-03-02 12:26:35,145 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-03-02 12:26:35,270 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2016-03-02 12:26:35,286 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2016-03-02 12:26:35,536 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-03-02 12:26:35,536 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-03-02 12:26:35,536 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-03-02 12:26:35,551 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-03-02 12:26:35,551 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-03-02 12:26:35,567 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-03-02 12:26:35,567 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-03-02 12:26:35,676 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-03-02 12:26:35,786 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-03-02 12:26:36,332 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-03-02 12:26:36,332 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-03-02 12:26:37,127 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-03-02 12:26:37,127 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-03-02 12:26:37,659 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Familia\wildfly-9.0.2.Final/welcome-content
+2016-03-02 12:26:37,916 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2016-03-02 12:26:37,916 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-03-02 12:26:38,447 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2016-03-02 12:26:38,619 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2016-03-02 12:26:38,681 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2016-03-02 12:26:39,026 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-03-02 12:26:39,167 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-03-02 12:26:39,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 12:26:39,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "vitrineweb.war" (runtime-name: "vitrineweb.war")
+2016-03-02 12:26:39,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 12:26:39,276 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Familia\wildfly-9.0.2.Final\standalone\deployments
+2016-03-02 12:26:41,145 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-03-02 12:26:42,328 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 12:26:42,350 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 12:26:42,569 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 12:26:42,569 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 12:26:42,647 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 12:26:42,772 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 12:26:43,397 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.1.3.Final
+2016-03-02 12:26:43,603 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2016-03-02 12:26:43,619 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2016-03-02 12:26:43,619 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2016-03-02 12:26:44,119 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 12:26:44,119 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 12:26:44,619 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /vitrineweb
+2016-03-02 12:26:44,671 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 12:26:44,827 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 12:26:44,890 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.2.16 (SP1)
+2016-03-02 12:26:44,921 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 12:26:45,405 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 12:26:45,624 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-03-02 12:26:46,244 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 12:26:46,259 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 12:26:46,556 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 12:26:47,431 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000227: Running hbm2ddl schema export
+2016-03-02 12:26:47,457 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 59) HHH000230: Schema export complete
+2016-03-02 12:26:49,932 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 12:26:50,026 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 12:26:50,088 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineweb_v2.war" (runtime-name : "vitrineweb_v2.war")
+2016-03-02 12:26:50,088 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineweb.war" (runtime-name : "vitrineweb.war")
+2016-03-02 12:26:50,088 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "jboss-as-kitchensink-html5-mobile.war" (runtime-name : "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 12:26:50,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-03-02 12:26:50,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-03-02 12:26:50,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 28920ms - Started 483 of 667 services (243 services are lazy, passive or on-demand)
+2016-03-02 13:14:33,193 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 13:14:33,234 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 13:14:33,234 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 76) HHH000227: Running hbm2ddl schema export
+2016-03-02 13:14:33,250 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 76) HHH000230: Schema export complete
+2016-03-02 13:14:33,250 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0010: Stopping weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 13:14:33,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 13:14:33,313 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 13:14:33,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jboss-as-kitchensink-html5-mobile.war (runtime-name: jboss-as-kitchensink-html5-mobile.war) in 132ms
+2016-03-02 13:14:33,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 13:14:33,313 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /vitrineweb
+2016-03-02 13:14:33,344 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment vitrineweb.war (runtime-name: vitrineweb.war) in 28ms
+2016-03-02 13:14:33,344 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "vitrineweb.war" (runtime-name: "vitrineweb.war")
+2016-03-02 13:14:33,359 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /vitrineweb_v2
+2016-03-02 13:14:33,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment vitrineweb_v2.war (runtime-name: vitrineweb_v2.war) in 24ms
+2016-03-02 13:14:33,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 13:14:33,520 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 13:14:33,524 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 13:14:33,703 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 13:14:33,704 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 13:14:33,706 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 75) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 13:14:33,713 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 13:14:33,754 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 13:14:33,755 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 13:14:33,757 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /vitrineweb
+2016-03-02 13:14:33,760 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 13:14:33,836 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 13:14:33,836 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 13:14:33,852 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 13:14:33,867 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 75) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 13:14:33,867 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 75) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 13:14:33,883 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 75) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 13:14:33,898 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000227: Running hbm2ddl schema export
+2016-03-02 13:14:33,914 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 75) HHH000230: Schema export complete
+2016-03-02 13:14:34,274 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 73) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 13:14:34,277 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 13:14:34,433 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "vitrineweb_v2.war" with deployment "vitrineweb_v2.war"
+2016-03-02 13:14:34,433 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "vitrineweb.war" with deployment "vitrineweb.war"
+2016-03-02 13:14:34,433 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jboss-as-kitchensink-html5-mobile.war" with deployment "jboss-as-kitchensink-html5-mobile.war"
+2016-03-02 14:06:13,715 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:06:13,737 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:06:13,737 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:06:13,752 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 79) HHH000230: Schema export complete
+2016-03-02 14:06:13,752 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:06:13,752 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0010: Stopping weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:06:13,788 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:06:13,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment jboss-as-kitchensink-html5-mobile.war (runtime-name: jboss-as-kitchensink-html5-mobile.war) in 79ms
+2016-03-02 14:06:13,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 14:06:13,789 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /vitrineweb
+2016-03-02 14:06:13,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment vitrineweb.war (runtime-name: vitrineweb.war) in 21ms
+2016-03-02 14:06:13,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "vitrineweb.war" (runtime-name: "vitrineweb.war")
+2016-03-02 14:06:13,804 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /vitrineweb_v2
+2016-03-02 14:06:13,836 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment vitrineweb_v2.war (runtime-name: vitrineweb_v2.war) in 33ms
+2016-03-02 14:06:13,851 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 14:06:14,158 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: /vitrineweb
+2016-03-02 14:06:14,158 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 14:06:14,204 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 14:06:14,204 WARN  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 14:06:14,283 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:06:14,283 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:06:14,283 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 14:06:14,283 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:06:14,298 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 14:06:14,298 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 14:06:14,376 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:06:14,376 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:06:14,408 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:06:14,423 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 14:06:14,423 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 80) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 14:06:14,439 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 80) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 14:06:14,470 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:06:14,470 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 80) HHH000230: Schema export complete
+2016-03-02 14:06:15,060 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 80) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 14:06:15,071 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:06:15,302 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "vitrineweb_v2.war" with deployment "vitrineweb_v2.war"
+2016-03-02 14:06:15,303 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "vitrineweb.war" with deployment "vitrineweb.war"
+2016-03-02 14:06:15,304 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jboss-as-kitchensink-html5-mobile.war" with deployment "jboss-as-kitchensink-html5-mobile.war"
+2016-03-02 14:10:41,906 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:10:41,917 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:41,917 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:10:41,917 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 87) HHH000230: Schema export complete
+2016-03-02 14:10:41,933 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0010: Stopping weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:41,933 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:41,933 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:10:41,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment jboss-as-kitchensink-html5-mobile.war (runtime-name: jboss-as-kitchensink-html5-mobile.war) in 31ms
+2016-03-02 14:10:41,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 14:10:41,933 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: /vitrineweb_v2
+2016-03-02 14:10:41,949 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment vitrineweb_v2.war (runtime-name: vitrineweb_v2.war) in 18ms
+2016-03-02 14:10:41,964 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 14:10:42,011 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 14:10:42,011 WARN  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 14:10:42,189 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:10:42,190 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:42,191 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 14:10:42,205 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:42,233 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 14:10:42,234 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 14:10:42,262 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 14:10:42,346 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:42,368 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:42,383 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:42,383 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 14:10:42,383 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 86) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 14:10:42,399 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 86) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 14:10:42,430 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:10:42,430 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 86) HHH000230: Schema export complete
+2016-03-02 14:10:42,815 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 84) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 14:10:42,823 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:10:43,050 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "vitrineweb_v2.war" with deployment "vitrineweb_v2.war"
+2016-03-02 14:10:43,051 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jboss-as-kitchensink-html5-mobile.war" with deployment "jboss-as-kitchensink-html5-mobile.war"
+2016-03-02 14:10:58,215 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:10:58,229 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:58,231 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 91) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:10:58,235 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 91) HHH000230: Schema export complete
+2016-03-02 14:10:58,237 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Stopping weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:58,237 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 91) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:58,252 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:10:58,254 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jboss-as-kitchensink-html5-mobile.war (runtime-name: jboss-as-kitchensink-html5-mobile.war) in 39ms
+2016-03-02 14:10:58,255 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "jboss-as-kitchensink-html5-mobile.war" (runtime-name: "jboss-as-kitchensink-html5-mobile.war")
+2016-03-02 14:10:58,257 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: /vitrineweb
+2016-03-02 14:10:58,280 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment vitrineweb.war (runtime-name: vitrineweb.war) in 24ms
+2016-03-02 14:10:58,282 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "vitrineweb.war" (runtime-name: "vitrineweb.war")
+2016-03-02 14:10:58,284 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: /vitrineweb_v2
+2016-03-02 14:10:58,298 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment vitrineweb_v2.war (runtime-name: vitrineweb_v2.war) in 16ms
+2016-03-02 14:10:58,299 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "vitrineweb_v2.war" (runtime-name: "vitrineweb_v2.war")
+2016-03-02 14:10:58,556 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for primary
+2016-03-02 14:10:58,575 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2016-03-02 14:10:58,615 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: /vitrineweb
+2016-03-02 14:10:58,617 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: /vitrineweb_v2
+2016-03-02 14:10:58,666 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-as-kitchensink-html5-mobileDS]
+2016-03-02 14:10:58,666 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:58,667 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 84) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-03-02 14:10:58,670 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:58,670 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:module/MemberService!org.jboss.tools.example.html5.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+2016-03-02 14:10:58,670 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.tools.example.html5.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+2016-03-02 14:10:58,775 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:58,781 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+2016-03-02 14:10:58,786 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+2016-03-02 14:10:58,801 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 84) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-02 14:10:58,801 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 84) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-02 14:10:58,801 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 84) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-02 14:10:58,817 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 84) HHH000227: Running hbm2ddl schema export
+2016-03-02 14:10:58,833 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 84) HHH000230: Schema export complete
+2016-03-02 14:10:59,338 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 91) Deploying javax.ws.rs.core.Application: class org.jboss.tools.example.html5.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-03-02 14:10:59,359 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: /jboss-as-kitchensink-html5-mobile
+2016-03-02 14:10:59,713 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "vitrineweb_v2.war" with deployment "vitrineweb_v2.war"
+2016-03-02 14:10:59,713 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "vitrineweb.war" with deployment "vitrineweb.war"
+2016-03-02 14:10:59,713 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jboss-as-kitchensink-html5-mobile.war" with deployment "jboss-as-kitchensink-html5-mobile.war"

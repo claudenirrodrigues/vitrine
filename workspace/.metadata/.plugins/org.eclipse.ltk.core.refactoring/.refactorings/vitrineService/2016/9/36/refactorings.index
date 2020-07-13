@@ -1,0 +1,36 @@
+1472727418494	Delete element
+1472727476642	Delete element
+1472727488284	Copy compilation unit
+1472727531496	Delete element
+1472727579094	Delete element
+1472727592302	Copy package
+1472727602787	Delete element
+1472727610306	Delete element
+1472727710548	Copy compilation unit
+1472727799609	Delete element
+1472728053983	Delete element
+1472728064614	Copy compilation unit
+1472728093912	Rename type 'TestAuthenticator'
+1472732136373	Copy compilation unit
+1472732242633	Rename type 'TestResource'
+1472732271468	Rename type 'TestAuthenticator'
+1472733936052	Copy compilation unit
+1472733995557	Rename type 'Google20Example'
+1472734376855	Rename field 'clientId'
+1472734400716	Rename field 'clientSecret'
+1472735831769	Rename local variable 'stateSecret'
+1472738730990	Rename method 'getAccessToken'
+1472739082056	Rename local variable 'entityName'
+1472755136953	Rename type 'HTTPHeaderNames'
+1472755253124	Rename type 'HTTPConstantes'
+1472760098361	Rename field 'secretState'
+1472763529352	Rename local variable 'secretState'
+1472763604459	Rename local variable 'secretState'
+1472764297877	Rename field 'X_Client_IP'
+1472764755658	Rename type 'HTTPConstants'
+1472830776759	Rename method 'getAuthorizationURL'
+1472846687241	Rename local variable 'ipAdress'
+1472846829955	Rename local variable 'service'
+1472849354286	Rename method 'getAuthorization'
+1472852227999	Rename local variable 'requestUrl'
+1472895058769	Rename type 'GoogleOAuthException'

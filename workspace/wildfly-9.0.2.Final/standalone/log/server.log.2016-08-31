@@ -1,0 +1,430 @@
+2016-08-31 08:44:50,837 INFO  [com.vitrine.test.TestRequestFilter] (default task-9) Filtering request path: /test-resource/post-method
+2016-08-31 08:45:16,102 INFO  [com.vitrine.test.TestResponseFilter] (default task-9) Filtering REST Response
+2016-08-31 08:45:33,505 INFO  [com.vitrine.test.TestRequestFilter] (default task-10) Filtering request path: /test-resource/get-method
+2016-08-31 08:46:12,406 INFO  [com.vitrine.test.TestResponseFilter] (default task-10) Filtering REST Response
+2016-08-31 08:46:31,698 INFO  [com.vitrine.test.TestRequestFilter] (default task-11) Filtering request path: /test-resource/logout
+2016-08-31 08:47:51,540 INFO  [com.vitrine.test.TestResponseFilter] (default task-11) Filtering REST Response
+2016-08-31 08:48:11,849 INFO  [com.vitrine.test.TestRequestFilter] (default task-12) Filtering request path: /test-resource/get-method
+2016-08-31 08:48:31,315 INFO  [com.vitrine.test.TestResponseFilter] (default task-12) Filtering REST Response
+2016-08-31 08:50:29,517 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (JCA PoolFiller) IJ000610: Unable to fill pool: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.fillTo(SemaphoreArrayListManagedConnectionPool.java:1126)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.PoolFiller.run(PoolFiller.java:97)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:981)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2286)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2085)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 6 more
+Caused by: java.net.UnknownHostException: node38695-vitrinedb.jelastic.websolute.net.br
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+
+2016-08-31 09:05:29,532 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (JCA PoolFiller) IJ000610: Unable to fill pool: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.fillTo(SemaphoreArrayListManagedConnectionPool.java:1126)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.PoolFiller.run(PoolFiller.java:97)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:981)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2286)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2085)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 6 more
+Caused by: java.net.UnknownHostException: node38695-vitrinedb.jelastic.websolute.net.br
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+
+2016-08-31 09:38:30,758 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (JCA PoolFiller) IJ000610: Unable to fill pool: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1289)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.fillTo(SemaphoreArrayListManagedConnectionPool.java:1126)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.PoolFiller.run(PoolFiller.java:97)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:981)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:339)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2253)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2286)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2085)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 6 more
+Caused by: java.net.UnknownHostException: node38695-vitrinedb.jelastic.websolute.net.br
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:188)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 19 more
+
+2016-08-31 10:30:29,111 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:29,497 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:29,824 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:30,334 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:30,521 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:30,828 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:31,175 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:31,427 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:31,792 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 10:30:32,090 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 10:30:32 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:29,200 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:29,394 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:29,655 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:29,826 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:29,997 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:29 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:30,240 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:30,370 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:30,550 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:30,806 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 11:15:31,011 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 11:15:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:35,542 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-08-31 20:14:35,867 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.9.Final
+2016-08-31 20:14:35,585 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-08-31 20:14:35,572 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-08-31 20:14:35,569 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-08-31 20:14:35,561 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-08-31 20:14:35,548 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-08-31 20:14:35,545 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-08-31 20:14:35,942 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-08-31 20:14:36,041 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-08-31 20:14:36,041 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-08-31 20:14:36,066 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-08-31 20:14:36,365 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\workspace\wildfly-9.0.2.Final/welcome-content
+2016-08-31 20:14:36,744 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-08-31 20:14:36,761 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-08-31 20:14:36,850 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-08-31 20:14:36,857 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-08-31 20:14:36,859 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2016-08-31 20:14:36,995 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-08-31 20:14:37,005 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-08-31 20:14:37,230 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2016-08-31 20:14:37,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-08-31 20:14:37,824 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/VitrineDSTeste]
+2016-08-31 20:14:37,838 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/VitrineDS]
+2016-08-31 20:14:38,974 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:38 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:39,189 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "vitrineDashboard.war" (runtime-name: "vitrineDashboard.war")
+2016-08-31 20:14:39,192 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "vitrineService.war" (runtime-name: "vitrineService.war")
+2016-08-31 20:14:39,265 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "vitrineStore.war" (runtime-name: "vitrineStore.war")
+2016-08-31 20:14:39,277 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\workspace\wildfly-9.0.2.Final\standalone\deployments
+2016-08-31 20:14:39,980 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:40,226 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:40,378 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-08-31 20:14:40,543 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:40,992 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:41,309 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:41 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:41,451 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment vitrineService.war
+2016-08-31 20:14:41,517 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:41 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:41,745 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2016-08-31 20:14:41,757 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:41 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:42,377 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:42 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:42,554 ERROR [stderr] (JCA PoolFiller) Wed Aug 31 20:14:42 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-31 20:14:42,645 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named NumeracaoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:app/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:module/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:global/vitrineService/NumeracaoService
+	java:app/vitrineService/NumeracaoService
+	java:module/NumeracaoService
+
+2016-08-31 20:14:42,645 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PedidoCompraService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:app/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:module/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:global/vitrineService/PedidoCompraService
+	java:app/vitrineService/PedidoCompraService
+	java:module/PedidoCompraService
+
+2016-08-31 20:14:42,646 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named TipoProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:app/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:module/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:global/vitrineService/TipoProdutoService
+	java:app/vitrineService/TipoProdutoService
+	java:module/TipoProdutoService
+
+2016-08-31 20:14:42,646 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named AcabamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:app/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:module/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:global/vitrineService/AcabamentoService
+	java:app/vitrineService/AcabamentoService
+	java:module/AcabamentoService
+
+2016-08-31 20:14:42,647 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named FaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:app/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:module/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:global/vitrineService/FaixaCEPService
+	java:app/vitrineService/FaixaCEPService
+	java:module/FaixaCEPService
+
+2016-08-31 20:14:42,647 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PerfilService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:app/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:module/PerfilService!com.vitrine.entities.service.PerfilService
+	java:global/vitrineService/PerfilService
+	java:app/vitrineService/PerfilService
+	java:module/PerfilService
+
+2016-08-31 20:14:42,648 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named DetalheService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:app/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:module/DetalheService!com.vitrine.entities.service.DetalheService
+	java:global/vitrineService/DetalheService
+	java:app/vitrineService/DetalheService
+	java:module/DetalheService
+
+2016-08-31 20:14:42,648 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named CorService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:app/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:module/CorService!com.vitrine.entities.service.CorService
+	java:global/vitrineService/CorService
+	java:app/vitrineService/CorService
+	java:module/CorService
+
+2016-08-31 20:14:42,649 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PessoaFaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:global/vitrineService/PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService
+
+2016-08-31 20:14:42,649 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named EnderecoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:app/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:module/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:global/vitrineService/EnderecoService
+	java:app/vitrineService/EnderecoService
+	java:module/EnderecoService
+
+2016-08-31 20:14:42,649 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named TamanhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:app/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:module/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:global/vitrineService/TamanhoService
+	java:app/vitrineService/TamanhoService
+	java:module/TamanhoService
+
+2016-08-31 20:14:42,650 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named FreteService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:app/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:module/FreteService!com.vitrine.entities.service.FreteService
+	java:global/vitrineService/FreteService
+	java:app/vitrineService/FreteService
+	java:module/FreteService
+
+2016-08-31 20:14:42,650 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PessoaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:app/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:module/PessoaService!com.vitrine.entities.service.PessoaService
+	java:global/vitrineService/PessoaService
+	java:app/vitrineService/PessoaService
+	java:module/PessoaService
+
+2016-08-31 20:14:42,651 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named CarrinhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:app/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:module/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:global/vitrineService/CarrinhoService
+	java:app/vitrineService/CarrinhoService
+	java:module/CarrinhoService
+
+2016-08-31 20:14:42,652 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named CategoriaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:app/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:module/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:global/vitrineService/CategoriaService
+	java:app/vitrineService/CategoriaService
+	java:module/CategoriaService
+
+2016-08-31 20:14:42,652 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PercentualVendaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:app/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:module/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:global/vitrineService/PercentualVendaService
+	java:app/vitrineService/PercentualVendaService
+	java:module/PercentualVendaService
+
+2016-08-31 20:14:42,652 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PagamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:app/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:module/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:global/vitrineService/PagamentoService
+	java:app/vitrineService/PagamentoService
+	java:module/PagamentoService
+
+2016-08-31 20:14:42,653 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named ProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:app/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:module/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:global/vitrineService/ProdutoService
+	java:app/vitrineService/ProdutoService
+	java:module/ProdutoService
+
+2016-08-31 20:14:42,653 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named TestResource in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:app/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:module/TestResource!com.vitrine.test.TestResourceProxy
+	java:global/vitrineService/TestResource
+	java:app/vitrineService/TestResource
+	java:module/TestResource
+
+2016-08-31 20:14:42,654 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named EstoqueService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:app/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:module/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:global/vitrineService/EstoqueService
+	java:app/vitrineService/EstoqueService
+	java:module/EstoqueService
+
+2016-08-31 20:14:42,654 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UsuarioService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:app/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:module/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:global/vitrineService/UsuarioService
+	java:app/vitrineService/UsuarioService
+	java:module/UsuarioService
+
+2016-08-31 20:14:43,048 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /vitrineStore
+2016-08-31 20:14:43,174 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /vitrineDashboard
+2016-08-31 20:14:43,616 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-08-31 20:14:43,618 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-08-31 20:14:43,620 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: vitrineService.war
+2016-08-31 20:14:43,750 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.2.16 (SP1)
+2016-08-31 20:14:43,767 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.jdbc.Driver_5_1
+2016-08-31 20:14:43,799 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-08-31 20:14:43,818 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment vitrineService.war
+2016-08-31 20:14:45,377 INFO  [org.jboss.as.protocol] (XNIO-1 I/O-2) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+2016-08-31 20:14:45,545 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 77) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/vitrineService'
+2016-08-31 20:14:47,643 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Deploying javax.ws.rs.core.Application: class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,643 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.AcabamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,643 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PessoaFaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,644 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.NumeracaoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,644 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.FaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,644 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PercentualVendaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,644 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.CorService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,644 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.DetalheService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,645 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.ProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,645 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.EstoqueService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,645 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.test.TestResource from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,645 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.EnderecoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,646 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.TipoProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,646 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding provider class com.vitrine.utils.ResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,646 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.FreteService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,646 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PerfilService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,647 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding provider class com.vitrine.test.TestRequestFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,647 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.CarrinhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,647 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.CategoriaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,647 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PessoaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,648 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding provider class com.vitrine.test.TestResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,649 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.UsuarioService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,649 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PagamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,649 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.PedidoCompraService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,650 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 77) Adding class resource com.vitrine.entities.service.TamanhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-31 20:14:47,889 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: /vitrineService
+2016-08-31 20:14:47,985 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineStore.war" (runtime-name : "vitrineStore.war")
+2016-08-31 20:14:47,986 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineService.war" (runtime-name : "vitrineService.war")
+2016-08-31 20:14:47,986 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineDashboard.war" (runtime-name : "vitrineDashboard.war")
+2016-08-31 20:14:48,765 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-08-31 20:14:48,768 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-08-31 20:14:48,769 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 24727ms - Started 792 of 976 services (243 services are lazy, passive or on-demand)

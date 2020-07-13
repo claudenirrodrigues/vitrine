@@ -1,0 +1,81 @@
+package com.vitrine.utils;
+
+import com.vitrine.entities.service.security.AuthenticatorService;
+
+import java.io.IOException;
+import java.util.logging.Logger;
+
+import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.container.ContainerRequestFilter;
+import javax.ws.rs.container.PreMatching;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.Provider;
+
+@Provider
+@PreMatching
+public class RequestFilter implements ContainerRequestFilter {
+
+	private final static Logger log = Logger.getLogger(RequestFilter.class.getName());
+
+	@Override
+	public void filter(ContainerRequestContext requestCtx) throws IOException {
+
+		String path = requestCtx.getUriInfo().getPath();
+		log.info("Filtrando o request path: " + path);
+
+		// IMPORTANTE!!! Desprezar requisições com metodo "OPTIONS"
+		if (requestCtx.getRequest().getMethod().equals("OPTIONS")) {
+			requestCtx.abortWith(Response.status(Response.Status.OK).build());
+
+			return;
+		}
+		
+		// IMPORTANTE!!! Desprezar requisições com metodo diferente de "PUT" 
+		//para os path "/security/authorization" "/security/authentication" "/security/login" "/security/logout"
+		if (!requestCtx.getRequest().getMethod().equals("PUT") &&
+				(path.startsWith("/security/authorization") ||
+						path.startsWith("/security/authentication")||
+						path.startsWith("/security/login")||
+						path.startsWith("/security/logout"))) {
+			requestCtx.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
+
+			return;
+		}
+
+		//Acessar o Servidor de Autorização
+		if (!path.startsWith("/security/authorization")) {
+
+			// Servidor de Autorização redirecionou a URL
+			if (requestCtx.getUriInfo().getQueryParameters().containsKey(HttpHeadersOAuth.STATE)
+					&& !requestCtx.getUriInfo().getQueryParameters().containsKey(HttpHeadersOAuth.CODE)) {
+				System.out.println("Usuario negou acesso, realizar o tratamento neste ponto?");
+				
+				requestCtx.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
+
+				return;
+			}
+
+			// Em seguida, verifique se a chave de serviço existe e é válida.
+			AuthenticatorService authenticator = AuthenticatorService.getInstance();
+			String serviceKey = requestCtx.getHeaderString(HttpHeadersOAuth.SERVICE_KEY);
+
+			if (!authenticator.isServiceKeyValid(serviceKey)) {
+				// Barrar qualquer pessoa sem uma chave de serviço válida
+				requestCtx.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
+
+				return;
+			}
+
+			// Para quaisquer outros métodos além de login, o authToken deve ser verificado
+			if (!path.startsWith("/security/login")) {
+				String authToken = requestCtx.getHeaderString(HttpHeadersOAuth.AUTH_TOKEN);
+
+				// se não é válido, apenas barrar o acesso.
+				if (!authenticator.isAuthTokenValid(serviceKey, authToken)) {
+					requestCtx.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
+				}
+			}
+		}
+	}
+
+}

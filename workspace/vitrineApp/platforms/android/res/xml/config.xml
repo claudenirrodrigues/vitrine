@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.vitrine.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>Vitrine</name>
+    <description>O App da Moda Vitrine veio para auxiliar seus
+		Representantes no processo e gerenciamente de suas vendas.
+	</description>
+    <author email="contato@modavitrine.com.br" href="http://www.modavitrine.com.br">
+		Moda Vitrine - Thym  
+	</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="www/res/icon/ldpi.png" />
+    <icon density="mdpi" src="www/res/icon/mdpi.png" />
+    <icon density="hdpi" src="www/res/icon/hdpi.png" />
+    <icon density="xhdpi" src="www/res/icon/xhdpi.png" />
+    <icon density="xxhdpi" src="www/res/icon/xxhdpi.png" />
+    <icon density="xxxhdpi" src="www/res/icon/xxxhdpi.png" />
+    <splash density="land-hdpi" src="www/res/screen/marsala_hdpi_landscape.png" />
+    <splash density="land-ldpi" src="www/res/screen/marsala_ldpi_landscape.png" />
+    <splash density="land-mdpi" src="www/res/screen/marsala_mdpi_landscape.png" />
+    <splash density="land-xhdpi" src="www/res/screen/marsala_xhdpi_landscape.png" />
+    <splash density="port-hdpi" src="www/res/screen/marsala_hdpi_portrait.png" />
+    <splash density="port-ldpi" src="www/res/screen/marsala_ldpi_portrait.png" />
+    <splash density="port-mdpi" src="www/res/screen/marsala_mdpi_portrait.png" />
+    <splash density="port-xhdpi" src="www/res/screen/marsala_xhdpi_portrait.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenBackgroundColor" value="#5B2633" />
+    <preference name="ShowSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="FadeSplashScreenDuration" value="3000" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>

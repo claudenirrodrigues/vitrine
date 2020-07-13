@@ -1,0 +1,101 @@
+package com.vitrine.entities.service.security;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.core.HttpHeaders;
+
+import com.github.scribejava.core.oauth.OAuth20Service;
+import com.github.scribejava.core.model.OAuth2AccessToken;
+import com.github.scribejava.core.model.Response;
+import com.vitrine.utils.HttpHeadersOAuth;
+import com.vitrine.utils.Logger;
+
+
+public final class AuthorizerService {
+
+	private static Map<String, OAuth20Service> mapOAuth20 = new HashMap<>();
+	private static AuthorizerService authorizerService;
+	
+	private AuthorizerService() {
+
+	}
+
+	public static AuthorizerService getInstance() {
+
+		if (authorizerService == null) {
+			authorizerService = new AuthorizerService();
+		}
+
+		return authorizerService;
+	}
+
+	public String getAuthorizationUrl(HttpHeaders httpHeaders) {
+		
+		String ipClient = httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP);
+		
+		OAuth20Service oAuth20 = getOAuth20Service(ipClient);
+		
+		return oAuth20.getAuthorizationUrl(GoogleOAuth20.getAdditionalParams());
+	}
+
+	private OAuth20Service getOAuth20Service(String ipClient) {
+		
+		OAuth20Service oAuth20;
+		if (mapOAuth20.containsKey(ipClient)) {
+			oAuth20 = mapOAuth20.get(ipClient);
+		} else {
+			oAuth20 = getGoogleOAuth20().getOAuth20Service();
+			mapOAuth20.put(ipClient, oAuth20);
+		}
+		return oAuth20;
+	}
+
+	public OAuth2AccessToken getAccessToken(HttpHeaders httpHeaders, HttpServletRequest httpRequest) {
+		
+		String ipClient = httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP);
+		String state = httpRequest.getParameter(HttpHeadersOAuth.STATE);
+		String code = httpRequest.getParameter(HttpHeadersOAuth.CODE);
+		
+		return getGoogleOAuth20().getRefreshedAccessToken(code, state, this.getOAuth20Service(ipClient));
+		
+	}
+
+	public JsonObject getUserData(HttpHeaders httpHeaders, OAuth2AccessToken accessToken) {
+		
+		String ipClient = httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP);
+		
+		Response response = getGoogleOAuth20().getDataOAuth20Service(null, accessToken, this.getOAuth20Service(ipClient));
+		
+		String userData = null;
+		try {
+			userData = response.getBody();
+		} catch (IOException e) {
+			e.printStackTrace();
+			Logger.log("Erro ao capturar dados do usuario no Servidor de Autorização: ", this.getClass().getSimpleName(),
+					e.getMessage(), Logger.ERROR);
+		}
+		return Json.createObjectBuilder().add("userData", userData).build();
+	}
+
+	public static boolean isValidAuthorization(HttpHeaders httpHeaders, HttpServletRequest httpRequest) {
+		return httpRequest.getParameterMap().containsKey(HttpHeadersOAuth.STATE)
+				&& httpRequest.getParameterMap().containsKey(HttpHeadersOAuth.CODE)
+				&& !(httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP) == null
+						|| httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP).isEmpty());
+	}
+
+	public static boolean containsValidParameters(HttpHeaders httpHeaders) {
+		return !(httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP) == null
+				|| httpHeaders.getHeaderString(HttpHeadersOAuth.X_CLIENT_IP).isEmpty());
+	}
+
+	private GoogleOAuth20 getGoogleOAuth20() {
+		return new GoogleOAuth20();
+	}
+
+}

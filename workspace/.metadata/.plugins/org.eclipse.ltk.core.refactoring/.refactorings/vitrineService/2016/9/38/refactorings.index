@@ -1,0 +1,8 @@
+1473716196020	Rename method 'createBasePerfil'
+1473726254029	Rename field 'URI_AUTHENTICATION_SUCCESS'
+1473763509135	Rename local variable 'requestContext'
+1473845542154	Rename method 'getEntityManagerPessoa'
+1473898398130	Rename local variable 'perfil'
+1473899115373	Rename field 'cpgCnpjDigito'
+1473899148018	Rename method 'getCpgCnpjDigito'
+1473899158941	Rename field 'cpngCnpjDigito'

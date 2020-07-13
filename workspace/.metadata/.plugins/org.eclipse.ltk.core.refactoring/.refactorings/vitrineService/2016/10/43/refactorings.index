@@ -1,0 +1,17 @@
+1476730933787	Rename local variable 'accessToken'
+1476978012677	Rename local variable 'loginData'
+1477065959112	Rename field 'idPedidoCompra'
+1477065970023	Rename local variable 'idPedidoCompra'
+1477065982105	Rename method 'getIdPedidoCompra'
+1477065990271	Rename method 'setIdPedidoCompra'
+1477066003199	Rename local variable 'idPedidoCompra'
+1477066191793	Delete element
+1477066778372	Rename field 'idUsuario'
+1477067551452	Delete element
+1477067567210	Delete element
+1477069537433	Rename field 'usuario'
+1477085451140	Rename type 'PerfilConstante'
+1477085560753	Move compilation units
+1477085721538	Move compilation units
+1477085807870	Copy compilation unit
+1477086039550	Rename type 'EnumCarrinho'

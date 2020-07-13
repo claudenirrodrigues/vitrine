@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="Verifier" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="Verifier"/>
+			<item value="verifier"/>
+			<item value="Custom"/>
+			<item value="custom"/>
+			<item value="idPedidoCompra"/>
+			<item value="IdPedidoCompra"/>
+			<item value="callableStatement"/>
+			<item value="btn"/>
+		</list>
+		<list key="replacehistory">
+			<item value="rgba(254, 230, 211, 0.3)"/>
+			<item value=""/>
+			<item value="#5b2633"/>
+			<item value="rgba(254, 230, 211, 0.9) !important;"/>
+			<item value="rgba(83, 136, 205, 0.9);"/>
+			<item value="img/product/172.jpg"/>
+			<item value="class=&quot;choose&quot; style=&quot;display: none;&quot;"/>
+			<item value="fa-eye"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="817" key="DIALOG_X_ORIGIN"/>
+		<item value="155" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

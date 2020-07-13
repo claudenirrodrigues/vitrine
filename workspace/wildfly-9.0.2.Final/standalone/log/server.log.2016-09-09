@@ -1,0 +1,1341 @@
+2016-09-09 11:40:22,361 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-09-09 11:40:22,958 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-09-09 11:40:23,063 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-09-09 11:40:23,079 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\workspace\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_77\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\workspace\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\workspace\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\workspace\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\workspace\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\workspace\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\workspace\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/workspace/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/workspace/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\workspace\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\workspace\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-09-09 11:40:23,079 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:53502 -Dprogram.name=JBossTools: WildFly  9.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/workspace/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2016-09-09 11:40:25,670 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 11:40:25,676 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDSTeste' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 11:40:25,718 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 25) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 11:40:25,988 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineStore.war in deployment directory. To trigger deployment create a file called vitrineStore.war.dodeploy
+2016-09-09 11:40:25,988 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineDashboard.war in deployment directory. To trigger deployment create a file called vitrineDashboard.war.dodeploy
+2016-09-09 11:40:25,992 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineService.war in deployment directory. To trigger deployment create a file called vitrineService.war.dodeploy
+2016-09-09 11:40:26,040 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-09-09 11:40:26,088 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.1.Final
+2016-09-09 11:40:26,118 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.1.Final
+2016-09-09 11:40:26,206 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-09-09 11:40:26,226 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-09-09 11:40:26,243 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-09-09 11:40:26,263 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-09-09 11:40:26,360 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-09-09 11:40:26,403 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-09-09 11:40:26,411 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-09-09 11:40:26,461 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-09-09 11:40:26,524 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-09-09 11:40:26,619 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-09-09 11:40:26,655 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-09-09 11:40:26,648 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-09-09 11:40:26,674 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-09-09 11:40:26,716 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-09-09 11:40:26,718 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-09-09 11:40:26,739 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2016-09-09 11:40:26,742 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-09-09 11:40:27,348 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.9.Final
+2016-09-09 11:40:27,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\workspace\wildfly-9.0.2.Final/welcome-content
+2016-09-09 11:40:27,508 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2016-09-09 11:40:27,591 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2016-09-09 11:40:27,959 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-09-09 11:40:28,595 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\workspace\wildfly-9.0.2.Final\standalone\deployments
+2016-09-09 11:40:28,631 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "vitrineService.war" (runtime-name: "vitrineService.war")
+2016-09-09 11:40:28,636 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "vitrineStore.war" (runtime-name: "vitrineStore.war")
+2016-09-09 11:40:28,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "vitrineDashboard.war" (runtime-name: "vitrineDashboard.war")
+2016-09-09 11:40:29,035 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/VitrineDSTeste]
+2016-09-09 11:40:29,174 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/VitrineDS]
+2016-09-09 11:40:29,495 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-09-09 11:40:30,067 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:30,654 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment vitrineService.war
+2016-09-09 11:40:30,716 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:30,842 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:30,933 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2016-09-09 11:40:30,971 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:30 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:31,107 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:31,659 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:31,710 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named NumeracaoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:app/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:module/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:global/vitrineService/NumeracaoService
+	java:app/vitrineService/NumeracaoService
+	java:module/NumeracaoService
+
+2016-09-09 11:40:31,715 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PedidoCompraService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:app/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:module/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:global/vitrineService/PedidoCompraService
+	java:app/vitrineService/PedidoCompraService
+	java:module/PedidoCompraService
+
+2016-09-09 11:40:31,717 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named TipoProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:app/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:module/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:global/vitrineService/TipoProdutoService
+	java:app/vitrineService/TipoProdutoService
+	java:module/TipoProdutoService
+
+2016-09-09 11:40:31,718 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named AcabamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:app/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:module/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:global/vitrineService/AcabamentoService
+	java:app/vitrineService/AcabamentoService
+	java:module/AcabamentoService
+
+2016-09-09 11:40:31,719 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named FaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:app/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:module/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:global/vitrineService/FaixaCEPService
+	java:app/vitrineService/FaixaCEPService
+	java:module/FaixaCEPService
+
+2016-09-09 11:40:31,720 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PerfilService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:app/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:module/PerfilService!com.vitrine.entities.service.PerfilService
+	java:global/vitrineService/PerfilService
+	java:app/vitrineService/PerfilService
+	java:module/PerfilService
+
+2016-09-09 11:40:31,723 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named DetalheService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:app/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:module/DetalheService!com.vitrine.entities.service.DetalheService
+	java:global/vitrineService/DetalheService
+	java:app/vitrineService/DetalheService
+	java:module/DetalheService
+
+2016-09-09 11:40:31,724 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named CorService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:app/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:module/CorService!com.vitrine.entities.service.CorService
+	java:global/vitrineService/CorService
+	java:app/vitrineService/CorService
+	java:module/CorService
+
+2016-09-09 11:40:31,735 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PessoaFaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:global/vitrineService/PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService
+
+2016-09-09 11:40:31,735 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named EnderecoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:app/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:module/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:global/vitrineService/EnderecoService
+	java:app/vitrineService/EnderecoService
+	java:module/EnderecoService
+
+2016-09-09 11:40:31,736 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named TamanhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:app/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:module/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:global/vitrineService/TamanhoService
+	java:app/vitrineService/TamanhoService
+	java:module/TamanhoService
+
+2016-09-09 11:40:31,737 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named FreteService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:app/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:module/FreteService!com.vitrine.entities.service.FreteService
+	java:global/vitrineService/FreteService
+	java:app/vitrineService/FreteService
+	java:module/FreteService
+
+2016-09-09 11:40:31,738 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PessoaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:app/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:module/PessoaService!com.vitrine.entities.service.PessoaService
+	java:global/vitrineService/PessoaService
+	java:app/vitrineService/PessoaService
+	java:module/PessoaService
+
+2016-09-09 11:40:31,739 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named CarrinhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:app/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:module/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:global/vitrineService/CarrinhoService
+	java:app/vitrineService/CarrinhoService
+	java:module/CarrinhoService
+
+2016-09-09 11:40:31,743 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named CategoriaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:app/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:module/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:global/vitrineService/CategoriaService
+	java:app/vitrineService/CategoriaService
+	java:module/CategoriaService
+
+2016-09-09 11:40:31,743 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PercentualVendaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:app/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:module/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:global/vitrineService/PercentualVendaService
+	java:app/vitrineService/PercentualVendaService
+	java:module/PercentualVendaService
+
+2016-09-09 11:40:31,744 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named PagamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:app/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:module/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:global/vitrineService/PagamentoService
+	java:app/vitrineService/PagamentoService
+	java:module/PagamentoService
+
+2016-09-09 11:40:31,745 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named ProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:app/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:module/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:global/vitrineService/ProdutoService
+	java:app/vitrineService/ProdutoService
+	java:module/ProdutoService
+
+2016-09-09 11:40:31,745 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named TestResource in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:app/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:module/TestResource!com.vitrine.test.TestResourceProxy
+	java:global/vitrineService/TestResource
+	java:app/vitrineService/TestResource
+	java:module/TestResource
+
+2016-09-09 11:40:31,746 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named EstoqueService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:app/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:module/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:global/vitrineService/EstoqueService
+	java:app/vitrineService/EstoqueService
+	java:module/EstoqueService
+
+2016-09-09 11:40:31,747 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named LoginService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:app/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:module/LoginService!com.vitrine.entities.service.security.LoginService
+	java:global/vitrineService/LoginService
+	java:app/vitrineService/LoginService
+	java:module/LoginService
+
+2016-09-09 11:40:31,748 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named UsuarioService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:app/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:module/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:global/vitrineService/UsuarioService
+	java:app/vitrineService/UsuarioService
+	java:module/UsuarioService
+
+2016-09-09 11:40:31,796 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:31,938 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:31 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:32,015 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /vitrineStore
+2016-09-09 11:40:32,067 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:32 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:32,192 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /vitrineDashboard
+2016-09-09 11:40:32,203 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 11:40:32 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 11:40:32,676 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-09-09 11:40:32,679 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-09-09 11:40:32,680 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: vitrineService.war
+2016-09-09 11:40:32,729 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.16 (SP1)
+2016-09-09 11:40:32,754 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.jdbc.Driver_5_1
+2016-09-09 11:40:32,754 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-09-09 11:40:32,763 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment vitrineService.war
+2016-09-09 11:40:34,603 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/vitrineService'
+2016-09-09 11:40:36,138 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Deploying javax.ws.rs.core.Application: class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,138 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.security.LoginService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.CategoriaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PagamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding provider class com.vitrine.utils.RequestFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.DetalheService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.EnderecoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,139 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.FaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,140 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.AcabamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,140 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.FreteService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,140 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.CorService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,141 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.NumeracaoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,141 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.TamanhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,141 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.EstoqueService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,142 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.TipoProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,142 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding provider class com.vitrine.utils.ResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,142 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PercentualVendaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,142 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PedidoCompraService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,142 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PessoaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,143 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PerfilService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,143 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.CarrinhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,143 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.UsuarioService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,143 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.ProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,144 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 65) Adding class resource com.vitrine.entities.service.PessoaFaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 11:40:36,394 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /vitrineService
+2016-09-09 11:40:36,491 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineStore.war" (runtime-name : "vitrineStore.war")
+2016-09-09 11:40:36,491 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineService.war" (runtime-name : "vitrineService.war")
+2016-09-09 11:40:36,491 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineDashboard.war" (runtime-name : "vitrineDashboard.war")
+2016-09-09 11:40:37,070 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-09-09 11:40:37,070 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-09-09 11:40:37,070 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 15278ms - Started 808 of 992 services (243 services are lazy, passive or on-demand)
+2016-09-09 11:40:37,085 INFO  [org.jboss.as.protocol] (Remoting "familiactaglh:MANAGEMENT" task-16) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 3,5,management-handler-thread]
+2016-09-09 11:40:58,095 INFO  [com.vitrine.utils.RequestFilter] (default task-5) Filtrando o request path: /security/authorization
+2016-09-09 11:41:11,117 INFO  [com.vitrine.utils.RequestFilter] (default task-6) Filtrando o request path: /security/authentication
+2016-09-09 11:41:52,216 INFO  [stdout] (default task-6) accessToken: GoogleToken{access_token=ya29.CjZZA9unKDJ4YSZbHKNgx-62TPpP-zJ1HnDIUY4oZFf841PkEm5YC-kZVS7rZBT7vLm0LoVdzzg, token_type=Bearer, expires_in=3559, refresh_token=null, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEzNmQ3NmYwMDc2YWYwOTBjNTAyZTdlM2JhYWRmZTE1MGYyMzQ3YTUifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiUHN6R2p0Mld4LVJDQ1FLMENFSE1mdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3MzQzMjEwMSwiZXhwIjoxNDczNDM1NzAxLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FHTmwtT3FQY0huSkhpSnQ4Vk90bGNHdVZqM290X0t0c1Evczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.WS0ZVn5zXnu0H8YOhuGgaloa5s1yrSf-418eF_VjUsr3kLIaheXnp3rqU8wPYPBmFA028HMQ4b280cZYlRPM6xFoyQW-tcruKNUWXk27aN48cylHJg68pAKMlZw4fhERrBmdxn4qPYDjAEGFVdXcbP_cmCx0NpU5EVgwf1LkN_8CQ_vI0MbhcvPvqhkZg1xp66W_e76UYkHRQsNYKRSInWeo3idjq2NWo9820Ftx8wjy1TfHmBbVeUq0tXt4eq0LoAmmZ6O4yokRNtTKjiR4r-cgHmoN55yzFmuP3JxbOAZjvPM1mV6hAHI2c_gTdDVR-h9DRr4TdRV52LYl4m-o-A}, rawResponse:{
+2016-09-09 11:41:52,237 INFO  [stdout] (default task-6)  "access_token": "ya29.CjZZA9unKDJ4YSZbHKNgx-62TPpP-zJ1HnDIUY4oZFf841PkEm5YC-kZVS7rZBT7vLm0LoVdzzg",
+2016-09-09 11:41:52,241 INFO  [stdout] (default task-6)  "token_type": "Bearer",
+2016-09-09 11:41:52,241 INFO  [stdout] (default task-6)  "expires_in": 3559,
+2016-09-09 11:41:52,245 INFO  [stdout] (default task-6)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjEzNmQ3NmYwMDc2YWYwOTBjNTAyZTdlM2JhYWRmZTE1MGYyMzQ3YTUifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiUHN6R2p0Mld4LVJDQ1FLMENFSE1mdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3MzQzMjEwMSwiZXhwIjoxNDczNDM1NzAxLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FHTmwtT3FQY0huSkhpSnQ4Vk90bGNHdVZqM290X0t0c1Evczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.WS0ZVn5zXnu0H8YOhuGgaloa5s1yrSf-418eF_VjUsr3kLIaheXnp3rqU8wPYPBmFA028HMQ4b280cZYlRPM6xFoyQW-tcruKNUWXk27aN48cylHJg68pAKMlZw4fhERrBmdxn4qPYDjAEGFVdXcbP_cmCx0NpU5EVgwf1LkN_8CQ_vI0MbhcvPvqhkZg1xp66W_e76UYkHRQsNYKRSInWeo3idjq2NWo9820Ftx8wjy1TfHmBbVeUq0tXt4eq0LoAmmZ6O4yokRNtTKjiR4r-cgHmoN55yzFmuP3JxbOAZjvPM1mV6hAHI2c_gTdDVR-h9DRr4TdRV52LYl4m-o-A"
+2016-09-09 11:41:52,261 INFO  [stdout] (default task-6) }
+2016-09-09 11:41:52,265 INFO  [stdout] (default task-6) 
+2016-09-09 11:42:19,332 ERROR [org.jboss.as.ejb3.invocation] (default task-6) WFLYEJB0034: EJB Invocation failed on component LoginService for method public javax.ws.rs.core.Response com.vitrine.entities.service.security.LoginService.authentication(javax.ws.rs.core.HttpHeaders,javax.servlet.http.HttpServletRequest): javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.vitrine.entities.service.security.LoginService$$$view21.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+	at com.vitrine.entities.service.security.LoginService$Proxy$_$$_Weld$EnterpriseProxy$.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at com.github.scribejava.core.oauth.OAuth20Service.createRefreshTokenRequest(OAuth20Service.java:106)
+	at com.github.scribejava.core.oauth.OAuth20Service.refreshAccessToken(OAuth20Service.java:90)
+	at com.vitrine.entities.service.security.GoogleOAuth20.getRefreshedAccessToken(GoogleOAuth20.java:98)
+	at com.vitrine.entities.service.security.AuthorizerService.getAccessToken(AuthorizerService.java:65)
+	at com.vitrine.entities.service.security.LoginService.authentication(LoginService.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 84 more
+
+2016-09-09 11:42:19,365 ERROR [io.undertow.request] (default task-6) UT005023: Exception handling request to /vitrineService/webresources/security/authentication: org.jboss.resteasy.spi.UnhandledException: javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:76)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:212)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:149)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:372)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.vitrine.entities.service.security.LoginService$$$view21.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+	at com.vitrine.entities.service.security.LoginService$Proxy$_$$_Weld$EnterpriseProxy$.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	... 32 more
+Caused by: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at com.github.scribejava.core.oauth.OAuth20Service.createRefreshTokenRequest(OAuth20Service.java:106)
+	at com.github.scribejava.core.oauth.OAuth20Service.refreshAccessToken(OAuth20Service.java:90)
+	at com.vitrine.entities.service.security.GoogleOAuth20.getRefreshedAccessToken(GoogleOAuth20.java:98)
+	at com.vitrine.entities.service.security.AuthorizerService.getAccessToken(AuthorizerService.java:65)
+	at com.vitrine.entities.service.security.LoginService.authentication(LoginService.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 84 more
+
+2016-09-09 12:34:15,327 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-09-09 12:34:15,691 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-09-09 12:34:15,797 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-09-09 12:34:15,813 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\workspace\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_77\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\workspace\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\workspace\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\workspace\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\workspace\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\workspace\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\workspace\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/workspace/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/workspace/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\workspace\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\workspace\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-09-09 12:34:15,813 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:59739 -Dprogram.name=JBossTools: WildFly  9.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/workspace/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2016-09-09 12:34:18,279 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 12:34:18,283 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDSTeste' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 12:34:18,302 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-09-09 12:34:18,623 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineStore.war in deployment directory. To trigger deployment create a file called vitrineStore.war.dodeploy
+2016-09-09 12:34:18,624 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineDashboard.war in deployment directory. To trigger deployment create a file called vitrineDashboard.war.dodeploy
+2016-09-09 12:34:18,625 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineService.war in deployment directory. To trigger deployment create a file called vitrineService.war.dodeploy
+2016-09-09 12:34:18,680 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-09-09 12:34:18,722 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.1.Final
+2016-09-09 12:34:18,753 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.1.Final
+2016-09-09 12:34:18,901 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-09-09 12:34:18,934 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-09-09 12:34:18,948 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-09-09 12:34:18,958 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-09-09 12:34:19,004 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-09-09 12:34:19,102 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-09-09 12:34:19,104 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-09-09 12:34:19,091 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-09-09 12:34:19,085 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-09-09 12:34:19,211 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-09-09 12:34:19,023 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-09-09 12:34:19,354 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-09-09 12:34:19,426 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-09-09 12:34:19,828 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-09-09 12:34:19,830 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-09-09 12:34:19,937 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.9.Final
+2016-09-09 12:34:20,158 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2016-09-09 12:34:20,167 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-09-09 12:34:20,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\workspace\wildfly-9.0.2.Final/welcome-content
+2016-09-09 12:34:20,943 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2016-09-09 12:34:20,968 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2016-09-09 12:34:21,449 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-09-09 12:34:21,742 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\workspace\wildfly-9.0.2.Final\standalone\deployments
+2016-09-09 12:34:21,768 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "vitrineService.war" (runtime-name: "vitrineService.war")
+2016-09-09 12:34:21,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "vitrineStore.war" (runtime-name: "vitrineStore.war")
+2016-09-09 12:34:21,775 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "vitrineDashboard.war" (runtime-name: "vitrineDashboard.war")
+2016-09-09 12:34:22,577 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/VitrineDSTeste]
+2016-09-09 12:34:22,585 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/VitrineDS]
+2016-09-09 12:34:22,720 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-09-09 12:34:23,954 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment vitrineService.war
+2016-09-09 12:34:24,169 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.1.3.Final
+2016-09-09 12:34:24,295 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:24 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:24,928 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named NumeracaoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:app/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:module/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:global/vitrineService/NumeracaoService
+	java:app/vitrineService/NumeracaoService
+	java:module/NumeracaoService
+
+2016-09-09 12:34:24,933 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PedidoCompraService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:app/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:module/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:global/vitrineService/PedidoCompraService
+	java:app/vitrineService/PedidoCompraService
+	java:module/PedidoCompraService
+
+2016-09-09 12:34:24,935 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named TipoProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:app/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:module/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:global/vitrineService/TipoProdutoService
+	java:app/vitrineService/TipoProdutoService
+	java:module/TipoProdutoService
+
+2016-09-09 12:34:24,936 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named AcabamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:app/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:module/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:global/vitrineService/AcabamentoService
+	java:app/vitrineService/AcabamentoService
+	java:module/AcabamentoService
+
+2016-09-09 12:34:24,941 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named FaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:app/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:module/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:global/vitrineService/FaixaCEPService
+	java:app/vitrineService/FaixaCEPService
+	java:module/FaixaCEPService
+
+2016-09-09 12:34:24,944 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PerfilService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:app/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:module/PerfilService!com.vitrine.entities.service.PerfilService
+	java:global/vitrineService/PerfilService
+	java:app/vitrineService/PerfilService
+	java:module/PerfilService
+
+2016-09-09 12:34:24,953 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named DetalheService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:app/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:module/DetalheService!com.vitrine.entities.service.DetalheService
+	java:global/vitrineService/DetalheService
+	java:app/vitrineService/DetalheService
+	java:module/DetalheService
+
+2016-09-09 12:34:24,959 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named CorService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:app/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:module/CorService!com.vitrine.entities.service.CorService
+	java:global/vitrineService/CorService
+	java:app/vitrineService/CorService
+	java:module/CorService
+
+2016-09-09 12:34:24,966 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PessoaFaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:global/vitrineService/PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService
+
+2016-09-09 12:34:24,968 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named EnderecoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:app/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:module/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:global/vitrineService/EnderecoService
+	java:app/vitrineService/EnderecoService
+	java:module/EnderecoService
+
+2016-09-09 12:34:24,970 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named TamanhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:app/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:module/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:global/vitrineService/TamanhoService
+	java:app/vitrineService/TamanhoService
+	java:module/TamanhoService
+
+2016-09-09 12:34:24,972 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named FreteService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:app/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:module/FreteService!com.vitrine.entities.service.FreteService
+	java:global/vitrineService/FreteService
+	java:app/vitrineService/FreteService
+	java:module/FreteService
+
+2016-09-09 12:34:24,973 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PessoaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:app/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:module/PessoaService!com.vitrine.entities.service.PessoaService
+	java:global/vitrineService/PessoaService
+	java:app/vitrineService/PessoaService
+	java:module/PessoaService
+
+2016-09-09 12:34:24,973 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named CarrinhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:app/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:module/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:global/vitrineService/CarrinhoService
+	java:app/vitrineService/CarrinhoService
+	java:module/CarrinhoService
+
+2016-09-09 12:34:24,974 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named CategoriaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:app/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:module/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:global/vitrineService/CategoriaService
+	java:app/vitrineService/CategoriaService
+	java:module/CategoriaService
+
+2016-09-09 12:34:24,975 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PercentualVendaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:app/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:module/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:global/vitrineService/PercentualVendaService
+	java:app/vitrineService/PercentualVendaService
+	java:module/PercentualVendaService
+
+2016-09-09 12:34:24,977 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named PagamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:app/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:module/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:global/vitrineService/PagamentoService
+	java:app/vitrineService/PagamentoService
+	java:module/PagamentoService
+
+2016-09-09 12:34:24,987 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named ProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:app/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:module/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:global/vitrineService/ProdutoService
+	java:app/vitrineService/ProdutoService
+	java:module/ProdutoService
+
+2016-09-09 12:34:24,988 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named TestResource in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:app/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:module/TestResource!com.vitrine.test.TestResourceProxy
+	java:global/vitrineService/TestResource
+	java:app/vitrineService/TestResource
+	java:module/TestResource
+
+2016-09-09 12:34:24,989 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named EstoqueService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:app/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:module/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:global/vitrineService/EstoqueService
+	java:app/vitrineService/EstoqueService
+	java:module/EstoqueService
+
+2016-09-09 12:34:24,990 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named LoginService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:app/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:module/LoginService!com.vitrine.entities.service.security.LoginService
+	java:global/vitrineService/LoginService
+	java:app/vitrineService/LoginService
+	java:module/LoginService
+
+2016-09-09 12:34:24,990 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named UsuarioService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:app/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:module/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:global/vitrineService/UsuarioService
+	java:app/vitrineService/UsuarioService
+	java:module/UsuarioService
+
+2016-09-09 12:34:25,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /vitrineStore
+2016-09-09 12:34:25,438 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:25 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:25,592 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:25 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:25,661 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /vitrineDashboard
+2016-09-09 12:34:25,738 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:25 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:25,883 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:25 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:26,026 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:26 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:26,082 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-09-09 12:34:26,084 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-09-09 12:34:26,085 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: vitrineService.war
+2016-09-09 12:34:26,148 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.16 (SP1)
+2016-09-09 12:34:26,173 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-09-09 12:34:26,182 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.jdbc.Driver_5_1
+2016-09-09 12:34:26,191 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:26 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:26,210 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment vitrineService.war
+2016-09-09 12:34:26,355 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:26 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:26,505 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:26 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:26,657 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 12:34:26 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 12:34:27,917 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 75) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/vitrineService'
+2016-09-09 12:34:29,696 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Deploying javax.ws.rs.core.Application: class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,697 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.CarrinhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,697 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.FreteService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,697 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PercentualVendaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,697 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.ProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,698 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PagamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,698 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.TamanhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,698 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.NumeracaoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,699 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.UsuarioService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,699 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PerfilService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,699 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PessoaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,700 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding provider class com.vitrine.utils.RequestFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,700 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.AcabamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,700 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.CategoriaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,700 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.EstoqueService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,700 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding provider class com.vitrine.utils.ResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,701 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.FaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,701 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.security.LoginService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,701 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.CorService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,702 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.TipoProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,702 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.EnderecoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,702 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.DetalheService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,703 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PessoaFaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,703 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 75) Adding class resource com.vitrine.entities.service.PedidoCompraService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-09-09 12:34:29,971 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0021: Registered web context: /vitrineService
+2016-09-09 12:34:30,082 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineStore.war" (runtime-name : "vitrineStore.war")
+2016-09-09 12:34:30,083 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineService.war" (runtime-name : "vitrineService.war")
+2016-09-09 12:34:30,084 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineDashboard.war" (runtime-name : "vitrineDashboard.war")
+2016-09-09 12:34:30,746 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-09-09 12:34:30,747 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-09-09 12:34:30,748 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 15850ms - Started 808 of 992 services (243 services are lazy, passive or on-demand)
+2016-09-09 12:34:40,849 INFO  [com.vitrine.utils.RequestFilter] (default task-2) Filtrando o request path: /security/authorization
+2016-09-09 12:34:49,189 INFO  [com.vitrine.utils.RequestFilter] (default task-3) Filtrando o request path: /security/authentication
+2016-09-09 12:36:36,528 INFO  [stdout] (default task-3) accessToken: GoogleToken{access_token=ya29.CjZZAxOeeWa2_v5GGsqsDkNdYXPaI7xvPeRfoHpG6iOKoP_kCwkvnnVkMYx2B6i0-tveY1TyGnc, token_type=Bearer, expires_in=3498, refresh_token=null, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImY0MzNiODQ5OWViMzJjZmRkNzA2ZTcxNTA2NjNiMGMyNzg0ZTc1MzQifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiUmF3c0MtdnZzSHZyZUcyS0NFRzBVUSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3MzQzNTM4MCwiZXhwIjoxNDczNDM4OTgwLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FHTmwtT3FQY0huSkhpSnQ4Vk90bGNHdVZqM290X0t0c1Evczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.CcYaFNKfb-IZb5YgappSftsDk71jG0uJw7X9QDfUhTF2mcG_UuvoVd2R0zcdGHpuKiXoLzHa1Zyga_duYE1jDX0PfLz_ucIlSuRqHqR7Ci1myVDGQlIDI1Z_BkA33EJIu6cgd7SuZrlMDXs8Uujkp7B2xPO66DxvDM_B3vbQEDiPjkM11CT72oWIPwNfebHNbRx1xp6F_Fe3nt1bNH34pCrTJP71KxzVYGcdlL2G3aImrzlfiYVlPFKIyAKkcUIlmZwwj4KimYSuqDup4Uk5ky-xqj6psQqcNcdINZ22jfIJm_VI8ShbftCi83uHKzWoSuALRHHt4aooMYcXStr6ug}, rawResponse:{
+2016-09-09 12:36:36,551 INFO  [stdout] (default task-3)  "access_token": "ya29.CjZZAxOeeWa2_v5GGsqsDkNdYXPaI7xvPeRfoHpG6iOKoP_kCwkvnnVkMYx2B6i0-tveY1TyGnc",
+2016-09-09 12:36:36,551 INFO  [stdout] (default task-3)  "token_type": "Bearer",
+2016-09-09 12:36:36,555 INFO  [stdout] (default task-3)  "expires_in": 3498,
+2016-09-09 12:36:36,559 INFO  [stdout] (default task-3)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImY0MzNiODQ5OWViMzJjZmRkNzA2ZTcxNTA2NjNiMGMyNzg0ZTc1MzQifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiUmF3c0MtdnZzSHZyZUcyS0NFRzBVUSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3MzQzNTM4MCwiZXhwIjoxNDczNDM4OTgwLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FHTmwtT3FQY0huSkhpSnQ4Vk90bGNHdVZqM290X0t0c1Evczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.CcYaFNKfb-IZb5YgappSftsDk71jG0uJw7X9QDfUhTF2mcG_UuvoVd2R0zcdGHpuKiXoLzHa1Zyga_duYE1jDX0PfLz_ucIlSuRqHqR7Ci1myVDGQlIDI1Z_BkA33EJIu6cgd7SuZrlMDXs8Uujkp7B2xPO66DxvDM_B3vbQEDiPjkM11CT72oWIPwNfebHNbRx1xp6F_Fe3nt1bNH34pCrTJP71KxzVYGcdlL2G3aImrzlfiYVlPFKIyAKkcUIlmZwwj4KimYSuqDup4Uk5ky-xqj6psQqcNcdINZ22jfIJm_VI8ShbftCi83uHKzWoSuALRHHt4aooMYcXStr6ug"
+2016-09-09 12:36:36,575 INFO  [stdout] (default task-3) }
+2016-09-09 12:36:36,579 INFO  [stdout] (default task-3) 
+2016-09-09 12:38:18,489 ERROR [org.jboss.as.ejb3.invocation] (default task-3) WFLYEJB0034: EJB Invocation failed on component LoginService for method public javax.ws.rs.core.Response com.vitrine.entities.service.security.LoginService.authentication(javax.ws.rs.core.HttpHeaders,javax.servlet.http.HttpServletRequest): javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.vitrine.entities.service.security.LoginService$$$view21.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+	at com.vitrine.entities.service.security.LoginService$Proxy$_$$_Weld$EnterpriseProxy$.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at com.github.scribejava.core.oauth.OAuth20Service.createRefreshTokenRequest(OAuth20Service.java:106)
+	at com.github.scribejava.core.oauth.OAuth20Service.refreshAccessToken(OAuth20Service.java:90)
+	at com.vitrine.entities.service.security.GoogleOAuth20.getRefreshedAccessToken(GoogleOAuth20.java:98)
+	at com.vitrine.entities.service.security.AuthorizerService.getAccessToken(AuthorizerService.java:65)
+	at com.vitrine.entities.service.security.LoginService.authentication(LoginService.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 84 more
+
+2016-09-09 12:38:18,527 ERROR [io.undertow.request] (default task-3) UT005023: Exception handling request to /vitrineService/webresources/security/authentication: org.jboss.resteasy.spi.UnhandledException: javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:76)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:212)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:149)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:372)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.ejb.EJBException: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:187)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:277)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+	at com.vitrine.entities.service.security.LoginService$$$view21.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+	at com.vitrine.entities.service.security.LoginService$Proxy$_$$_Weld$EnterpriseProxy$.authentication(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+	... 32 more
+Caused by: java.lang.IllegalArgumentException: The refreshToken cannot be null or empty
+	at com.github.scribejava.core.oauth.OAuth20Service.createRefreshTokenRequest(OAuth20Service.java:106)
+	at com.github.scribejava.core.oauth.OAuth20Service.refreshAccessToken(OAuth20Service.java:90)
+	at com.vitrine.entities.service.security.GoogleOAuth20.getRefreshedAccessToken(GoogleOAuth20.java:98)
+	at com.vitrine.entities.service.security.AuthorizerService.getAccessToken(AuthorizerService.java:65)
+	at com.vitrine.entities.service.security.LoginService.authentication(LoginService.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+	... 84 more
+
+2016-09-09 16:59:35,125 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:35,633 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:35,817 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:36,027 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:36,258 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:36,558 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:36,812 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:37,013 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:37 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:37,229 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:37 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 16:59:37,560 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 16:59:37 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:35,241 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:35,473 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:35,689 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:35,920 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:35 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:36,105 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:36,394 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:36,574 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:36,721 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:36,891 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:36 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 17:44:37,091 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 17:44:37 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:39,236 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:39,384 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:39,585 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:39,769 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:39,914 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:40,169 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:40,354 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:40,586 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:40,810 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 22:21:41,119 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 22:21:41 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:38,793 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:38 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,056 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,245 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,476 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,613 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,768 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:39,895 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:39 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:40,057 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:40,243 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-09-09 23:06:40,457 ERROR [stderr] (JCA PoolFiller) Fri Sep 09 23:06:40 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.

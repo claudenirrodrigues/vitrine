@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="1" hostname="localhost" id="WildFly  9.x1472683913475" name="WildFly  9.x" org.jboss.ide.eclipse.as.core.server.EXPOSE_MANAGEMENT_SERVICE="true" org.jboss.ide.eclipse.as.core.server.IGNORE_LAUNCH_COMMANDS="false" org.jboss.ide.eclipse.as.core.server.attributes.shutdownPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" runtime-id="WildFly 9.x Runtime" server-type="org.jboss.ide.eclipse.as.wildfly.90" server-type-id="org.jboss.ide.eclipse.as.wildfly.90" start-timeout="450" stop-timeout="450" timestamp="4">
+    <list key="modules" value0="vitrineService::org.eclipse.jst.jee.server:vitrineService::jst.web::3.1" value1="vitrineDashboard::org.eclipse.wst.web.internal.deployables.static:vitrineDashboard::wst.web::1.0" value2="vitrineStore::org.eclipse.wst.web.internal.deployables.static:vitrineStore::wst.web::1.0" value3="vitrineCompany::org.eclipse.wst.web.internal.deployables.static:vitrineCompany::wst.web::1.0"/>
+  </server>
+</servers>

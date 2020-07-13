@@ -1,0 +1,1134 @@
+2016-08-17 23:35:37,587 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-08-17 23:35:40,088 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-08-17 23:35:40,527 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-08-17 23:35:40,554 DEBUG [org.jboss.as.config] (MSC service thread 1-5) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Familia\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_77\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Familia\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\Users\Familia\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Familia\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Familia/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Familia/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Familia\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Familia\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-08-17 23:35:40,557 DEBUG [org.jboss.as.config] (MSC service thread 1-5) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:63297 -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Familia/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Familia/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Familia/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2016-08-17 23:35:51,274 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-08-17 23:35:51,320 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-08-17 23:35:53,233 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineStore.war in deployment directory. To trigger deployment create a file called vitrineStore.war.dodeploy
+2016-08-17 23:35:53,236 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineDashboard.war in deployment directory. To trigger deployment create a file called vitrineDashboard.war.dodeploy
+2016-08-17 23:35:53,237 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineService.war in deployment directory. To trigger deployment create a file called vitrineService.war.dodeploy
+2016-08-17 23:35:53,326 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-08-17 23:35:53,476 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2016-08-17 23:35:53,515 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2016-08-17 23:35:53,819 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-08-17 23:35:53,792 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-08-17 23:35:53,844 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-08-17 23:35:53,774 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-08-17 23:35:53,862 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-08-17 23:35:53,883 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-08-17 23:35:53,938 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-08-17 23:35:53,966 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-08-17 23:35:54,249 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-08-17 23:35:54,601 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-08-17 23:35:54,606 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-08-17 23:35:56,221 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-08-17 23:35:56,230 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-08-17 23:35:56,409 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-08-17 23:35:56,410 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-08-17 23:35:56,694 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Familia\wildfly-9.0.2.Final/welcome-content
+2016-08-17 23:35:58,193 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2016-08-17 23:35:58,195 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-08-17 23:35:58,988 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2016-08-17 23:35:59,052 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2016-08-17 23:35:59,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2016-08-17 23:35:59,513 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-08-17 23:36:00,229 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "vitrineDashboard.war" (runtime-name: "vitrineDashboard.war")
+2016-08-17 23:36:00,229 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "vitrineStore.war" (runtime-name: "vitrineStore.war")
+2016-08-17 23:36:00,244 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Familia\wildfly-9.0.2.Final\standalone\deployments
+2016-08-17 23:36:00,229 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "vitrineService.war" (runtime-name: "vitrineService.war")
+2016-08-17 23:36:02,133 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/VitrineDS]
+2016-08-17 23:36:03,116 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-08-17 23:36:03,873 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for vitrineServicePU
+2016-08-17 23:36:04,651 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'vitrineService.war#vitrineServicePU'
+2016-08-17 23:36:04,769 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: vitrineServicePU
+	...]
+2016-08-17 23:36:04,851 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:04 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:05,412 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment vitrineService.war
+2016-08-17 23:36:06,069 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2016-08-17 23:36:06,106 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2016-08-17 23:36:06,123 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2016-08-17 23:36:06,271 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.3.Final
+2016-08-17 23:36:07,704 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named NumeracaoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:app/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:module/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:global/vitrineService/NumeracaoService
+	java:app/vitrineService/NumeracaoService
+	java:module/NumeracaoService
+
+2016-08-17 23:36:07,708 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PedidoCompraService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:app/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:module/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:global/vitrineService/PedidoCompraService
+	java:app/vitrineService/PedidoCompraService
+	java:module/PedidoCompraService
+
+2016-08-17 23:36:07,711 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named TipoProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:app/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:module/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:global/vitrineService/TipoProdutoService
+	java:app/vitrineService/TipoProdutoService
+	java:module/TipoProdutoService
+
+2016-08-17 23:36:07,718 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named AcabamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:app/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:module/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:global/vitrineService/AcabamentoService
+	java:app/vitrineService/AcabamentoService
+	java:module/AcabamentoService
+
+2016-08-17 23:36:07,719 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named FaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:app/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:module/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:global/vitrineService/FaixaCEPService
+	java:app/vitrineService/FaixaCEPService
+	java:module/FaixaCEPService
+
+2016-08-17 23:36:07,726 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PerfilService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:app/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:module/PerfilService!com.vitrine.entities.service.PerfilService
+	java:global/vitrineService/PerfilService
+	java:app/vitrineService/PerfilService
+	java:module/PerfilService
+
+2016-08-17 23:36:07,727 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named DetalheService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:app/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:module/DetalheService!com.vitrine.entities.service.DetalheService
+	java:global/vitrineService/DetalheService
+	java:app/vitrineService/DetalheService
+	java:module/DetalheService
+
+2016-08-17 23:36:07,728 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CorService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:app/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:module/CorService!com.vitrine.entities.service.CorService
+	java:global/vitrineService/CorService
+	java:app/vitrineService/CorService
+	java:module/CorService
+
+2016-08-17 23:36:07,728 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PessoaFaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:global/vitrineService/PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService
+
+2016-08-17 23:36:07,731 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named EnderecoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:app/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:module/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:global/vitrineService/EnderecoService
+	java:app/vitrineService/EnderecoService
+	java:module/EnderecoService
+
+2016-08-17 23:36:07,733 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named TamanhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:app/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:module/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:global/vitrineService/TamanhoService
+	java:app/vitrineService/TamanhoService
+	java:module/TamanhoService
+
+2016-08-17 23:36:07,734 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named FreteService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:app/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:module/FreteService!com.vitrine.entities.service.FreteService
+	java:global/vitrineService/FreteService
+	java:app/vitrineService/FreteService
+	java:module/FreteService
+
+2016-08-17 23:36:07,735 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PessoaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:app/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:module/PessoaService!com.vitrine.entities.service.PessoaService
+	java:global/vitrineService/PessoaService
+	java:app/vitrineService/PessoaService
+	java:module/PessoaService
+
+2016-08-17 23:36:07,737 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CarrinhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:app/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:module/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:global/vitrineService/CarrinhoService
+	java:app/vitrineService/CarrinhoService
+	java:module/CarrinhoService
+
+2016-08-17 23:36:07,739 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CategoriaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:app/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:module/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:global/vitrineService/CategoriaService
+	java:app/vitrineService/CategoriaService
+	java:module/CategoriaService
+
+2016-08-17 23:36:07,741 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PercentualVendaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:app/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:module/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:global/vitrineService/PercentualVendaService
+	java:app/vitrineService/PercentualVendaService
+	java:module/PercentualVendaService
+
+2016-08-17 23:36:07,741 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named PagamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:app/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:module/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:global/vitrineService/PagamentoService
+	java:app/vitrineService/PagamentoService
+	java:module/PagamentoService
+
+2016-08-17 23:36:07,742 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named ProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:app/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:module/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:global/vitrineService/ProdutoService
+	java:app/vitrineService/ProdutoService
+	java:module/ProdutoService
+
+2016-08-17 23:36:07,742 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named EstoqueService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:app/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:module/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:global/vitrineService/EstoqueService
+	java:app/vitrineService/EstoqueService
+	java:module/EstoqueService
+
+2016-08-17 23:36:07,743 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UsuarioService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:app/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:module/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:global/vitrineService/UsuarioService
+	java:app/vitrineService/UsuarioService
+	java:module/UsuarioService
+
+2016-08-17 23:36:08,480 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /vitrineStore
+2016-08-17 23:36:08,596 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:08 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:08,882 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /vitrineDashboard
+2016-08-17 23:36:09,201 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-08-17 23:36:09,204 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-08-17 23:36:09,205 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0006: Starting Services for CDI deployment: vitrineService.war
+2016-08-17 23:36:09,695 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.2.16 (SP1)
+2016-08-17 23:36:09,740 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-08-17 23:36:09,741 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.jdbc.Driver_5_1
+2016-08-17 23:36:09,815 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment vitrineService.war
+2016-08-17 23:36:10,741 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'vitrineService.war#vitrineServicePU'
+2016-08-17 23:36:11,519 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 66) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-08-17 23:36:12,051 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2016-08-17 23:36:12,556 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 66) HHH000397: Using ASTQueryTranslatorFactory
+2016-08-17 23:36:13,818 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 66) HHH000229: Running schema validator
+2016-08-17 23:36:13,819 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 66) HHH000102: Fetching database metadata
+2016-08-17 23:36:15,731 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:15 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:16,258 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:16 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:16,741 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/vitrineService'
+2016-08-17 23:36:17,163 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:20,457 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:20 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:20,681 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Deploying javax.ws.rs.core.Application: class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,682 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.NumeracaoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,682 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.EstoqueService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,682 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.TipoProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,683 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.CategoriaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,683 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding provider class com.vitrine.utils.ResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,684 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.CarrinhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,684 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PercentualVendaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,685 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.AcabamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,685 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.UsuarioService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,685 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PagamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,686 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PedidoCompraService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,686 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PessoaFaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,686 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.CorService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,687 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.DetalheService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,687 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.ProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,687 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.TamanhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,687 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.FaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,688 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.FreteService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,688 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PessoaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,688 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.PerfilService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:20,689 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 66) Adding class resource com.vitrine.entities.service.EnderecoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-08-17 23:36:23,775 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:23 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:23,961 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:23 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:24,182 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:24 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:25,767 ERROR [stderr] (JCA PoolFiller) Wed Aug 17 23:36:25 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-08-17 23:36:32,720 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /vitrineService
+2016-08-17 23:36:33,548 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineStore.war" (runtime-name : "vitrineStore.war")
+2016-08-17 23:36:33,549 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineService.war" (runtime-name : "vitrineService.war")
+2016-08-17 23:36:33,549 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineDashboard.war" (runtime-name : "vitrineDashboard.war")
+2016-08-17 23:36:34,324 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-08-17 23:36:34,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-08-17 23:36:34,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 59977ms - Started 773 of 957 services (243 services are lazy, passive or on-demand)
+2016-08-17 23:45:07,057 ERROR [stderr] (default task-2) SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:45:07,098 ERROR [stderr] (default task-2) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:45:07,100 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:45:07,101 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:45:07,101 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:45:07,102 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:45:07,103 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:45:07,104 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4661)
+2016-08-17 23:45:07,104 ERROR [stderr] (default task-2) 	at com.mysql.jdbc.CallableStatement.getObject(CallableStatement.java:1475)
+2016-08-17 23:45:07,105 ERROR [stderr] (default task-2) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getObject(WrappedCallableStatement.java:3586)
+2016-08-17 23:45:07,105 ERROR [stderr] (default task-2) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:45:07,106 ERROR [stderr] (default task-2) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:45:07,106 ERROR [stderr] (default task-2) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:45:07,106 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:45:07,107 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:45:07,107 ERROR [stderr] (default task-2) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:45:07,107 ERROR [stderr] (default task-2) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:45:07,107 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:45:07,108 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,108 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:45:07,108 ERROR [stderr] (default task-2) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:45:07,109 ERROR [stderr] (default task-2) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:45:07,109 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:45:07,109 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,110 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:45:07,110 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,111 ERROR [stderr] (default task-2) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:45:07,111 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,111 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:45:07,112 ERROR [stderr] (default task-2) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:45:07,112 ERROR [stderr] (default task-2) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:45:07,112 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,113 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:45:07,113 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,113 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:45:07,115 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,116 ERROR [stderr] (default task-2) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:45:07,116 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:45:07,116 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,117 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:45:07,117 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,117 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:45:07,118 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:45:07,118 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:45:07,119 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,120 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:45:07,120 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,121 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:45:07,121 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,122 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:45:07,122 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,122 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:45:07,123 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,123 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:45:07,124 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,124 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:45:07,125 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,125 ERROR [stderr] (default task-2) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:45:07,125 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,126 ERROR [stderr] (default task-2) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:45:07,126 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,126 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:45:07,127 ERROR [stderr] (default task-2) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:45:07,127 ERROR [stderr] (default task-2) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:45:07,127 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,128 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:45:07,128 ERROR [stderr] (default task-2) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:45:07,129 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,129 ERROR [stderr] (default task-2) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:45:07,130 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:45:07,130 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:45:07,131 ERROR [stderr] (default task-2) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:45:07,132 ERROR [stderr] (default task-2) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:45:07,132 ERROR [stderr] (default task-2) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:45:07,133 ERROR [stderr] (default task-2) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:45:07,133 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:45:07,134 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:45:07,137 ERROR [stderr] (default task-2) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:45:07,138 ERROR [stderr] (default task-2) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:45:07,138 ERROR [stderr] (default task-2) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:45:07,139 ERROR [stderr] (default task-2) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:45:07,139 ERROR [stderr] (default task-2) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:45:07,139 ERROR [stderr] (default task-2) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:45:07,140 ERROR [stderr] (default task-2) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:45:07,140 ERROR [stderr] (default task-2) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:45:07,141 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:45:07,141 ERROR [stderr] (default task-2) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:45:07,141 ERROR [stderr] (default task-2) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:45:07,142 ERROR [stderr] (default task-2) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:45:07,142 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:45:07,143 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:45:07,143 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:45:07,143 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:45:07,144 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:45:07,144 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:45:07,144 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:45:07,145 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:45:07,145 ERROR [stderr] (default task-2) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:45:07,146 ERROR [stderr] (default task-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:45:07,146 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:45:07,146 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:45:07,147 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:45:07,147 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:45:07,148 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:45:07,148 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:45:07,148 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:45:07,149 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:45:07,150 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:45:07,150 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:45:07,151 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:45:07,151 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:45:07,151 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:45:07,153 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:45:07,154 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:45:07,154 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:45:07,155 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:45:07,156 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:45:07,157 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:45:07,158 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:45:07,158 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:45:07,159 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:45:07,159 ERROR [stderr] (default task-2) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:45:07,160 ERROR [stderr] (default task-2) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:45:07,160 ERROR [stderr] (default task-2) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:45:07,160 ERROR [stderr] (default task-2) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:45:07,161 ERROR [stderr] (default task-2) 	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 23:48:51,923 ERROR [stderr] (default task-3) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:48:51,924 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:48:51,924 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:48:51,925 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:48:51,925 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:48:51,925 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:48:51,926 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4704)
+2016-08-17 23:48:51,927 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.CallableStatement.getObject(CallableStatement.java:1434)
+2016-08-17 23:48:51,927 ERROR [stderr] (default task-3) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getObject(WrappedCallableStatement.java:176)
+2016-08-17 23:48:51,928 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:48:51,928 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:48:51,929 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:48:51,929 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:48:51,929 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:48:51,930 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:48:51,930 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:48:51,930 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:48:51,930 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,931 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:48:51,931 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:48:51,931 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:48:51,932 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:48:51,932 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,932 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:48:51,932 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,933 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:48:51,933 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,933 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:48:51,934 ERROR [stderr] (default task-3) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:48:51,934 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:48:51,935 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,935 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:48:51,936 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,936 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:48:51,937 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,937 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:48:51,938 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:48:51,938 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,938 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:48:51,938 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,939 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:48:51,939 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:48:51,940 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:48:51,940 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,940 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:48:51,941 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,941 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:48:51,941 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,942 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:48:51,942 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,942 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:48:51,942 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,943 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:48:51,943 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,944 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:48:51,944 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,945 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:48:51,945 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,946 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:48:51,946 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,946 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:48:51,947 ERROR [stderr] (default task-3) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:48:51,947 ERROR [stderr] (default task-3) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:48:51,947 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,947 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:48:51,948 ERROR [stderr] (default task-3) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:48:51,948 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,948 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:48:51,948 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:48:51,949 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:48:51,949 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:48:51,950 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:48:51,950 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:48:51,950 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:48:51,950 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:48:51,951 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:48:51,951 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:48:51,951 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:48:51,952 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:48:51,952 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:48:51,952 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:48:51,952 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:48:51,953 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:48:51,953 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:48:51,953 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:48:51,953 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:48:51,954 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:48:51,954 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:48:51,954 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:48:51,954 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:48:51,955 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:48:51,956 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:48:51,956 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:48:51,956 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:48:51,957 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:48:51,957 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:48:51,957 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:48:51,958 ERROR [stderr] (default task-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:48:51,958 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:48:51,958 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:48:51,958 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:48:51,959 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:48:51,959 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:48:51,959 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:48:51,959 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:48:51,960 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:48:51,961 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:48:51,961 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:48:51,962 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:48:51,962 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:48:51,962 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:48:51,962 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:48:51,963 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:48:51,963 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:48:51,963 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:48:51,964 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:48:51,964 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:48:51,964 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:48:51,964 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:48:51,965 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:48:51,965 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:48:51,965 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:48:51,966 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:48:51,966 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:48:51,966 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 23:49:07,378 ERROR [stderr] (default task-3) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:49:07,380 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:49:07,380 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:49:07,381 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:49:07,381 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:49:07,381 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:49:07,382 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4704)
+2016-08-17 23:49:07,383 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.CallableStatement.getObject(CallableStatement.java:1434)
+2016-08-17 23:49:07,383 ERROR [stderr] (default task-3) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getObject(WrappedCallableStatement.java:176)
+2016-08-17 23:49:07,384 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:49:07,386 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:49:07,389 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:49:07,390 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:49:07,390 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:49:07,391 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:49:07,392 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:49:07,392 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:49:07,393 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,393 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:49:07,394 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:49:07,394 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:49:07,395 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:49:07,395 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,396 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:49:07,397 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,397 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:49:07,398 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,398 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:49:07,399 ERROR [stderr] (default task-3) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:49:07,400 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:49:07,401 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,402 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:49:07,402 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,402 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:49:07,403 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,403 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:49:07,403 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:49:07,404 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,404 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:49:07,404 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,405 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:49:07,405 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:49:07,406 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:49:07,407 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,407 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:49:07,407 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,408 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:49:07,408 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,408 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:49:07,409 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,409 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:49:07,409 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,410 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:49:07,410 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,410 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:49:07,411 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,411 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:49:07,411 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,412 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:49:07,412 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,412 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:49:07,412 ERROR [stderr] (default task-3) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:49:07,413 ERROR [stderr] (default task-3) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:49:07,413 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,413 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:49:07,413 ERROR [stderr] (default task-3) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:49:07,414 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,414 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:49:07,414 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:49:07,414 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:49:07,415 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:49:07,415 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:49:07,415 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:49:07,415 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:49:07,415 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:49:07,416 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:49:07,416 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:49:07,416 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:49:07,416 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:49:07,417 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:49:07,417 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:49:07,417 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:49:07,417 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:49:07,418 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:49:07,418 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:49:07,418 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:49:07,419 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:49:07,419 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:49:07,419 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:49:07,419 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:49:07,420 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:49:07,420 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:49:07,420 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:49:07,420 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:49:07,420 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:49:07,421 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:49:07,421 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:49:07,421 ERROR [stderr] (default task-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:49:07,422 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:49:07,422 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:49:07,423 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:49:07,424 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:49:07,424 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:49:07,425 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:49:07,425 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:49:07,426 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:49:07,427 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:49:07,427 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:49:07,428 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:49:07,428 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:49:07,428 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:49:07,429 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:49:07,429 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:49:07,429 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:49:07,430 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:49:07,430 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:49:07,430 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:49:07,430 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:49:07,431 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:49:07,431 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:49:07,431 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:49:07,431 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:49:07,432 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:49:07,432 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:49:07,433 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 23:50:24,544 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a80120:-c400269:57b51f10:34 in state  RUN
+2016-08-17 23:50:24,545 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012095: Abort of action id 0:ffffc0a80120:-c400269:57b51f10:34 invoked while multiple threads active within it.
+2016-08-17 23:50:24,547 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012108: CheckedAction::check - atomic action 0:ffffc0a80120:-c400269:57b51f10:34 aborting with 1 threads active!
+2016-08-17 23:50:24,935 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012121: TransactionReaper::doCancellations worker Thread[Transaction Reaper Worker 0,5,main] successfully canceled TX 0:ffffc0a80120:-c400269:57b51f10:34
+2016-08-17 23:57:25,758 ERROR [stderr] (default task-3) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:57:25,758 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:57:25,759 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:57:25,759 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:57:25,759 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:57:25,759 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:57:25,759 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.getObject(ResultSetImpl.java:4704)
+2016-08-17 23:57:25,760 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.CallableStatement.getObject(CallableStatement.java:1434)
+2016-08-17 23:57:25,760 ERROR [stderr] (default task-3) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getObject(WrappedCallableStatement.java:176)
+2016-08-17 23:57:25,760 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:57:25,760 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:57:25,761 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:57:25,761 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:25,761 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:25,761 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:25,762 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:25,762 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:57:25,762 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,762 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:57:25,763 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:57:25,763 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:57:25,763 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:57:25,763 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,764 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:57:25,764 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,764 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:57:25,764 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,764 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,765 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:57:25,766 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,767 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:57:25,767 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:57:25,767 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,768 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,769 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,770 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:57:25,771 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:25,772 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:57:25,773 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:25,774 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:25,775 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:25,775 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:25,775 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:57:25,775 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:57:25,775 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:57:25,776 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:57:25,776 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:57:25,776 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:57:25,776 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:57:25,777 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:57:25,777 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:57:25,777 ERROR [stderr] (default task-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:57:25,777 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:57:25,778 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:57:25,778 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:57:25,778 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:57:25,778 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:25,779 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:57:25,779 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:57:25,779 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:25,779 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:57:25,779 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:57:25,780 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:57:25,780 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:57:25,780 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:57:25,780 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:57:25,781 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:25,781 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:57:25,781 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:25,781 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:25,781 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:57:25,782 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:57:25,782 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:57:25,782 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:57:25,782 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:57:25,782 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:57:25,783 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:57:25,783 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:57:25,783 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 23:57:55,819 ERROR [stderr] (default task-3) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:57:55,820 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:57:55,820 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:57:55,820 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:57:55,821 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:57:55,821 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:57:55,821 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2580)
+2016-08-17 23:57:55,821 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.CallableStatement.getInt(CallableStatement.java:1318)
+2016-08-17 23:57:55,821 ERROR [stderr] (default task-3) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getInt(WrappedCallableStatement.java:455)
+2016-08-17 23:57:55,822 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:57:55,822 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:57:55,822 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:57:55,823 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:55,823 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:55,823 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:55,823 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:55,824 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:57:55,824 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,824 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:57:55,825 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:57:55,825 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:57:55,825 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:57:55,825 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,826 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:57:55,826 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,826 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:57:55,826 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,827 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:57:55,827 ERROR [stderr] (default task-3) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:57:55,827 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:57:55,827 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,828 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:57:55,828 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,828 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:57:55,828 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,828 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:55,829 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:57:55,829 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,829 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:57:55,829 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,830 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:57:55,830 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:57:55,830 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:57:55,830 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,830 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:57:55,831 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,831 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:57:55,831 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,832 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:57:55,832 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,832 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:57:55,832 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,833 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:57:55,833 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,833 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:57:55,833 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,834 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:57:55,834 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,834 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:57:55,834 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,835 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:57:55,835 ERROR [stderr] (default task-3) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:57:55,835 ERROR [stderr] (default task-3) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:57:55,835 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,836 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:57:55,836 ERROR [stderr] (default task-3) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:57:55,836 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,837 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:55,837 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:57:55,837 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:57:55,838 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:57:55,838 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:57:55,838 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:57:55,838 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:57:55,839 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:55,839 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:55,839 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:55,839 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:55,839 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:57:55,840 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:57:55,840 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:57:55,841 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:57:55,841 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:57:55,842 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:57:55,842 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:57:55,842 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:57:55,842 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:57:55,843 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:57:55,843 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:57:55,843 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:57:55,843 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:57:55,844 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:57:55,844 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:57:55,844 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:57:55,844 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:57:55,844 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:57:55,845 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:57:55,845 ERROR [stderr] (default task-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:57:55,845 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:57:55,845 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:57:55,846 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:57:55,846 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:57:55,846 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:55,846 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:57:55,847 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:57:55,847 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:55,847 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:57:55,847 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:57:55,847 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:57:55,848 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:57:55,848 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:57:55,848 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:57:55,848 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:55,849 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:57:55,849 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:55,849 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:57:55,849 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:57:55,850 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:57:55,850 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:57:55,850 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:57:55,850 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:57:55,851 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:57:55,851 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:57:55,851 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:57:55,851 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 23:58:06,220 ERROR [stderr] (default task-3) java.sql.SQLException: Column '@com_mysql_jdbc_outparam_idPerfil' not found.
+2016-08-17 23:58:06,223 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+2016-08-17 23:58:06,223 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+2016-08-17 23:58:06,224 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+2016-08-17 23:58:06,224 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+2016-08-17 23:58:06,224 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1076)
+2016-08-17 23:58:06,225 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2580)
+2016-08-17 23:58:06,225 ERROR [stderr] (default task-3) 	at com.mysql.jdbc.CallableStatement.getInt(CallableStatement.java:1318)
+2016-08-17 23:58:06,226 ERROR [stderr] (default task-3) 	at org.jboss.jca.adapters.jdbc.WrappedCallableStatement.getInt(WrappedCallableStatement.java:455)
+2016-08-17 23:58:06,226 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.AbstractJDBCFacade.getQueryResult(AbstractJDBCFacade.java:295)
+2016-08-17 23:58:06,227 ERROR [stderr] (default task-3) 	at com.vitrine.entities.dao.jdbc.EntityManagerDAO.executeRetrieveRelation(EntityManagerDAO.java:179)
+2016-08-17 23:58:06,227 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService.findPerfil(UsuarioService.java:114)
+2016-08-17 23:58:06,228 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:58:06,228 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:58:06,228 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:58:06,229 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:58:06,229 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-08-17 23:58:06,229 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,230 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:58:06,230 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-08-17 23:58:06,230 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-08-17 23:58:06,231 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-08-17 23:58:06,231 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,231 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-08-17 23:58:06,232 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,232 ERROR [stderr] (default task-3) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-08-17 23:58:06,232 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,232 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:437)
+2016-08-17 23:58:06,233 ERROR [stderr] (default task-3) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:64)
+2016-08-17 23:58:06,233 ERROR [stderr] (default task-3) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-08-17 23:58:06,233 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,234 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-08-17 23:58:06,234 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,234 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-08-17 23:58:06,234 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,235 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:58:06,235 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+2016-08-17 23:58:06,235 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,236 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-08-17 23:58:06,236 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,236 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275)
+2016-08-17 23:58:06,236 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:327)
+2016-08-17 23:58:06,237 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-08-17 23:58:06,237 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,237 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-08-17 23:58:06,237 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,237 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-08-17 23:58:06,238 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,238 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+2016-08-17 23:58:06,238 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,238 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-08-17 23:58:06,239 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,239 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:66)
+2016-08-17 23:58:06,239 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,239 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-08-17 23:58:06,239 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,240 ERROR [stderr] (default task-3) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+2016-08-17 23:58:06,240 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,240 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-08-17 23:58:06,240 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,240 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:58:06,241 ERROR [stderr] (default task-3) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:634)
+2016-08-17 23:58:06,241 ERROR [stderr] (default task-3) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-08-17 23:58:06,241 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,241 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:356)
+2016-08-17 23:58:06,241 ERROR [stderr] (default task-3) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-08-17 23:58:06,242 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,242 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:58:06,242 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:195)
+2016-08-17 23:58:06,243 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+2016-08-17 23:58:06,243 ERROR [stderr] (default task-3) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:340)
+2016-08-17 23:58:06,243 ERROR [stderr] (default task-3) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-08-17 23:58:06,243 ERROR [stderr] (default task-3) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-08-17 23:58:06,243 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$$$view20.findPerfil(Unknown Source)
+2016-08-17 23:58:06,244 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:58:06,244 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:58:06,244 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:58:06,244 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:58:06,244 ERROR [stderr] (default task-3) 	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:434)
+2016-08-17 23:58:06,245 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:127)
+2016-08-17 23:58:06,245 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+2016-08-17 23:58:06,245 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:67)
+2016-08-17 23:58:06,245 ERROR [stderr] (default task-3) 	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:100)
+2016-08-17 23:58:06,245 ERROR [stderr] (default task-3) 	at com.vitrine.entities.service.UsuarioService$Proxy$_$$_Weld$EnterpriseProxy$.findPerfil(Unknown Source)
+2016-08-17 23:58:06,246 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-08-17 23:58:06,246 ERROR [stderr] (default task-3) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-08-17 23:58:06,246 ERROR [stderr] (default task-3) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-08-17 23:58:06,246 ERROR [stderr] (default task-3) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-08-17 23:58:06,246 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:137)
+2016-08-17 23:58:06,247 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:296)
+2016-08-17 23:58:06,247 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:250)
+2016-08-17 23:58:06,247 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:237)
+2016-08-17 23:58:06,247 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:356)
+2016-08-17 23:58:06,248 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:179)
+2016-08-17 23:58:06,248 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+2016-08-17 23:58:06,248 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+2016-08-17 23:58:06,248 ERROR [stderr] (default task-3) 	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+2016-08-17 23:58:06,249 ERROR [stderr] (default task-3) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-08-17 23:58:06,249 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+2016-08-17 23:58:06,249 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2016-08-17 23:58:06,250 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-08-17 23:58:06,250 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-08-17 23:58:06,250 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:58:06,251 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-08-17 23:58:06,251 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2016-08-17 23:58:06,251 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:58:06,251 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2016-08-17 23:58:06,252 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2016-08-17 23:58:06,252 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-08-17 23:58:06,252 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+2016-08-17 23:58:06,252 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2016-08-17 23:58:06,253 ERROR [stderr] (default task-3) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-08-17 23:58:06,253 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:58:06,253 ERROR [stderr] (default task-3) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-08-17 23:58:06,253 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:58:06,253 ERROR [stderr] (default task-3) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-08-17 23:58:06,254 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+2016-08-17 23:58:06,254 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+2016-08-17 23:58:06,254 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+2016-08-17 23:58:06,254 ERROR [stderr] (default task-3) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+2016-08-17 23:58:06,255 ERROR [stderr] (default task-3) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+2016-08-17 23:58:06,255 ERROR [stderr] (default task-3) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+2016-08-17 23:58:06,255 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-08-17 23:58:06,255 ERROR [stderr] (default task-3) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-08-17 23:58:06,256 ERROR [stderr] (default task-3) 	at java.lang.Thread.run(Thread.java:745)

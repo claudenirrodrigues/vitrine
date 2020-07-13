@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.json.JsonObjectBuilder"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="javax.json.JsonObject"/>
+<fullyQualifiedTypeName name="javax.json.JsonString"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.dao.AbstractJDBCFacade"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response.ResponseBuilder"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.RedirectUtil"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.service.security.AuthorizerService"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.service.security.AuthenticatorService"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.PerfilConstante"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.Pessoa"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.SQLError"/>
+<fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.Produto"/>
+<fullyQualifiedTypeName name="java.security.Key"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.SendEmail"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.SendEmail.EnumSendEmail"/>
+<fullyQualifiedTypeName name="javax.mail.Message"/>
+<fullyQualifiedTypeName name="javax.mail.Session"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.HttpHeadersOAuth"/>
+<fullyQualifiedTypeName name="java.security.GeneralSecurityException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.FormatHelper"/>
+<fullyQualifiedTypeName name="com.ibm.wsdl.util.IOUtils"/>
+<fullyQualifiedTypeName name="com.vitrine.utils.Logger"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.dao.EntityManager.EnumEntityManager"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.dao.EntityManager"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.dao.EntityManager.EnumInstruction"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.Trace"/>
+<fullyQualifiedTypeName name="com.vitrine.entities.constants.EnumTrace"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;vitrineDashboard/WebContent/bower_components/font-awesome (1)&apos; to &apos;font-awesome&apos;" description="Rename resource &apos;font-awesome (1)&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/bower_components/font-awesome (1)" name="font-awesome" stamp="1474639154672" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="C:/workspace/wildfly-9.0.2.Final/modules/system/layers/base/javax/mail/api/main/javax.mail-1.5.3.jar" runtime-id="WildFly 9.x Runtime" source-attachment-path="C:/Users/Familia/.m2/repository/com/sun/mail/javax.mail/1.5.3/javax.mail-1.5.3-sources.jar"/>
+  <source-attachment entry="C:/workspace/wildfly-9.0.2.Final/modules/system/layers/base/javax/ws/rs/api/main/jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar" runtime-id="WildFly 9.x Runtime" source-attachment-path="C:/Users/Familia/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.0_spec/1.0.0.Final/jboss-jaxrs-api_2.0_spec-1.0.0.Final-sources.jar"/>
+  <source-attachment entry="C:/workspace/wildfly-9.0.2.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-jaxrs-3.0.11.Final.jar" runtime-id="WildFly 9.x Runtime" source-attachment-path="C:/Users/Familia/.m2/repository/org/jboss/resteasy/resteasy-jaxrs/3.0.11.Final/resteasy-jaxrs-3.0.11.Final-sources.jar"/>
+  <source-attachment entry="C:/workspace/wildfly-9.0.2.Final/modules/system/layers/base/org/glassfish/javax/json/main/javax.json-1.0.3.jar" runtime-id="WildFly 9.x Runtime" source-attachment-path="C:/Users/Familia/.m2/repository/org/glassfish/javax.json/1.0.3/javax.json-1.0.3-sources.jar"/>
+</classpath>

@@ -1,0 +1,476 @@
+2016-10-01 10:36:43,645 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:43 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:44,341 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:44 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:45,477 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:45 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:45,848 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:45 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:46,038 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:46 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:46,313 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:46 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:46,962 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:46 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:48,241 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:48 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:49,413 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:49 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 10:36:49,587 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 10:36:49 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:13:02,358 INFO  [stdout] (default task-27) Vitrine INFO: Filtrando o request path: /security/initialize
+2016-10-01 11:13:17,844 INFO  [stdout] (default task-7) Vitrine WARNING: Token invalido. authToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjp7InBlZGlkb2NvbXByYUNvbGxlY3Rpb24iOm51bGwsInBlc3NvYUNvbGxlY3Rpb24iOlt7ImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwiaWRQZXNzb2EiOjEsIm5vbWUiOiJDbGF1ZGVuaXIiLCJzb2JyZW5vbWUiOiJSb2RyaWd1ZXMiLCJub21lRXhpYmlkbyI6IkNsYXVkZW5pciBSb2RyaWd1ZXMiLCJjb21wbGVtZW50byI6bnVsbCwiZW1haWxQcmluY2lwYWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImVtYWlsU2VjdW5kYXJpbyI6bnVsbCwiZGRkQ29udGF0byI6bnVsbCwiZm9uZUNvbnRhdG8iOm51bGwsImRkZFJlc2lkZW5jaWFsIjpudWxsLCJmb25lUmVzaWRlbmNpYWwiOm51bGwsImRkZENvbWVyY2lhbCI6bnVsbCwiZm9uZUNvbWVyY2lhbCI6bnVsbCwiZGRkQ2VsdWxhciI6bnVsbCwiZm9uZUNlbHVsYXIiOm51bGwsImNwZkNucGoiOm51bGwsImNucGpGaWxpYWwiOm51bGwsImNwZkNucGpEaWdpdG8iOm51bGwsIm5ld3NsbGV0ZXIiOm51bGwsImN1cG9tUHJvbW9jaW9uYWwiOm51bGwsImRhdGFJbmNsdXNhbyI6MTQ3MzcxNjkwNDAwMCwiZGF0YUFsdGVyYWNhbyI6MTQ3MzcxNjkwMzAwMCwidXN1YXJpbyI6eyJwZWRpZG9jb21wcmFDb2xsZWN0aW9uIjpudWxsLCJwZXNzb2FDb2xsZWN0aW9uIjpudWxsLCJpZFVzdWFyaW8iOm51bGwsInNlbmhhIjpudWxsLCJwZXJmaWxDb2xsZWN0aW9uIjpudWxsLCJ0cmFjZSI6bnVsbH0sImVuZGVyZWNvQ29sbGVjdGlvbiI6bnVsbCwicGVzc29hZmFpeGFjZXBDb2xsZWN0aW9uIjpudWxsfV0sImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwic2VuaGEiOm51bGwsInBlcmZpbENvbGxlY3Rpb24iOlt7ImlkUGVyZmlsIjoyLCJwZXJmaWwiOiJSZXByZXNlbnRhbnRlIiwidXN1YXJpb0NvbGxlY3Rpb24iOm51bGx9LHsiaWRQZXJmaWwiOjMsInBlcmZpbCI6IkNsaWVudGUiLCJ1c3VhcmlvQ29sbGVjdGlvbiI6bnVsbH1dLCJ0cmFjZSI6eyJzaXR1YWNhbyI6bnVsbCwiZGF0YUluY2x1c2FvIjpudWxsLCJkYXRhQWx0ZXJhY2FvIjpudWxsfX0sImFjY2Vzc1Rva2VuIjp7InJhd1Jlc3BvbnNlIjoie1xuIFwiYWNjZXNzX3Rva2VuXCI6IFwieWEyOS5DaTl1QXlpNURLeHBvNm1XNkNXOTdia2xwVlpXYW5JNTc1X1JNdXZJNHN2c1VCYkxjRjJCdW1DWjVSSFVrMzRpcndcIixcbiBcInRva2VuX3R5cGVcIjogXCJCZWFyZXJcIixcbiBcImV4cGlyZXNfaW5cIjogMzYwMCxcbiBcImlkX3Rva2VuXCI6IFwiZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqTmlOamMxWXpNek9ETTJZek15WlRBeFlUQm1OamN5TVdSbFltVTBPRGxtTnpsall6TTRZemdpZlEuZXlKcGMzTWlPaUpvZEhSd2N6b3ZMMkZqWTI5MWJuUnpMbWR2YjJkc1pTNWpiMjBpTENKaGRGOW9ZWE5vSWpvaWExOTVkVmRHVjJOaExYSTFNbDlzY0ZjMFRXeERkeUlzSW1GMVpDSTZJakkzT0RjeU9UUTNNek0zTFhJNU1ETmxaak5tYldodmJqa3hhVzkxZG5OMmJXeDJNbVE1TkdFMVpHeGhMbUZ3Y0hNdVoyOXZaMnhsZFhObGNtTnZiblJsYm5RdVkyOXRJaXdpYzNWaUlqb2lNVEEwTlRFNE1EWTJOVGN4TmpRMU1Ua3dOVEEwSWl3aVpXMWhhV3hmZG1WeWFXWnBaV1FpT25SeWRXVXNJbUY2Y0NJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2laVzFoYVd3aU9pSmpiR0YxWkdWdWFYSXVjbTlrY21sbmRXVnpMbTlzYVhabGFYSmhRR2R0WVdsc0xtTnZiU0lzSW1saGRDSTZNVFEzTlRJMk5qWTNNaXdpWlhod0lqb3hORGMxTWpjd01qY3lmUS5PRmg2ZXdWU1RIZkd1STNIUlQ5QjZtWU9NYlpndHhudk1falNQeEw2N3VMMU1rNGVySzFKSl9pTjRvNlVraUt1TmhKV29ueFNIZUprLWlhX0NlU0JOVklEeExkSWtEWFBxSzhjWU1RMmlkTkxpdGJQbnZIekVCTXpUNWNtLUx4ektBMGdEaFhCQjBPRmNSRWV1OGtqYlZXS2swdHhNQjBkLUs4eWlTN2VUMDYxeURCVGtwQWtXaHZhaEI0bmN2cWNlMmFPV1IyN0JqZjdQS0cwc2RvTkdJb2dtSkk2LUxHNTJhQXp0aXgxeGhFcjEwMHhVV0U4V2pWaDNrZ1RCbVQ5Y2twWHhYS0t6VXJCd2Rvc0wyYXAxaWlxZmtiZnRCeUl2ZTRYc042ZFN1bUxvVzlGT3ZmZU83ekJHVU9peERtekdNb0k0QzlUQzlNQ25YRW5YSXQwblFcIlxufVxuIiwiYWNjZXNzVG9rZW4iOiJ5YTI5LkNpOXVBeWk1REt4cG82bVc2Q1c5N2JrbHBWWldhbkk1NzVfUk11dkk0c3ZzVUJiTGNGMkJ1bUNaNVJIVWszNGlydyIsInRva2VuVHlwZSI6IkJlYXJlciIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjpudWxsLCJzY29wZSI6bnVsbCwib3BlbklkVG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWpOaU5qYzFZek16T0RNMll6TXlaVEF4WVRCbU5qY3lNV1JsWW1VME9EbG1OemxqWXpNNFl6Z2lmUS5leUpwYzNNaU9pSm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMGlMQ0poZEY5b1lYTm9Jam9pYTE5NWRWZEdWMk5oTFhJMU1sOXNjRmMwVFd4RGR5SXNJbUYxWkNJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2ljM1ZpSWpvaU1UQTBOVEU0TURZMk5UY3hOalExTVRrd05UQTBJaXdpWlcxaGFXeGZkbVZ5YVdacFpXUWlPblJ5ZFdVc0ltRjZjQ0k2SWpJM09EY3lPVFEzTXpNM0xYSTVNRE5sWmpObWJXaHZiamt4YVc5MWRuTjJiV3gyTW1RNU5HRTFaR3hoTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0SWl3aVpXMWhhV3dpT2lKamJHRjFaR1Z1YVhJdWNtOWtjbWxuZFdWekxtOXNhWFpsYVhKaFFHZHRZV2xzTG1OdmJTSXNJbWxoZENJNk1UUTNOVEkyTmpZM01pd2laWGh3SWpveE5EYzFNamN3TWpjeWZRLk9GaDZld1ZTVEhmR3VJM0hSVDlCNm1ZT01iWmd0eG52TV9qU1B4TDY3dUwxTWs0ZXJLMUpKX2lONG82VWtpS3VOaEpXb254U0hlSmstaWFfQ2VTQk5WSUR4TGRJa0RYUHFLOGNZTVEyaWROTGl0YlBudkh6RUJNelQ1Y20tTHh6S0EwZ0RoWEJCME9GY1JFZXU4a2piVldLazB0eE1CMGQtSzh5aVM3ZVQwNjF5REJUa3BBa1dodmFoQjRuY3ZxY2UyYU9XUjI3QmpmN1BLRzBzZG9OR0lvZ21KSTYtTEc1MmFBenRpeDF4aEVyMTAweFVXRThXalZoM2tnVEJtVDlja3BYeFhLS3pVckJ3ZG9zTDJhcDFpaXFma2JmdEJ5SXZlNFhzTjZkU3VtTG9XOUZPdmZlTzd6QkdVT2l4RG16R01vSTRDOVRDOU1DblhFblhJdDBuUSJ9LCJleHAiOjE0NzUyNzAzMDQsImlwIjoiMTg5Ljc4Ljk0LjciLCJpZFVzdWFyaW8iOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSJ9.nrxT_agW0a3GBjAuLDdyDh_AnRfKuS9mZgGMm4LcZcw - ip: 189.78.94.7
+2016-10-01 11:13:19,305 INFO  [stdout] (default task-27) Vitrine WARNING: Token invalido. authToken: null - ip: 189.78.94.7
+2016-10-01 11:13:25,695 INFO  [stdout] (default task-30) Vitrine INFO: Filtrando o request path: /security/authorization
+2016-10-01 11:13:45,654 INFO  [stdout] (default task-33) Vitrine INFO: Filtrando o request path: /security/authentication
+2016-10-01 11:13:48,054 INFO  [stdout] (default task-33) accessToken: GoogleToken{access_token=ya29.Ci9vA7ZLPa1g7CcPKHJBu2mfqHfkZbDSU7d8NAlg9fhEBd7zgE_Dq08-3or1EJPe0w, token_type=Bearer, expires_in=3600, refresh_token=1/dByaxa8D12HApbabquknEG_C9LFjXgglhrdptanKDcM, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiVGFCZlI4Mlo0Nmo1cGdqdW1hTnZwdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTIyNywiZXhwIjoxNDc1MzM0ODI3LCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.eJz4PNf_xgn23zE5wDQQs8GvWmhsGaWslUx7Pt6ujKWsk2gXY9CXfHjc3ixNsm_a3mJ_VbbfXZr5Xie9btwZ-CYScNennKZL8OOv3txulUULuTQ70EFEWIlLvnt_Agg6By_5z50jJyoMN1CDYkt6UdGtHeOr1XH4l-ke7AWdbCl72ATzBLvNW4S8-IoZt6SpJ0b7ORjkIEhJdMD7zLDPli-W6M69MJJA13w3Q0gTJGUT5K3lTqJtaDgQoeYYzHbQBErm-hZHZ_SAaUFxaT-w9oZOycypZaR6ZP0PEtqSzSJB4Ra3oHDAqmPcLunP4YoO674GK_P30OjlPYqM8MZFVA}, rawResponse:{
+2016-10-01 11:13:48,055 INFO  [stdout] (default task-33)  "access_token": "ya29.Ci9vA7ZLPa1g7CcPKHJBu2mfqHfkZbDSU7d8NAlg9fhEBd7zgE_Dq08-3or1EJPe0w",
+2016-10-01 11:13:48,055 INFO  [stdout] (default task-33)  "token_type": "Bearer",
+2016-10-01 11:13:48,055 INFO  [stdout] (default task-33)  "expires_in": 3600,
+2016-10-01 11:13:48,055 INFO  [stdout] (default task-33)  "refresh_token": "1/dByaxa8D12HApbabquknEG_C9LFjXgglhrdptanKDcM",
+2016-10-01 11:13:48,055 INFO  [stdout] (default task-33)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiVGFCZlI4Mlo0Nmo1cGdqdW1hTnZwdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTIyNywiZXhwIjoxNDc1MzM0ODI3LCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.eJz4PNf_xgn23zE5wDQQs8GvWmhsGaWslUx7Pt6ujKWsk2gXY9CXfHjc3ixNsm_a3mJ_VbbfXZr5Xie9btwZ-CYScNennKZL8OOv3txulUULuTQ70EFEWIlLvnt_Agg6By_5z50jJyoMN1CDYkt6UdGtHeOr1XH4l-ke7AWdbCl72ATzBLvNW4S8-IoZt6SpJ0b7ORjkIEhJdMD7zLDPli-W6M69MJJA13w3Q0gTJGUT5K3lTqJtaDgQoeYYzHbQBErm-hZHZ_SAaUFxaT-w9oZOycypZaR6ZP0PEtqSzSJB4Ra3oHDAqmPcLunP4YoO674GK_P30OjlPYqM8MZFVA"
+2016-10-01 11:13:48,056 INFO  [stdout] (default task-33) }
+2016-10-01 11:13:48,056 INFO  [stdout] (default task-33) 
+2016-10-01 11:13:48,228 INFO  [stdout] (default task-33) accessToken: GoogleToken{access_token=ya29.Ci9vA7ZLPa1g7CcPKHJBu2mfqHfkZbDSU7d8NAlg9fhEBd7zgE_Dq08-3or1EJPe0w, token_type=Bearer, expires_in=3600, refresh_token=null, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiVGFCZlI4Mlo0Nmo1cGdqdW1hTnZwdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTIyNywiZXhwIjoxNDc1MzM0ODI3fQ.e3qOW_IA-be0yiU5KerMQ3Eb63aaeIQxB3EJM73HiVou7RNMXJDlO3eXBu2RUeNhRNCFSsq3Jk8tf0UE4g3ezbKqgDS5daETgBFqtMxvP15MjccMyfrmQ9GhyVuLJnmP95K0h54p1aK9itLqTqiV0gteYcpgQaxKDhInJqDqyY_Z70i919t4o99jWFyLKwoE1MFgZe7HPEdBWuOl5Jai11LmPMUo_w25j3cfUAeTJb5x2s13gtdfzoPBIHWcb8Ea8fmF8UsjCw04f3Gvm4PklPz3N9pYBXU014reW1J-_rE7znI-L1aYVUpe0Md87du8hc_lgv3soJIJ1cPJxf5TFQ}, rawResponse: {
+2016-10-01 11:13:48,229 INFO  [stdout] (default task-33)  "access_token": "ya29.Ci9vA7ZLPa1g7CcPKHJBu2mfqHfkZbDSU7d8NAlg9fhEBd7zgE_Dq08-3or1EJPe0w",
+2016-10-01 11:13:48,229 INFO  [stdout] (default task-33)  "token_type": "Bearer",
+2016-10-01 11:13:48,229 INFO  [stdout] (default task-33)  "expires_in": 3600,
+2016-10-01 11:13:48,229 INFO  [stdout] (default task-33)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiVGFCZlI4Mlo0Nmo1cGdqdW1hTnZwdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTIyNywiZXhwIjoxNDc1MzM0ODI3fQ.e3qOW_IA-be0yiU5KerMQ3Eb63aaeIQxB3EJM73HiVou7RNMXJDlO3eXBu2RUeNhRNCFSsq3Jk8tf0UE4g3ezbKqgDS5daETgBFqtMxvP15MjccMyfrmQ9GhyVuLJnmP95K0h54p1aK9itLqTqiV0gteYcpgQaxKDhInJqDqyY_Z70i919t4o99jWFyLKwoE1MFgZe7HPEdBWuOl5Jai11LmPMUo_w25j3cfUAeTJb5x2s13gtdfzoPBIHWcb8Ea8fmF8UsjCw04f3Gvm4PklPz3N9pYBXU014reW1J-_rE7znI-L1aYVUpe0Md87du8hc_lgv3soJIJ1cPJxf5TFQ"
+2016-10-01 11:13:48,230 INFO  [stdout] (default task-33) }
+2016-10-01 11:13:48,230 INFO  [stdout] (default task-33) 
+2016-10-01 11:13:50,315 INFO  [stdout] (default task-33) Vitrine INFO: Enviando authToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjp7InBlZGlkb2NvbXByYUNvbGxlY3Rpb24iOm51bGwsInBlc3NvYUNvbGxlY3Rpb24iOlt7ImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwiaWRQZXNzb2EiOjEsIm5vbWUiOiJDbGF1ZGVuaXIiLCJzb2JyZW5vbWUiOiJSb2RyaWd1ZXMiLCJub21lRXhpYmlkbyI6IkNsYXVkZW5pciBSb2RyaWd1ZXMiLCJjb21wbGVtZW50byI6bnVsbCwiZW1haWxQcmluY2lwYWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImVtYWlsU2VjdW5kYXJpbyI6bnVsbCwiZGRkQ29udGF0byI6bnVsbCwiZm9uZUNvbnRhdG8iOm51bGwsImRkZFJlc2lkZW5jaWFsIjpudWxsLCJmb25lUmVzaWRlbmNpYWwiOm51bGwsImRkZENvbWVyY2lhbCI6bnVsbCwiZm9uZUNvbWVyY2lhbCI6bnVsbCwiZGRkQ2VsdWxhciI6bnVsbCwiZm9uZUNlbHVsYXIiOm51bGwsImNwZkNucGoiOm51bGwsImNucGpGaWxpYWwiOm51bGwsImNwZkNucGpEaWdpdG8iOm51bGwsIm5ld3NsbGV0ZXIiOm51bGwsImN1cG9tUHJvbW9jaW9uYWwiOm51bGwsImRhdGFJbmNsdXNhbyI6MTQ3MzcxNjkwNDAwMCwiZGF0YUFsdGVyYWNhbyI6MTQ3MzcxNjkwMzAwMCwidXN1YXJpbyI6eyJwZWRpZG9jb21wcmFDb2xsZWN0aW9uIjpudWxsLCJwZXNzb2FDb2xsZWN0aW9uIjpudWxsLCJpZFVzdWFyaW8iOm51bGwsInNlbmhhIjpudWxsLCJwZXJmaWxDb2xsZWN0aW9uIjpudWxsLCJ0cmFjZSI6bnVsbH0sImVuZGVyZWNvQ29sbGVjdGlvbiI6bnVsbCwicGVzc29hZmFpeGFjZXBDb2xsZWN0aW9uIjpudWxsfV0sImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwic2VuaGEiOm51bGwsInBlcmZpbENvbGxlY3Rpb24iOlt7ImlkUGVyZmlsIjoyLCJwZXJmaWwiOiJSZXByZXNlbnRhbnRlIiwidXN1YXJpb0NvbGxlY3Rpb24iOm51bGx9LHsiaWRQZXJmaWwiOjMsInBlcmZpbCI6IkNsaWVudGUiLCJ1c3VhcmlvQ29sbGVjdGlvbiI6bnVsbH1dLCJ0cmFjZSI6eyJzaXR1YWNhbyI6bnVsbCwiZGF0YUluY2x1c2FvIjpudWxsLCJkYXRhQWx0ZXJhY2FvIjpudWxsfX0sImFjY2Vzc1Rva2VuIjp7InJhd1Jlc3BvbnNlIjoie1xuIFwiYWNjZXNzX3Rva2VuXCI6IFwieWEyOS5DaTl2QTdaTFBhMWc3Q2NQS0hKQnUybWZxSGZrWmJEU1U3ZDhOQWxnOWZoRUJkN3pnRV9EcTA4LTNvcjFFSlBlMHdcIixcbiBcInRva2VuX3R5cGVcIjogXCJCZWFyZXJcIixcbiBcImV4cGlyZXNfaW5cIjogMzYwMCxcbiBcImlkX3Rva2VuXCI6IFwiZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqbGtOemMxWkdVMk1ESmxOelZtWkRGbU56STBZV00yTURKaE5qVTBNR0UxWmpkallUZ3pNMklpZlEuZXlKcGMzTWlPaUpvZEhSd2N6b3ZMMkZqWTI5MWJuUnpMbWR2YjJkc1pTNWpiMjBpTENKaGRGOW9ZWE5vSWpvaVZHRkNabEk0TWxvME5tbzFjR2RxZFcxaFRuWndkeUlzSW1GMVpDSTZJakkzT0RjeU9UUTNNek0zTFhJNU1ETmxaak5tYldodmJqa3hhVzkxZG5OMmJXeDJNbVE1TkdFMVpHeGhMbUZ3Y0hNdVoyOXZaMnhsZFhObGNtTnZiblJsYm5RdVkyOXRJaXdpYzNWaUlqb2lNVEEwTlRFNE1EWTJOVGN4TmpRMU1Ua3dOVEEwSWl3aVpXMWhhV3hmZG1WeWFXWnBaV1FpT25SeWRXVXNJbUY2Y0NJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2laVzFoYVd3aU9pSmpiR0YxWkdWdWFYSXVjbTlrY21sbmRXVnpMbTlzYVhabGFYSmhRR2R0WVdsc0xtTnZiU0lzSW1saGRDSTZNVFEzTlRNek1USXlOeXdpWlhod0lqb3hORGMxTXpNME9ESTNmUS5lM3FPV19JQS1iZTB5aVU1S2VyTVEzRWI2M2FhZUlReEIzRUpNNzNIaVZvdTdSTk1YSkRsTzNlWEJ1MlJVZU5oUk5DRlNzcTNKazh0ZjBVRTRnM2V6YktxZ0RTNWRhRVRnQkZxdE14dlAxNU1qY2NNeWZybVE5R2h5VnVMSm5tUDk1SzBoNTRwMWFLOWl0THFUcWlWMGd0ZVljcGdRYXhLRGhJbkpxRHF5WV9aNzBpOTE5dDRvOTlqV0Z5TEt3b0UxTUZnWmU3SFBFZEJXdU9sNUphaTExTG1QTVVvX3cyNWozY2ZVQWVUSmI1eDJzMTNndGRmem9QQklIV2NiOEVhOGZtRjhVc2pDdzA0ZjNHdm00UGtsUHozTjlwWUJYVTAxNHJlVzFKLV9yRTd6bkktTDFhWVZVcGUwTWQ4N2R1OGhjX2xndjNzb0pJSjFjUEp4ZjVURlFcIlxufVxuIiwiYWNjZXNzVG9rZW4iOiJ5YTI5LkNpOXZBN1pMUGExZzdDY1BLSEpCdTJtZnFIZmtaYkRTVTdkOE5BbGc5ZmhFQmQ3emdFX0RxMDgtM29yMUVKUGUwdyIsInRva2VuVHlwZSI6IkJlYXJlciIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjpudWxsLCJzY29wZSI6bnVsbCwib3BlbklkVG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWpsa056YzFaR1UyTURKbE56Vm1aREZtTnpJMFlXTTJNREpoTmpVME1HRTFaamRqWVRnek0ySWlmUS5leUpwYzNNaU9pSm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMGlMQ0poZEY5b1lYTm9Jam9pVkdGQ1psSTRNbG8wTm1vMWNHZHFkVzFoVG5ad2R5SXNJbUYxWkNJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2ljM1ZpSWpvaU1UQTBOVEU0TURZMk5UY3hOalExTVRrd05UQTBJaXdpWlcxaGFXeGZkbVZ5YVdacFpXUWlPblJ5ZFdVc0ltRjZjQ0k2SWpJM09EY3lPVFEzTXpNM0xYSTVNRE5sWmpObWJXaHZiamt4YVc5MWRuTjJiV3gyTW1RNU5HRTFaR3hoTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0SWl3aVpXMWhhV3dpT2lKamJHRjFaR1Z1YVhJdWNtOWtjbWxuZFdWekxtOXNhWFpsYVhKaFFHZHRZV2xzTG1OdmJTSXNJbWxoZENJNk1UUTNOVE16TVRJeU55d2laWGh3SWpveE5EYzFNek0wT0RJM2ZRLmUzcU9XX0lBLWJlMHlpVTVLZXJNUTNFYjYzYWFlSVF4QjNFSk03M0hpVm91N1JOTVhKRGxPM2VYQnUyUlVlTmhSTkNGU3NxM0prOHRmMFVFNGczZXpiS3FnRFM1ZGFFVGdCRnF0TXh2UDE1TWpjY015ZnJtUTlHaHlWdUxKbm1QOTVLMGg1NHAxYUs5aXRMcVRxaVYwZ3RlWWNwZ1FheEtEaEluSnFEcXlZX1o3MGk5MTl0NG85OWpXRnlMS3dvRTFNRmdaZTdIUEVkQld1T2w1SmFpMTFMbVBNVW9fdzI1ajNjZlVBZVRKYjV4MnMxM2d0ZGZ6b1BCSUhXY2I4RWE4Zm1GOFVzakN3MDRmM0d2bTRQa2xQejNOOXBZQlhVMDE0cmVXMUotX3JFN3puSS1MMWFZVlVwZTBNZDg3ZHU4aGNfbGd2M3NvSklKMWNQSnhmNVRGUSJ9LCJleHAiOjE0NzUzMzQ4MzAsImlwIjoiMTg5Ljc4Ljk0LjciLCJpZFVzdWFyaW8iOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSJ9.QArDS8shhmUUjrz5rt64LS_8t3on7iRFuupQuQaNWpA
+2016-10-01 11:13:50,626 INFO  [stdout] (default task-34) Vitrine INFO: Filtrando o request path: /security/initialize
+2016-10-01 11:13:50,627 INFO  [stdout] (default task-34) Vitrine WARNING: Token invalido. authToken: null - ip: 189.78.94.7
+2016-10-01 11:13:58,172 INFO  [stdout] (default task-35) Vitrine INFO: Filtrando o request path: /security/authorization
+2016-10-01 11:14:05,234 INFO  [stdout] (default task-37) Vitrine INFO: Filtrando o request path: /security/authentication
+2016-10-01 11:14:05,717 INFO  [stdout] (default task-37) accessToken: GoogleToken{access_token=ya29.Ci9vA6VN2tAVTZNlJk_Hy5RreNjSTVh9yI9FWZAysBVfm6ezj_N5q05K7MBocwlTEA, token_type=Bearer, expires_in=3600, refresh_token=1/51qmLI5-YqoW-MFzI4b8WIIqx6k2kftn15qpuVIFj1c, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoianpud3N6ZWhVSElrNVljZk9xVllkQSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTI0NSwiZXhwIjoxNDc1MzM0ODQ1LCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.uCfN0GgDiA75Y9kVTTSuNXc1imXqQcCpD1XCJKd7yULuKuILq5VpVlBF1UgDDKggxeDz5l73r-o6MGo1KfxRA0ZLKu24RKLbT2vZJLehwmzXNFe_JWBogad7BxNcsd7a0X_Y2wrXIan2eKpeSFzACgZUS1U_mRM0mVlhXWytZAuIxBjdI1l0fABHVu-6STNPC3Q_4EzHAP6dOPTIlBsZGG7Dx3FIfkgBDDsQG2QVtcD5b0zIBWBsnR8gcfh5vZ4Rz5V55nlA9ZGMzttY-POz2k4kIGteEd184iBG8aYkGjYhsBOoNBVuMC2668XYQA3TDUb-pxYj8sAllUvpcE4NLg}, rawResponse:{
+2016-10-01 11:14:05,717 INFO  [stdout] (default task-37)  "access_token": "ya29.Ci9vA6VN2tAVTZNlJk_Hy5RreNjSTVh9yI9FWZAysBVfm6ezj_N5q05K7MBocwlTEA",
+2016-10-01 11:14:05,717 INFO  [stdout] (default task-37)  "token_type": "Bearer",
+2016-10-01 11:14:05,717 INFO  [stdout] (default task-37)  "expires_in": 3600,
+2016-10-01 11:14:05,717 INFO  [stdout] (default task-37)  "refresh_token": "1/51qmLI5-YqoW-MFzI4b8WIIqx6k2kftn15qpuVIFj1c",
+2016-10-01 11:14:05,718 INFO  [stdout] (default task-37)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoianpud3N6ZWhVSElrNVljZk9xVllkQSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTI0NSwiZXhwIjoxNDc1MzM0ODQ1LCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.uCfN0GgDiA75Y9kVTTSuNXc1imXqQcCpD1XCJKd7yULuKuILq5VpVlBF1UgDDKggxeDz5l73r-o6MGo1KfxRA0ZLKu24RKLbT2vZJLehwmzXNFe_JWBogad7BxNcsd7a0X_Y2wrXIan2eKpeSFzACgZUS1U_mRM0mVlhXWytZAuIxBjdI1l0fABHVu-6STNPC3Q_4EzHAP6dOPTIlBsZGG7Dx3FIfkgBDDsQG2QVtcD5b0zIBWBsnR8gcfh5vZ4Rz5V55nlA9ZGMzttY-POz2k4kIGteEd184iBG8aYkGjYhsBOoNBVuMC2668XYQA3TDUb-pxYj8sAllUvpcE4NLg"
+2016-10-01 11:14:05,718 INFO  [stdout] (default task-37) }
+2016-10-01 11:14:05,718 INFO  [stdout] (default task-37) 
+2016-10-01 11:14:05,892 INFO  [stdout] (default task-37) accessToken: GoogleToken{access_token=ya29.Ci9vA6VN2tAVTZNlJk_Hy5RreNjSTVh9yI9FWZAysBVfm6ezj_N5q05K7MBocwlTEA, token_type=Bearer, expires_in=3600, refresh_token=null, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoianpud3N6ZWhVSElrNVljZk9xVllkQSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTI0NSwiZXhwIjoxNDc1MzM0ODQ1fQ.Rp37QkvGp3raJ6XZutprARWbu8I_FoCghR23Ubymzs5mBsxAgEoFYoZD4XO3Qtp-LdkrhpIadfteHNYqTVduvFo6mq4JjcfkssFE2LCF96x8DqtQ7H2NZLK2jwzyhLepMGnFZ2eMNgtFul-e6wbrqT3Sh-r3kBTOUibj6fYyww_FUz2Ry4r_zpgyTRap81PdGx17OhoLfcbws045M7EECmbq96Bhog7imJnXab_8Iug8_JZd583-P83RHClAYHWCJKVq5M2JW55pZUVoOVR5AOQ-wCrYzVJWaEaNgVT2sq7dRn8Jjy0mwt0Iozowgfgumx_TkEcTqT8QWufzQcKBsw}, rawResponse: {
+2016-10-01 11:14:05,893 INFO  [stdout] (default task-37)  "access_token": "ya29.Ci9vA6VN2tAVTZNlJk_Hy5RreNjSTVh9yI9FWZAysBVfm6ezj_N5q05K7MBocwlTEA",
+2016-10-01 11:14:05,893 INFO  [stdout] (default task-37)  "token_type": "Bearer",
+2016-10-01 11:14:05,893 INFO  [stdout] (default task-37)  "expires_in": 3600,
+2016-10-01 11:14:05,893 INFO  [stdout] (default task-37)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNiNjc1YzMzODM2YzMyZTAxYTBmNjcyMWRlYmU0ODlmNzljYzM4YzgifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoianpud3N6ZWhVSElrNVljZk9xVllkQSIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTI0NSwiZXhwIjoxNDc1MzM0ODQ1fQ.Rp37QkvGp3raJ6XZutprARWbu8I_FoCghR23Ubymzs5mBsxAgEoFYoZD4XO3Qtp-LdkrhpIadfteHNYqTVduvFo6mq4JjcfkssFE2LCF96x8DqtQ7H2NZLK2jwzyhLepMGnFZ2eMNgtFul-e6wbrqT3Sh-r3kBTOUibj6fYyww_FUz2Ry4r_zpgyTRap81PdGx17OhoLfcbws045M7EECmbq96Bhog7imJnXab_8Iug8_JZd583-P83RHClAYHWCJKVq5M2JW55pZUVoOVR5AOQ-wCrYzVJWaEaNgVT2sq7dRn8Jjy0mwt0Iozowgfgumx_TkEcTqT8QWufzQcKBsw"
+2016-10-01 11:14:05,893 INFO  [stdout] (default task-37) }
+2016-10-01 11:14:05,894 INFO  [stdout] (default task-37) 
+2016-10-01 11:14:06,687 INFO  [stdout] (default task-37) Vitrine INFO: Enviando authToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjp7InBlZGlkb2NvbXByYUNvbGxlY3Rpb24iOm51bGwsInBlc3NvYUNvbGxlY3Rpb24iOlt7ImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwiaWRQZXNzb2EiOjEsIm5vbWUiOiJDbGF1ZGVuaXIiLCJzb2JyZW5vbWUiOiJSb2RyaWd1ZXMiLCJub21lRXhpYmlkbyI6IkNsYXVkZW5pciBSb2RyaWd1ZXMiLCJjb21wbGVtZW50byI6bnVsbCwiZW1haWxQcmluY2lwYWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImVtYWlsU2VjdW5kYXJpbyI6bnVsbCwiZGRkQ29udGF0byI6bnVsbCwiZm9uZUNvbnRhdG8iOm51bGwsImRkZFJlc2lkZW5jaWFsIjpudWxsLCJmb25lUmVzaWRlbmNpYWwiOm51bGwsImRkZENvbWVyY2lhbCI6bnVsbCwiZm9uZUNvbWVyY2lhbCI6bnVsbCwiZGRkQ2VsdWxhciI6bnVsbCwiZm9uZUNlbHVsYXIiOm51bGwsImNwZkNucGoiOm51bGwsImNucGpGaWxpYWwiOm51bGwsImNwZkNucGpEaWdpdG8iOm51bGwsIm5ld3NsbGV0ZXIiOm51bGwsImN1cG9tUHJvbW9jaW9uYWwiOm51bGwsImRhdGFJbmNsdXNhbyI6MTQ3MzcxNjkwNDAwMCwiZGF0YUFsdGVyYWNhbyI6MTQ3MzcxNjkwMzAwMCwidXN1YXJpbyI6eyJwZWRpZG9jb21wcmFDb2xsZWN0aW9uIjpudWxsLCJwZXNzb2FDb2xsZWN0aW9uIjpudWxsLCJpZFVzdWFyaW8iOm51bGwsInNlbmhhIjpudWxsLCJwZXJmaWxDb2xsZWN0aW9uIjpudWxsLCJ0cmFjZSI6bnVsbH0sImVuZGVyZWNvQ29sbGVjdGlvbiI6bnVsbCwicGVzc29hZmFpeGFjZXBDb2xsZWN0aW9uIjpudWxsfV0sImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwic2VuaGEiOm51bGwsInBlcmZpbENvbGxlY3Rpb24iOlt7ImlkUGVyZmlsIjoyLCJwZXJmaWwiOiJSZXByZXNlbnRhbnRlIiwidXN1YXJpb0NvbGxlY3Rpb24iOm51bGx9LHsiaWRQZXJmaWwiOjMsInBlcmZpbCI6IkNsaWVudGUiLCJ1c3VhcmlvQ29sbGVjdGlvbiI6bnVsbH1dLCJ0cmFjZSI6eyJzaXR1YWNhbyI6bnVsbCwiZGF0YUluY2x1c2FvIjpudWxsLCJkYXRhQWx0ZXJhY2FvIjpudWxsfX0sImFjY2Vzc1Rva2VuIjp7InJhd1Jlc3BvbnNlIjoie1xuIFwiYWNjZXNzX3Rva2VuXCI6IFwieWEyOS5DaTl2QTZWTjJ0QVZUWk5sSmtfSHk1UnJlTmpTVFZoOXlJOUZXWkF5c0JWZm02ZXpqX041cTA1SzdNQm9jd2xURUFcIixcbiBcInRva2VuX3R5cGVcIjogXCJCZWFyZXJcIixcbiBcImV4cGlyZXNfaW5cIjogMzYwMCxcbiBcImlkX3Rva2VuXCI6IFwiZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqTmlOamMxWXpNek9ETTJZek15WlRBeFlUQm1OamN5TVdSbFltVTBPRGxtTnpsall6TTRZemdpZlEuZXlKcGMzTWlPaUpvZEhSd2N6b3ZMMkZqWTI5MWJuUnpMbWR2YjJkc1pTNWpiMjBpTENKaGRGOW9ZWE5vSWpvaWFucHVkM042WldoVlNFbHJOVmxqWms5eFZsbGtRU0lzSW1GMVpDSTZJakkzT0RjeU9UUTNNek0zTFhJNU1ETmxaak5tYldodmJqa3hhVzkxZG5OMmJXeDJNbVE1TkdFMVpHeGhMbUZ3Y0hNdVoyOXZaMnhsZFhObGNtTnZiblJsYm5RdVkyOXRJaXdpYzNWaUlqb2lNVEEwTlRFNE1EWTJOVGN4TmpRMU1Ua3dOVEEwSWl3aVpXMWhhV3hmZG1WeWFXWnBaV1FpT25SeWRXVXNJbUY2Y0NJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2laVzFoYVd3aU9pSmpiR0YxWkdWdWFYSXVjbTlrY21sbmRXVnpMbTlzYVhabGFYSmhRR2R0WVdsc0xtTnZiU0lzSW1saGRDSTZNVFEzTlRNek1USTBOU3dpWlhod0lqb3hORGMxTXpNME9EUTFmUS5ScDM3UWt2R3AzcmFKNlhadXRwckFSV2J1OElfRm9DZ2hSMjNVYnltenM1bUJzeEFnRW9GWW9aRDRYTzNRdHAtTGRrcmhwSWFkZnRlSE5ZcVRWZHV2Rm82bXE0SmpjZmtzc0ZFMkxDRjk2eDhEcXRRN0gyTlpMSzJqd3p5aExlcE1HbkZaMmVNTmd0RnVsLWU2d2JycVQzU2gtcjNrQlRPVWliajZmWXl3d19GVXoyUnk0cl96cGd5VFJhcDgxUGRHeDE3T2hvTGZjYndzMDQ1TTdFRUNtYnE5NkJob2c3aW1KblhhYl84SXVnOF9KWmQ1ODMtUDgzUkhDbEFZSFdDSktWcTVNMkpXNTVwWlVWb09WUjVBT1Etd0NyWXpWSldhRWFOZ1ZUMnNxN2RSbjhKankwbXd0MElvem93Z2ZndW14X1RrRWNUcVQ4UVd1ZnpRY0tCc3dcIlxufVxuIiwiYWNjZXNzVG9rZW4iOiJ5YTI5LkNpOXZBNlZOMnRBVlRaTmxKa19IeTVScmVOalNUVmg5eUk5RldaQXlzQlZmbTZlempfTjVxMDVLN01Cb2N3bFRFQSIsInRva2VuVHlwZSI6IkJlYXJlciIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjpudWxsLCJzY29wZSI6bnVsbCwib3BlbklkVG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWpOaU5qYzFZek16T0RNMll6TXlaVEF4WVRCbU5qY3lNV1JsWW1VME9EbG1OemxqWXpNNFl6Z2lmUS5leUpwYzNNaU9pSm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMGlMQ0poZEY5b1lYTm9Jam9pYW5wdWQzTjZaV2hWU0Vsck5WbGpaazl4Vmxsa1FTSXNJbUYxWkNJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2ljM1ZpSWpvaU1UQTBOVEU0TURZMk5UY3hOalExTVRrd05UQTBJaXdpWlcxaGFXeGZkbVZ5YVdacFpXUWlPblJ5ZFdVc0ltRjZjQ0k2SWpJM09EY3lPVFEzTXpNM0xYSTVNRE5sWmpObWJXaHZiamt4YVc5MWRuTjJiV3gyTW1RNU5HRTFaR3hoTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0SWl3aVpXMWhhV3dpT2lKamJHRjFaR1Z1YVhJdWNtOWtjbWxuZFdWekxtOXNhWFpsYVhKaFFHZHRZV2xzTG1OdmJTSXNJbWxoZENJNk1UUTNOVE16TVRJME5Td2laWGh3SWpveE5EYzFNek0wT0RRMWZRLlJwMzdRa3ZHcDNyYUo2WFp1dHByQVJXYnU4SV9Gb0NnaFIyM1VieW16czVtQnN4QWdFb0ZZb1pENFhPM1F0cC1MZGtyaHBJYWRmdGVITllxVFZkdXZGbzZtcTRKamNma3NzRkUyTENGOTZ4OERxdFE3SDJOWkxLMmp3enloTGVwTUduRloyZU1OZ3RGdWwtZTZ3YnJxVDNTaC1yM2tCVE9VaWJqNmZZeXd3X0ZVejJSeTRyX3pwZ3lUUmFwODFQZEd4MTdPaG9MZmNid3MwNDVNN0VFQ21icTk2QmhvZzdpbUpuWGFiXzhJdWc4X0paZDU4My1QODNSSENsQVlIV0NKS1ZxNU0ySlc1NXBaVVZvT1ZSNUFPUS13Q3JZelZKV2FFYU5nVlQyc3E3ZFJuOEpqeTBtd3QwSW96b3dnZmd1bXhfVGtFY1RxVDhRV3VmelFjS0JzdyJ9LCJleHAiOjE0NzUzMzQ4NDYsImlwIjoiMTg5Ljc4Ljk0LjciLCJpZFVzdWFyaW8iOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSJ9.95H6OCNQtLu2_zHCISsWN0M-EsqbGNNkcMuuJrxXiig
+2016-10-01 11:14:06,993 INFO  [stdout] (default task-38) Vitrine INFO: Filtrando o request path: /security/initialize
+2016-10-01 11:14:07,001 INFO  [stdout] (default task-38) Vitrine WARNING: Token invalido. authToken: null - ip: 189.78.94.7
+2016-10-01 11:15:07,899 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2016-10-01 11:15:08,405 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-10-01 11:15:08,521 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2016-10-01 11:15:08,524 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\workspace\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\Familia\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_77\jre\bin;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform_tools;C:\Program Files\nodejs\;C:\Users\Familia\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\workspace\wildfly-9.0.2.Final
+	jboss.host.name = familiactaglh
+	jboss.modules.dir = C:\workspace\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = familiactaglh
+	jboss.qualified.host.name = familiactaglh
+	jboss.server.base.dir = C:\workspace\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\workspace\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\workspace\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\workspace\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = familiactaglh
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\workspace\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties
+	module.path = C:/workspace/wildfly-9.0.2.Final/modules
+	org.jboss.boot.log.file = C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/workspace/wildfly-9.0.2.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\workspace\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\workspace\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\Familia
+	user.language = pt
+	user.name = Familia
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-10-01 11:15:08,525 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56666 -Dprogram.name=JBossTools: WildFly  9.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/workspace/wildfly-9.0.2.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/workspace/wildfly-9.0.2.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/workspace/wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2016-10-01 11:15:11,277 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-10-01 11:15:11,280 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-10-01 11:15:11,284 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=VitrineDSTeste' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016-10-01 11:15:12,180 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineStore.war in deployment directory. To trigger deployment create a file called vitrineStore.war.dodeploy
+2016-10-01 11:15:12,181 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineCompany.war in deployment directory. To trigger deployment create a file called vitrineCompany.war.dodeploy
+2016-10-01 11:15:12,181 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineDashboard.war in deployment directory. To trigger deployment create a file called vitrineDashboard.war.dodeploy
+2016-10-01 11:15:12,182 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found vitrineService.war in deployment directory. To trigger deployment create a file called vitrineService.war.dodeploy
+2016-10-01 11:15:12,250 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-10-01 11:15:12,295 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.3.1.Final
+2016-10-01 11:15:12,324 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.3.1.Final
+2016-10-01 11:15:12,526 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-10-01 11:15:12,595 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-10-01 11:15:12,628 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-10-01 11:15:12,641 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-10-01 11:15:12,652 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-10-01 11:15:12,663 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-10-01 11:15:12,705 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2016-10-01 11:15:12,741 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-10-01 11:15:12,746 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-10-01 11:15:12,741 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2016-10-01 11:15:12,779 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2016-10-01 11:15:13,085 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\workspace\wildfly-9.0.2.Final/welcome-content
+2016-10-01 11:15:13,316 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-10-01 11:15:13,338 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-10-01 11:15:13,339 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-10-01 11:15:13,345 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2016-10-01 11:15:13,476 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2016-10-01 11:15:13,502 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-10-01 11:15:14,116 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.9.Final
+2016-10-01 11:15:14,121 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2016-10-01 11:15:14,151 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2016-10-01 11:15:14,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-10-01 11:15:14,567 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "vitrineStore.war" (runtime-name: "vitrineStore.war")
+2016-10-01 11:15:14,571 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "vitrineService.war" (runtime-name: "vitrineService.war")
+2016-10-01 11:15:14,568 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\workspace\wildfly-9.0.2.Final\standalone\deployments
+2016-10-01 11:15:14,576 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "vitrineDashboard.war" (runtime-name: "vitrineDashboard.war")
+2016-10-01 11:15:14,579 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "vitrineCompany.war" (runtime-name: "vitrineCompany.war")
+2016-10-01 11:15:15,671 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/VitrineDSTeste]
+2016-10-01 11:15:15,713 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/VitrineDS]
+2016-10-01 11:15:16,351 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2016-10-01 11:15:17,163 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:17,347 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment vitrineService.war
+2016-10-01 11:15:17,664 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2016-10-01 11:15:18,299 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:18 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:18,402 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named NumeracaoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:app/vitrineService/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:module/NumeracaoService!com.vitrine.entities.service.NumeracaoService
+	java:global/vitrineService/NumeracaoService
+	java:app/vitrineService/NumeracaoService
+	java:module/NumeracaoService
+
+2016-10-01 11:15:18,405 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PedidoCompraService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:app/vitrineService/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:module/PedidoCompraService!com.vitrine.entities.service.PedidoCompraService
+	java:global/vitrineService/PedidoCompraService
+	java:app/vitrineService/PedidoCompraService
+	java:module/PedidoCompraService
+
+2016-10-01 11:15:18,406 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named TipoProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:app/vitrineService/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:module/TipoProdutoService!com.vitrine.entities.service.TipoProdutoService
+	java:global/vitrineService/TipoProdutoService
+	java:app/vitrineService/TipoProdutoService
+	java:module/TipoProdutoService
+
+2016-10-01 11:15:18,408 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named AcabamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:app/vitrineService/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:module/AcabamentoService!com.vitrine.entities.service.AcabamentoService
+	java:global/vitrineService/AcabamentoService
+	java:app/vitrineService/AcabamentoService
+	java:module/AcabamentoService
+
+2016-10-01 11:15:18,409 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named FaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:app/vitrineService/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:module/FaixaCEPService!com.vitrine.entities.service.FaixaCEPService
+	java:global/vitrineService/FaixaCEPService
+	java:app/vitrineService/FaixaCEPService
+	java:module/FaixaCEPService
+
+2016-10-01 11:15:18,410 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PerfilService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:app/vitrineService/PerfilService!com.vitrine.entities.service.PerfilService
+	java:module/PerfilService!com.vitrine.entities.service.PerfilService
+	java:global/vitrineService/PerfilService
+	java:app/vitrineService/PerfilService
+	java:module/PerfilService
+
+2016-10-01 11:15:18,410 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named DetalheService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:app/vitrineService/DetalheService!com.vitrine.entities.service.DetalheService
+	java:module/DetalheService!com.vitrine.entities.service.DetalheService
+	java:global/vitrineService/DetalheService
+	java:app/vitrineService/DetalheService
+	java:module/DetalheService
+
+2016-10-01 11:15:18,411 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named CorService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:app/vitrineService/CorService!com.vitrine.entities.service.CorService
+	java:module/CorService!com.vitrine.entities.service.CorService
+	java:global/vitrineService/CorService
+	java:app/vitrineService/CorService
+	java:module/CorService
+
+2016-10-01 11:15:18,411 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PessoaFaixaCEPService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService!com.vitrine.entities.service.PessoaFaixaCEPService
+	java:global/vitrineService/PessoaFaixaCEPService
+	java:app/vitrineService/PessoaFaixaCEPService
+	java:module/PessoaFaixaCEPService
+
+2016-10-01 11:15:18,413 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named EnderecoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:app/vitrineService/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:module/EnderecoService!com.vitrine.entities.service.EnderecoService
+	java:global/vitrineService/EnderecoService
+	java:app/vitrineService/EnderecoService
+	java:module/EnderecoService
+
+2016-10-01 11:15:18,414 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named TamanhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:app/vitrineService/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:module/TamanhoService!com.vitrine.entities.service.TamanhoService
+	java:global/vitrineService/TamanhoService
+	java:app/vitrineService/TamanhoService
+	java:module/TamanhoService
+
+2016-10-01 11:15:18,415 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named FreteService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:app/vitrineService/FreteService!com.vitrine.entities.service.FreteService
+	java:module/FreteService!com.vitrine.entities.service.FreteService
+	java:global/vitrineService/FreteService
+	java:app/vitrineService/FreteService
+	java:module/FreteService
+
+2016-10-01 11:15:18,416 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PessoaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:app/vitrineService/PessoaService!com.vitrine.entities.service.PessoaService
+	java:module/PessoaService!com.vitrine.entities.service.PessoaService
+	java:global/vitrineService/PessoaService
+	java:app/vitrineService/PessoaService
+	java:module/PessoaService
+
+2016-10-01 11:15:18,417 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named CarrinhoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:app/vitrineService/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:module/CarrinhoService!com.vitrine.entities.service.CarrinhoService
+	java:global/vitrineService/CarrinhoService
+	java:app/vitrineService/CarrinhoService
+	java:module/CarrinhoService
+
+2016-10-01 11:15:18,418 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named CategoriaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:app/vitrineService/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:module/CategoriaService!com.vitrine.entities.service.CategoriaService
+	java:global/vitrineService/CategoriaService
+	java:app/vitrineService/CategoriaService
+	java:module/CategoriaService
+
+2016-10-01 11:15:18,418 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PercentualVendaService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:app/vitrineService/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:module/PercentualVendaService!com.vitrine.entities.service.PercentualVendaService
+	java:global/vitrineService/PercentualVendaService
+	java:app/vitrineService/PercentualVendaService
+	java:module/PercentualVendaService
+
+2016-10-01 11:15:18,430 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named PagamentoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:app/vitrineService/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:module/PagamentoService!com.vitrine.entities.service.PagamentoService
+	java:global/vitrineService/PagamentoService
+	java:app/vitrineService/PagamentoService
+	java:module/PagamentoService
+
+2016-10-01 11:15:18,430 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named ProdutoService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:app/vitrineService/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:module/ProdutoService!com.vitrine.entities.service.ProdutoService
+	java:global/vitrineService/ProdutoService
+	java:app/vitrineService/ProdutoService
+	java:module/ProdutoService
+
+2016-10-01 11:15:18,431 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named TestResource in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:app/vitrineService/TestResource!com.vitrine.test.TestResourceProxy
+	java:module/TestResource!com.vitrine.test.TestResourceProxy
+	java:global/vitrineService/TestResource
+	java:app/vitrineService/TestResource
+	java:module/TestResource
+
+2016-10-01 11:15:18,432 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named EstoqueService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:app/vitrineService/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:module/EstoqueService!com.vitrine.entities.service.EstoqueService
+	java:global/vitrineService/EstoqueService
+	java:app/vitrineService/EstoqueService
+	java:module/EstoqueService
+
+2016-10-01 11:15:18,433 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named LoginService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:app/vitrineService/LoginService!com.vitrine.entities.service.security.LoginService
+	java:module/LoginService!com.vitrine.entities.service.security.LoginService
+	java:global/vitrineService/LoginService
+	java:app/vitrineService/LoginService
+	java:module/LoginService
+
+2016-10-01 11:15:18,433 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named UsuarioService in deployment unit deployment "vitrineService.war" are as follows:
+
+	java:global/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:app/vitrineService/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:module/UsuarioService!com.vitrine.entities.service.UsuarioService
+	java:global/vitrineService/UsuarioService
+	java:app/vitrineService/UsuarioService
+	java:module/UsuarioService
+
+2016-10-01 11:15:18,550 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:18 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:18,710 INFO  [org.jboss.as.protocol] (XNIO-1 I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 4,5,management-handler-thread]
+2016-10-01 11:15:18,827 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /vitrineStore
+2016-10-01 11:15:18,829 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /vitrineCompany
+2016-10-01 11:15:18,860 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:18 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:18,958 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /vitrineDashboard
+2016-10-01 11:15:19,077 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:19 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:19,299 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-10-01 11:15:19,302 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2016-10-01 11:15:19,303 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0006: Starting Services for CDI deployment: vitrineService.war
+2016-10-01 11:15:19,394 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:19 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:19,423 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.2.16 (SP1)
+2016-10-01 11:15:19,463 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.jdbc.Driver_5_1
+2016-10-01 11:15:19,464 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = vitrineService.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2016-10-01 11:15:19,481 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment vitrineService.war
+2016-10-01 11:15:19,576 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:19 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:19,710 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:19 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:19,861 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:19 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:20,066 INFO  [org.jboss.as.protocol] (XNIO-1 I/O-2) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+2016-10-01 11:15:20,180 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 11:15:20 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 11:15:21,582 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 70) Inicializando Mojarra 2.2.12-jbossorg-2 20150729-1131 para o contexto '/vitrineService'
+2016-10-01 11:15:23,794 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Deploying javax.ws.rs.core.Application: class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,796 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.FaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,796 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.DetalheService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,800 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.CorService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,800 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.FreteService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,801 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PercentualVendaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,801 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.security.LoginService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,801 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.EnderecoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,802 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.TipoProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,802 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PessoaFaixaCEPService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,802 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding provider class com.vitrine.utils.ResponseFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,803 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.ProdutoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,803 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding provider class com.vitrine.utils.RequestFilter from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,803 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.AcabamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,803 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.CarrinhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,804 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PedidoCompraService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,805 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.CategoriaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,805 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.EstoqueService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,805 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PerfilService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,806 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PessoaService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,806 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.TamanhoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,806 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.NumeracaoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,806 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.PagamentoService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:23,807 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 70) Adding class resource com.vitrine.entities.service.UsuarioService from Application class com.vitrine.entities.service.ApplicationConfig
+2016-10-01 11:15:24,133 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /vitrineService
+2016-10-01 11:15:24,356 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineStore.war" (runtime-name : "vitrineStore.war")
+2016-10-01 11:15:24,357 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineService.war" (runtime-name : "vitrineService.war")
+2016-10-01 11:15:24,358 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineDashboard.war" (runtime-name : "vitrineDashboard.war")
+2016-10-01 11:15:24,358 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "vitrineCompany.war" (runtime-name : "vitrineCompany.war")
+2016-10-01 11:15:24,865 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-10-01 11:15:24,865 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-10-01 11:15:24,865 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 17603ms - Started 876 of 1066 services (254 services are lazy, passive or on-demand)
+2016-10-01 11:15:36,819 INFO  [stdout] (default task-3) Vitrine INFO: Filtrando o request path: /security/authorization
+2016-10-01 11:15:42,581 INFO  [stdout] (default task-5) Vitrine INFO: Filtrando o request path: /security/authentication
+2016-10-01 11:15:43,478 INFO  [stdout] (default task-5) accessToken: GoogleToken{access_token=ya29.Ci9vA8iujbSa1vfbglsvGip1gjryf3xF4YNv97Q9Vy_vBZzgDr-CWMYrhXKpLCo3kg, token_type=Bearer, expires_in=3600, refresh_token=1/NNrozr1H4oBRp6Qge9Bih1UH8JObwb9oi33fUlX3Rng, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiNHFWN05helYwSm1id0I1dlFlZ2lCdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTM0MiwiZXhwIjoxNDc1MzM0OTQyLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.rSmEH8dTxM-Wl3BeLb7j7Y7Gub2nnwlaW8H1GhEudwhv-ypjb6b4hZDnBCa_q72e6G-CF6JefObtUpgIt9_t27_Vu_2SiGuh1T8j5iHflEnXzGZYUmfoI764wABBLDQkQ--LGjguEqiRWynPyF1uks45gFa1qxwsqgwbIYw2CUOh8rwIIkuW0_vWBwkHuJvIYZEO8an56aMw3AVIxxvNvXYF3FFtx5xD9rI-z9dv9clL39jUJzJTW5aFP4WJUlUC54f1yQg67MB6hktFMVquLUGe9f5UYfoyT0Ca6GdGElfFrEwzCPzIpStaajv0PrNnDsYNd0Kr5VlWW2kuC6LC0w}, rawResponse:{
+2016-10-01 11:15:43,478 INFO  [stdout] (default task-5)  "access_token": "ya29.Ci9vA8iujbSa1vfbglsvGip1gjryf3xF4YNv97Q9Vy_vBZzgDr-CWMYrhXKpLCo3kg",
+2016-10-01 11:15:43,479 INFO  [stdout] (default task-5)  "token_type": "Bearer",
+2016-10-01 11:15:43,479 INFO  [stdout] (default task-5)  "expires_in": 3600,
+2016-10-01 11:15:43,479 INFO  [stdout] (default task-5)  "refresh_token": "1/NNrozr1H4oBRp6Qge9Bih1UH8JObwb9oi33fUlX3Rng",
+2016-10-01 11:15:43,479 INFO  [stdout] (default task-5)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiNHFWN05helYwSm1id0I1dlFlZ2lCdyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTM0MiwiZXhwIjoxNDc1MzM0OTQyLCJuYW1lIjoiQ2xhdWRlbmlyIFJvZHJpZ3VlcyIsInBpY3R1cmUiOiJodHRwczovL2xoNC5nb29nbGV1c2VyY29udGVudC5jb20vLU1VSkFjZjZDQkRjL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FQYVhIaFFxQUJ5VHhXYks0SjFoZ0FVcUIybHVlUnRubGcvczk2LWMvcGhvdG8uanBnIiwiZ2l2ZW5fbmFtZSI6IkNsYXVkZW5pciIsImZhbWlseV9uYW1lIjoiUm9kcmlndWVzIiwibG9jYWxlIjoicHQifQ.rSmEH8dTxM-Wl3BeLb7j7Y7Gub2nnwlaW8H1GhEudwhv-ypjb6b4hZDnBCa_q72e6G-CF6JefObtUpgIt9_t27_Vu_2SiGuh1T8j5iHflEnXzGZYUmfoI764wABBLDQkQ--LGjguEqiRWynPyF1uks45gFa1qxwsqgwbIYw2CUOh8rwIIkuW0_vWBwkHuJvIYZEO8an56aMw3AVIxxvNvXYF3FFtx5xD9rI-z9dv9clL39jUJzJTW5aFP4WJUlUC54f1yQg67MB6hktFMVquLUGe9f5UYfoyT0Ca6GdGElfFrEwzCPzIpStaajv0PrNnDsYNd0Kr5VlWW2kuC6LC0w"
+2016-10-01 11:15:43,481 INFO  [stdout] (default task-5) }
+2016-10-01 11:15:43,481 INFO  [stdout] (default task-5) 
+2016-10-01 11:15:43,656 INFO  [stdout] (default task-5) accessToken: GoogleToken{access_token=ya29.Ci9vA_2G80gmY2ct76JYs8-DPiYzSC9v8OwOw4cc23flM_DWAKbPQ-YnNuW_lsKClQ, token_type=Bearer, expires_in=3600, refresh_token=null, scope=null, open_id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiNG54VDQ3cUVQT1lYWWpCZkI3M1hadyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTM0MywiZXhwIjoxNDc1MzM0OTQzfQ.MTk62Nv-tIbk897OfRhwxGDV73N-dHQBfQe9k5Gvkza3TgdhbT3y7itTlnSovHUZsyDezRIgRz2vt9npE1HMJHcxS5qd-CggDQ81Y6_lb_g724gPRtZpDSRxfQjdQ9yFMh4qfmoqbY64cyAPx6Y5lz6zr6mNrsyU1_ccyEWOs8BVugNmp09aRt-8c0ejF9K0BnALA3BW13vUS4rbT5guCJAAzhhGGZX4HcpBNcAzQV1Tf4zdv6GdQTmqoeabv3opWuuW7qgZJ_fHb67D_FIaFIhaqPDyTXV9b_F4UtPkJL7LN0MiaPOpVTEaij20zSV3xA91aPiKLrKtB2lxDoILnA}, rawResponse: {
+2016-10-01 11:15:43,656 INFO  [stdout] (default task-5)  "access_token": "ya29.Ci9vA_2G80gmY2ct76JYs8-DPiYzSC9v8OwOw4cc23flM_DWAKbPQ-YnNuW_lsKClQ",
+2016-10-01 11:15:43,657 INFO  [stdout] (default task-5)  "token_type": "Bearer",
+2016-10-01 11:15:43,657 INFO  [stdout] (default task-5)  "expires_in": 3600,
+2016-10-01 11:15:43,657 INFO  [stdout] (default task-5)  "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkNzc1ZGU2MDJlNzVmZDFmNzI0YWM2MDJhNjU0MGE1ZjdjYTgzM2IifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiNG54VDQ3cUVQT1lYWWpCZkI3M1hadyIsImF1ZCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTE4MDY2NTcxNjQ1MTkwNTA0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjI3ODcyOTQ3MzM3LXI5MDNlZjNmbWhvbjkxaW91dnN2bWx2MmQ5NGE1ZGxhLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImlhdCI6MTQ3NTMzMTM0MywiZXhwIjoxNDc1MzM0OTQzfQ.MTk62Nv-tIbk897OfRhwxGDV73N-dHQBfQe9k5Gvkza3TgdhbT3y7itTlnSovHUZsyDezRIgRz2vt9npE1HMJHcxS5qd-CggDQ81Y6_lb_g724gPRtZpDSRxfQjdQ9yFMh4qfmoqbY64cyAPx6Y5lz6zr6mNrsyU1_ccyEWOs8BVugNmp09aRt-8c0ejF9K0BnALA3BW13vUS4rbT5guCJAAzhhGGZX4HcpBNcAzQV1Tf4zdv6GdQTmqoeabv3opWuuW7qgZJ_fHb67D_FIaFIhaqPDyTXV9b_F4UtPkJL7LN0MiaPOpVTEaij20zSV3xA91aPiKLrKtB2lxDoILnA"
+2016-10-01 11:15:43,657 INFO  [stdout] (default task-5) }
+2016-10-01 11:15:43,657 INFO  [stdout] (default task-5) 
+2016-10-01 11:15:44,943 INFO  [stdout] (default task-5) Vitrine INFO: Enviando authToken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjp7InBlZGlkb2NvbXByYUNvbGxlY3Rpb24iOm51bGwsInBlc3NvYUNvbGxlY3Rpb24iOlt7ImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwiaWRQZXNzb2EiOjEsIm5vbWUiOiJDbGF1ZGVuaXIiLCJzb2JyZW5vbWUiOiJSb2RyaWd1ZXMiLCJub21lRXhpYmlkbyI6IkNsYXVkZW5pciBSb2RyaWd1ZXMiLCJjb21wbGVtZW50byI6bnVsbCwiZW1haWxQcmluY2lwYWwiOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSIsImVtYWlsU2VjdW5kYXJpbyI6bnVsbCwiZGRkQ29udGF0byI6bnVsbCwiZm9uZUNvbnRhdG8iOm51bGwsImRkZFJlc2lkZW5jaWFsIjpudWxsLCJmb25lUmVzaWRlbmNpYWwiOm51bGwsImRkZENvbWVyY2lhbCI6bnVsbCwiZm9uZUNvbWVyY2lhbCI6bnVsbCwiZGRkQ2VsdWxhciI6bnVsbCwiZm9uZUNlbHVsYXIiOm51bGwsImNwZkNucGoiOm51bGwsImNucGpGaWxpYWwiOm51bGwsImNwZkNucGpEaWdpdG8iOm51bGwsIm5ld3NsbGV0ZXIiOm51bGwsImN1cG9tUHJvbW9jaW9uYWwiOm51bGwsImRhdGFJbmNsdXNhbyI6MTQ3MzcxNjkwNDAwMCwiZGF0YUFsdGVyYWNhbyI6MTQ3MzcxNjkwMzAwMCwidXN1YXJpbyI6eyJwZWRpZG9jb21wcmFDb2xsZWN0aW9uIjpudWxsLCJwZXNzb2FDb2xsZWN0aW9uIjpudWxsLCJpZFVzdWFyaW8iOm51bGwsInNlbmhhIjpudWxsLCJwZXJmaWxDb2xsZWN0aW9uIjpudWxsLCJ0cmFjZSI6bnVsbH0sImVuZGVyZWNvQ29sbGVjdGlvbiI6bnVsbCwicGVzc29hZmFpeGFjZXBDb2xsZWN0aW9uIjpudWxsfV0sImlkVXN1YXJpbyI6ImNsYXVkZW5pci5yb2RyaWd1ZXMub2xpdmVpcmFAZ21haWwuY29tIiwic2VuaGEiOm51bGwsInBlcmZpbENvbGxlY3Rpb24iOlt7ImlkUGVyZmlsIjoyLCJwZXJmaWwiOiJSZXByZXNlbnRhbnRlIiwidXN1YXJpb0NvbGxlY3Rpb24iOm51bGx9LHsiaWRQZXJmaWwiOjMsInBlcmZpbCI6IkNsaWVudGUiLCJ1c3VhcmlvQ29sbGVjdGlvbiI6bnVsbH1dLCJ0cmFjZSI6eyJzaXR1YWNhbyI6bnVsbCwiZGF0YUluY2x1c2FvIjpudWxsLCJkYXRhQWx0ZXJhY2FvIjpudWxsfX0sImFjY2Vzc1Rva2VuIjp7InJhd1Jlc3BvbnNlIjoie1xuIFwiYWNjZXNzX3Rva2VuXCI6IFwieWEyOS5DaTl2QV8yRzgwZ21ZMmN0NzZKWXM4LURQaVl6U0M5djhPd093NGNjMjNmbE1fRFdBS2JQUS1Zbk51V19sc0tDbFFcIixcbiBcInRva2VuX3R5cGVcIjogXCJCZWFyZXJcIixcbiBcImV4cGlyZXNfaW5cIjogMzYwMCxcbiBcImlkX3Rva2VuXCI6IFwiZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklqbGtOemMxWkdVMk1ESmxOelZtWkRGbU56STBZV00yTURKaE5qVTBNR0UxWmpkallUZ3pNMklpZlEuZXlKcGMzTWlPaUpvZEhSd2N6b3ZMMkZqWTI5MWJuUnpMbWR2YjJkc1pTNWpiMjBpTENKaGRGOW9ZWE5vSWpvaU5HNTRWRFEzY1VWUVQxbFlXV3BDWmtJM00xaGFkeUlzSW1GMVpDSTZJakkzT0RjeU9UUTNNek0zTFhJNU1ETmxaak5tYldodmJqa3hhVzkxZG5OMmJXeDJNbVE1TkdFMVpHeGhMbUZ3Y0hNdVoyOXZaMnhsZFhObGNtTnZiblJsYm5RdVkyOXRJaXdpYzNWaUlqb2lNVEEwTlRFNE1EWTJOVGN4TmpRMU1Ua3dOVEEwSWl3aVpXMWhhV3hmZG1WeWFXWnBaV1FpT25SeWRXVXNJbUY2Y0NJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2laVzFoYVd3aU9pSmpiR0YxWkdWdWFYSXVjbTlrY21sbmRXVnpMbTlzYVhabGFYSmhRR2R0WVdsc0xtTnZiU0lzSW1saGRDSTZNVFEzTlRNek1UTTBNeXdpWlhod0lqb3hORGMxTXpNME9UUXpmUS5NVGs2Mk52LXRJYms4OTdPZlJod3hHRFY3M04tZEhRQmZRZTlrNUd2a3phM1RnZGhiVDN5N2l0VGxuU292SFVac3lEZXpSSWdSejJ2dDlucEUxSE1KSGN4UzVxZC1DZ2dEUTgxWTZfbGJfZzcyNGdQUnRacERTUnhmUWpkUTl5Rk1oNHFmbW9xYlk2NGN5QVB4Nlk1bHo2enI2bU5yc3lVMV9jY3lFV09zOEJWdWdObXAwOWFSdC04YzBlakY5SzBCbkFMQTNCVzEzdlVTNHJiVDVndUNKQUF6aGhHR1pYNEhjcEJOY0F6UVYxVGY0emR2NkdkUVRtcW9lYWJ2M29wV3V1VzdxZ1pKX2ZIYjY3RF9GSWFGSWhhcVBEeVRYVjliX0Y0VXRQa0pMN0xOME1pYVBPcFZURWFpajIwelNWM3hBOTFhUGlLTHJLdEIybHhEb0lMbkFcIlxufVxuIiwiYWNjZXNzVG9rZW4iOiJ5YTI5LkNpOXZBXzJHODBnbVkyY3Q3NkpZczgtRFBpWXpTQzl2OE93T3c0Y2MyM2ZsTV9EV0FLYlBRLVluTnVXX2xzS0NsUSIsInRva2VuVHlwZSI6IkJlYXJlciIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjpudWxsLCJzY29wZSI6bnVsbCwib3BlbklkVG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWpsa056YzFaR1UyTURKbE56Vm1aREZtTnpJMFlXTTJNREpoTmpVME1HRTFaamRqWVRnek0ySWlmUS5leUpwYzNNaU9pSm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMGlMQ0poZEY5b1lYTm9Jam9pTkc1NFZEUTNjVVZRVDFsWVdXcENaa0kzTTFoYWR5SXNJbUYxWkNJNklqSTNPRGN5T1RRM016TTNMWEk1TURObFpqTm1iV2h2YmpreGFXOTFkbk4yYld4Mk1tUTVOR0UxWkd4aExtRndjSE11WjI5dloyeGxkWE5sY21OdmJuUmxiblF1WTI5dElpd2ljM1ZpSWpvaU1UQTBOVEU0TURZMk5UY3hOalExTVRrd05UQTBJaXdpWlcxaGFXeGZkbVZ5YVdacFpXUWlPblJ5ZFdVc0ltRjZjQ0k2SWpJM09EY3lPVFEzTXpNM0xYSTVNRE5sWmpObWJXaHZiamt4YVc5MWRuTjJiV3gyTW1RNU5HRTFaR3hoTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0SWl3aVpXMWhhV3dpT2lKamJHRjFaR1Z1YVhJdWNtOWtjbWxuZFdWekxtOXNhWFpsYVhKaFFHZHRZV2xzTG1OdmJTSXNJbWxoZENJNk1UUTNOVE16TVRNME15d2laWGh3SWpveE5EYzFNek0wT1RRemZRLk1UazYyTnYtdEliazg5N09mUmh3eEdEVjczTi1kSFFCZlFlOWs1R3ZremEzVGdkaGJUM3k3aXRUbG5Tb3ZIVVpzeURlelJJZ1J6MnZ0OW5wRTFITUpIY3hTNXFkLUNnZ0RRODFZNl9sYl9nNzI0Z1BSdFpwRFNSeGZRamRROXlGTWg0cWZtb3FiWTY0Y3lBUHg2WTVsejZ6cjZtTnJzeVUxX2NjeUVXT3M4QlZ1Z05tcDA5YVJ0LThjMGVqRjlLMEJuQUxBM0JXMTN2VVM0cmJUNWd1Q0pBQXpoaEdHWlg0SGNwQk5jQXpRVjFUZjR6ZHY2R2RRVG1xb2VhYnYzb3BXdXVXN3FnWkpfZkhiNjdEX0ZJYUZJaGFxUER5VFhWOWJfRjRVdFBrSkw3TE4wTWlhUE9wVlRFYWlqMjB6U1YzeEE5MWFQaUtMckt0QjJseERvSUxuQSJ9LCJleHAiOjE0NzUzMzQ5NDQsImlwIjoiMTg5Ljc4Ljk0LjciLCJpZFVzdWFyaW8iOiJjbGF1ZGVuaXIucm9kcmlndWVzLm9saXZlaXJhQGdtYWlsLmNvbSJ9.JOs6w3LXnggcODpkGZeWRC9G3pFQ2i6DgVAbFvK_haE
+2016-10-01 11:15:45,310 INFO  [stdout] (default task-6) Vitrine INFO: Filtrando o request path: /security/initialize
+2016-10-01 11:15:49,999 INFO  [stdout] (default task-12) Vitrine INFO: Filtrando o request path: /security/initialize
+2016-10-01 12:00:16,429 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:16 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:16,575 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:16 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:16,813 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:16 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,078 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,270 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,405 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,530 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,674 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:17,873 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:17 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2016-10-01 12:00:18,014 ERROR [stderr] (JCA PoolFiller) Sat Oct 01 12:00:18 BRT 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.

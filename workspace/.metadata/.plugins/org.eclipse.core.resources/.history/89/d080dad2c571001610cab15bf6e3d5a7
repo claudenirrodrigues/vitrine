@@ -1,0 +1,151 @@
+package com.vitrine.entities.service.security;
+
+import com.github.scribejava.core.model.OAuth2AccessToken;
+import com.vitrine.entities.service.UsuarioService;
+import com.vitrine.entities.service.security.exception.GoogleOAuth20Exception;
+import com.vitrine.utils.HttpHeadersOAuth;
+import com.vitrine.utils.Logger;
+
+import java.security.GeneralSecurityException;
+
+import javax.ejb.Stateless;
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.json.JsonObjectBuilder;
+import javax.security.auth.login.LoginException;
+import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.CacheControl;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+/**
+ *
+ * @author Familia
+ */
+@Stateless
+@Path("security")
+public class LoginService extends UsuarioService{
+
+	public LoginService() {
+
+	}
+
+	@POST
+	@Path("authorization")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response authorization(@Context HttpHeaders httpHeaders) {
+
+		if(AuthorizerService.containsValidParameters(httpHeaders)){
+			
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			
+			jsonObjBuilder.add("authorization", 
+					AuthorizerService.getInstance()
+					.getAuthorizationUrl(httpHeaders));
+			
+			JsonObject jsonObj = jsonObjBuilder.build();
+	
+			return getNoCacheResponseBuilder(Response.Status.OK).entity(jsonObj.toString()).build();
+		
+		}else{
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			jsonObjBuilder.add("message", "Problema corresponde ao serviço de altorização.");
+			JsonObject jsonObj = jsonObjBuilder.build();
+			
+			return getNoCacheResponseBuilder(Response.Status.UNAUTHORIZED).entity(jsonObj.toString()).build();
+		}
+		
+	}
+
+	@POST
+	@Path("authentication")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response authentication(@Context HttpHeaders httpHeaders, @Context HttpServletRequest httpRequest) {
+
+		
+		
+		if(!AuthorizerService.isValidAuthorization(httpHeaders,httpRequest)){
+			
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			jsonObjBuilder.add("message", "Acesso negado pelo Servidor de Autorização.");
+			JsonObject jsonObj = jsonObjBuilder.build();
+
+			return getNoCacheResponseBuilder(Response.Status.UNAUTHORIZED).entity(jsonObj.toString()).build();
+		}
+		
+		//Seervidor de Autorização retornou com o state e code
+		//Capturar accessToken do Servidor de Autorização
+		OAuth2AccessToken accessToken;
+		JsonObject userData;
+		try {
+			accessToken = AuthorizerService.getInstance().getAccessToken(httpHeaders,httpRequest);
+			userData = AuthorizerService.getInstance().getUserData(httpHeaders, accessToken);
+		} catch (final GoogleOAuth20Exception e) {
+			
+			e.printStackTrace();
+			Logger.log("Erro ao capturar o accessToken do Servidor de Autorização: ", this.getClass().getSimpleName(),
+					e.getMessage(), Logger.ERROR);
+			
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			jsonObjBuilder.add("message", "Acesso negado pelo Servidor de Autorização.");
+			JsonObject jsonObj = jsonObjBuilder.build();
+			
+			return getNoCacheResponseBuilder(Response.Status.UNAUTHORIZED).entity(jsonObj.toString()).build();
+		}
+		
+		 
+		AuthenticatorService authenticator = AuthenticatorService.getInstance();
+		
+		//O Usuário deverá informar toda vez que logar a Chave de Serviço?
+		//Ou armazenar a chave no LocalStogare
+		String serviceKey = httpHeaders.getHeaderString(HttpHeadersOAuth.SERVICE_KEY);
+
+		try {
+			//String authToken = authenticator.login(serviceKey, username, password);
+			String authToken = authenticator.login(serviceKey, userData, accessToken,getEntityManager());
+			
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			jsonObjBuilder.add("auth_token", authToken);
+			JsonObject jsonObj = jsonObjBuilder.build();
+
+			return getNoCacheResponseBuilder(Response.Status.OK).entity(jsonObj.toString()).build();
+
+		} catch (final LoginException ex) {
+			JsonObjectBuilder jsonObjBuilder = Json.createObjectBuilder();
+			jsonObjBuilder.add("message", "Problema corresponde ao service key, username e password");
+			JsonObject jsonObj = jsonObjBuilder.build();
+
+			return getNoCacheResponseBuilder(Response.Status.UNAUTHORIZED).entity(jsonObj.toString()).build();
+		}
+	}
+
+	@POST
+	@Path("logout")
+	public Response logout(@Context HttpHeaders httpHeaders) {
+		try {
+			AuthenticatorService authenticator = AuthenticatorService.getInstance();
+			String serviceKey = httpHeaders.getHeaderString(HttpHeadersOAuth.SERVICE_KEY);
+			String authToken = httpHeaders.getHeaderString(HttpHeadersOAuth.AUTH_TOKEN);
+
+			authenticator.logout(serviceKey, authToken);
+
+			return getNoCacheResponseBuilder(Response.Status.NO_CONTENT).build();
+		} catch (final GeneralSecurityException ex) {
+			return getNoCacheResponseBuilder(Response.Status.INTERNAL_SERVER_ERROR).build();
+		}
+	}
+
+	private Response.ResponseBuilder getNoCacheResponseBuilder(Response.Status status) {
+		CacheControl cc = new CacheControl();
+		cc.setNoCache(true);
+		cc.setMaxAge(-1);
+		cc.setMustRevalidate(true);
+
+		return Response.status(status).cacheControl(cc);
+	}
+}

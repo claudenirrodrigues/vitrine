@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<title>Exemplos para maskMoney</title> 
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script> 
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.maskMoney.min.js"></script> 
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.maskedinput.min.js"/></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){
+    $("#currency").maskMoney();
+    $("#real").maskMoney({showSymbol:true,symbol:"R$", decimal:",", thousands:".", allowZero:true});
+    $("#precision").maskMoney({precision:3}) 
+});
+jQuery(function($){
+    $("#telefone").mask("99-9999-9999");
+    $("#cpf").mask("999.999.999-99");
+    $("#cnpj").mask("99.999.999/9999-99");
+    $("#cep").mask("99999-999");
+    $("#data").mask("99/99/9999");
+    $("#hora").mask("99:99");
+});
+</script> 
+</head> 
+  
+<body> 
+<p>Padrão:<input type="text" name="currency" id="currency" /></p> 
+<p>Valor: <input type="text" name="real" id="real" /></p> 
+<p>Precisão: <input type="text" name="precision" id="precision" /></p> 
+<label>Hora:</label> 
+<input name="hora" type="text" id="hora"> 
+ <label>CPF:</label> 
+<input name="cpf" type="text" id="cpf"> 
+ <label>CNPJ:</label> 
+<input name="cnpj" type="text" id="cnpj"> 
+<label>VALOR</label>
+<input name="valor" type="text" id="val"> 
+<br>
+</body> 
+</html> 

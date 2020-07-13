@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Vitrine - A Moda que vai até você!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  Bootstrap CDN 3.3.6 -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css" >
+<!-- Social Buttons CSS -->
+<link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css" >
+<!-- Custom Fonts - CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat"  type="text/css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato"  type="text/css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Parisienne'  type='text/css'>
+
+<link rel="shortcut icon" href="images/ico/favicon.png">
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar"
+	data-offset="60">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#myPage"> <img
+					class="img-responsive" src="images/home/logo.png"
+					alt="Vitrine Moda" width="170" height="80">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">SOBRE</a></li>
+					<li><a href="#services">SERVIÇOS</a></li>
+					<li><a href="#catalog">CATALOGO</a></li>
+					<li><a href="#pricing">COMPRAR</a></li>
+					<li><a href="#contact">CONTATO</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron text-center">
+		<h1>Vitrine</h1>
+		<p>A Moda que vai até você!</p>
+		<form class="form-inline">
+			<input type="email" class="form-control" size="50"
+				placeholder="Informe seu Email" required>
+			<button type="button" class="btn btn-danger">Registre-se</button>
+			<!-- IMPLEMENTAR O LOGIN COM O FCEBOOK  
+		<p>OU</p> 
+		<a class="btn btn-social btn-facebook" >
+			<i class="fa fa-facebook"></i> Entre com o Facebook
+		</a>
+		-->
+		</form>
+	</div>
+
+	<!-- Container (About Section) -->
+	<div id="about" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8">
+				<h2>Sobre a Vitrine Moda</h2>
+				<br>
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat.</h4>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+					do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+					enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat
+					cupidatat non proident, sunt in culpa qui officia deserunt mollit
+					anim id est laborum consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip ex ea commodo consequat.</p>
+				<br>
+				<a href="#contact" class="btn btn-cyan btn-lg">Conheça-nos Melhor</a>
+			</div>
+			<div class="col-sm-4">
+				<span class="fa fa-shopping-bag logo-magenta" aria-hidden="true"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-grey">
+		<div class="row">
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-globe logo-cyan slideanim"></span>
+			</div>
+			<div class="col-sm-8">
+				<h2>NOSSOS VALORES</h2>
+				<br>
+				<h4>
+					<strong>MISSÃO:</strong> Our mission lorem ipsum dolor sit amet,
+					consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+					nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</h4>
+				<br>
+				<p>
+					<strong>VISÃO:</strong> Our vision Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+					nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Container (Services Section) -->
+	<div id="services" class="container-fluid text-center">
+		<h2>SERVIÇOS</h2>
+		<h4>O que nós oferecemos</h4>
+		<br>
+		<div class="row slideanim">
+			<div class="col-sm-4">
+				<i class="fa fa-truck logo-small-magenta"></i>
+				<h4>ENTREGA PERSONALIZADA</h4>
+				<p>As entregas são realizadas por nossa própria equipe, possibilitanto o atendimento pessoal e eventuais trocas ou devoluções imediatas...</p>
+			</div>
+			<div class="col-sm-4">
+				<i class="fa fa-female logo-small-magenta"></i>
+  				<i class="fa fa fa-thumbs-up logo-small-cyan"></i>
+				<i class="fa fa-shopping-bag logo-small-magenta"></i>
+				<h4>ATENDIMENTO PESSOAL</h4>
+				<p>Realizamos atendimento Pessoal Agendado... 
+				<br><span class="font-parisienne-cyan bld fp-20x shdw">A&nbsp;</span>
+				<span class="font-parisienne-magenta bld fp-40x shdw">Vitrine</span>
+				<span class="font-parisienne-magenta bld fp-20x shdw">Moda&nbsp;</span>
+				<span class="font-parisienne-cyan bld fp-20x shdw">vai até você!</span><br> 
+				No local em que mais lhe agrada, no Condomínio, na Residência, na Empresa...</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="fa fa-tags logo-small-magenta"></span>
+				<h4>CUPONS E VALES</h4>
+				<p>Disponibilizamos convênios com diversas organizações, o que nos possibilita ofertarmos preços ainda mais atraentes...</p>
+			</div>
+		</div>
+		<!--  
+		<br>
+		<br>
+		<div class="row slideanim">
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-leaf logo-small-cyan"></span>
+				<h4>GREEN</h4>
+				<p>Lorem ipsum dolor sit amet..</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-certificate logo-small-magenta"></span>
+				<h4>CERTIFIED</h4>
+				<p>Lorem ipsum dolor sit amet..</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-wrench logo-small-cyan"></span>
+				<h4 style="color: #303030;">HARD WORK</h4>
+				<p>Lorem ipsum dolor sit amet..</p>
+			</div>
+		</div>
+		-->
+	</div>
+
+	<!-- Container (catalog Section) -->
+	<div id="catalog" class="container-fluid text-center bg-grey">
+		<h2>Catalogo</h2>
+		<br>
+		<h4 class="font-parisienne-magenta bld fp-40x shdw">O Melhor Calçado Para Combinar Contigo...</h4>
+		<div class="row text-center slideanim">
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="images/catalog/anabela-01.jpg" alt="Anabela" width="40px" height="30px">
+					<p>
+						<strong>Anabela</strong>
+					</p>
+					<p>Conforto e Estilo...</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img class="img-responsive" src="images/catalog/sandalia-01.jpg" alt="Sandália" width="40px" height="30px">
+					<p>
+						<strong>Sandália</strong>
+					</p>
+					<p>Você Nas Alturas</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img class="img-responsive" src="images/catalog/sandalia-anabela-01.jpg" alt="Sandália Anabela" width="10%" height="10%">
+					<p>
+						<strong>Sandália Anabela</strong>
+					</p>
+					<p>Não sei o que colocar aqui</p>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<h2>What our customers say</h2>
+		<div id="myCarousel" class="carousel slide text-center"
+			data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<h4>
+						"This company is the best. I am so happy with the result!"<br>
+						<span style="font-style: normal;">Michael Roe, Vice
+							President, Comment Box</span>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						"One word... WOW!!"<br>
+						<span style="font-style: normal;">John Doe, Salesman, Rep
+							Inc</span>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						"Could I... BE any more happy with this company?"<br>
+						<span style="font-style: normal;">Chandler Bing, Actor,
+							FriendsAlot</span>
+					</h4>
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button"
+				data-slide="prev"> <span
+				class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a> <a class="right carousel-control" href="#myCarousel" role="button"
+				data-slide="next"> <span
+				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- Container (Pricing Section) -->
+	<div id="pricing" class="container-fluid">
+		<div class="text-center">
+			<h2>Pricing</h2>
+			<h4>Choose a payment plan that works for you</h4>
+		</div>
+		<div class="row slideanim">
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Basic</h1>
+					</div>
+					<div class="panel-body">
+						<p>
+							<strong>20</strong> Lorem
+						</p>
+						<p>
+							<strong>15</strong> Ipsum
+						</p>
+						<p>
+							<strong>5</strong> Dolor
+						</p>
+						<p>
+							<strong>2</strong> Sit
+						</p>
+						<p>
+							<strong>Endless</strong> Amet
+						</p>
+					</div>
+					<div class="panel-footer">
+						<h3>$19</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Pro</h1>
+					</div>
+					<div class="panel-body">
+						<p>
+							<strong>50</strong> Lorem
+						</p>
+						<p>
+							<strong>25</strong> Ipsum
+						</p>
+						<p>
+							<strong>10</strong> Dolor
+						</p>
+						<p>
+							<strong>5</strong> Sit
+						</p>
+						<p>
+							<strong>Endless</strong> Amet
+						</p>
+					</div>
+					<div class="panel-footer">
+						<h3>$29</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Premium</h1>
+					</div>
+					<div class="panel-body">
+						<p>
+							<strong>100</strong> Lorem
+						</p>
+						<p>
+							<strong>50</strong> Ipsum
+						</p>
+						<p>
+							<strong>25</strong> Dolor
+						</p>
+						<p>
+							<strong>10</strong> Sit
+						</p>
+						<p>
+							<strong>Endless</strong> Amet
+						</p>
+					</div>
+					<div class="panel-footer">
+						<h3>$49</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Container (Contact Section) -->
+	<div id="contact" class="container-fluid bg-grey">
+		<h2 class="text-center">CONTATO</h2>
+		<div class="row">
+			<div class="col-sm-5">
+				<p>Contacte-nos e retornaremos para você dentro de 24 horas.</p>
+				<p>
+					<span class="glyphicon glyphicon-map-marker"></span> Rua Jaguaré,
+					186 - Jaguaré - São Paulo/SP
+				</p>
+				<p>
+					<i class="fa fa-whatsapp"></i> (11) 97492-9722
+				</p>
+				<p>
+					<span class="glyphicon glyphicon-envelope"></span>
+					contato@modavitrine.com.br
+				</p>
+				<p>
+					<a href="http://www.facebook.com/modavitrine.com.br/"><i
+						class="fa fa-facebook-official " aria-hidden="true"></i>
+						facebook/modavitrine.com.br</a>
+				</p>
+				<p>
+					<i class="fa fa-spinner fa-2x fa-pulse"></i>
+				</p>
+			</div>
+			<div class="col-sm-7 slideanim">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name"
+							placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email"
+							placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments"
+					placeholder="Comment" rows="5"></textarea>
+				<br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">
+							<i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i><span
+								class="sr-only">Enviar</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="googleMap" style="height: 400px; width: 100%;"></div>
+
+	<!-- Add Google Maps -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+var myCenter = new google.maps.LatLng(-23.552080, -46.745060);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+	<footer class="container-fluid text-center">
+		<a href="#myPage" title="To Top"> <span
+			class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left"><i class="fa fa-copyright" aria-hidden="true"></i> 2016 Vitrine Moda - Todos
+						os direitos reservados.</p>
+					<p class="pull-right">
+						Designed by <span><a target="_blank"
+							href="http://modavitrine.com.br/">Vitrine</a></span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Teste de Auntenticação REST</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="logMsgDiv"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            var $ = jQuery.noConflict();
+
+            // Desabilitar async
+            //$.ajaxSetup( { async: false } );
+
+            // Utilizar SERVICE_KEY 3b91cab8-926f-49b6-ba00-920bcf934c2a e username2
+
+            function teste1(){
+	            // Isto é o que acontece quando chamar as APIs REST sem uma chave de serviço e token de autorização
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/post-method/",
+	                type: "POST",
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p style='color: red;'>Teste 1: Se esta parte for executada, algo deve estar errado</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( )
+	                            + "<p style='color: red;'>Teste 1: Isto é o que acontece quando chamar as APIs Rest sem uma chave de serviço e token de autorização."
+	                            + "<br />HTTP Status: " + xhr.status + ", Acesso não autorizado ao post-method</p>";
+	
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                }
+	            } );
+            }
+
+            function teste2(){
+	            // Realizando o login com username2 e passwordForUser2
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                headers: {
+	                    "service_key": "3b91cab8-926f-49b6-ba00-920bcf934c2a"
+	                },
+	                dataType: "json",
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/login/",
+	                type: "POST",
+	                data: {
+	                    "username": "username2",
+	                    "password": "passwordForUser2"
+	                },
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    sessionStorage.auth_token = jsonObj.auth_token;
+	
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p>Teste 2: Executar início de sessão. auth-token: " + sessionStorage.auth_token + "</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    console.log( "HTTP Status: " + xhr.status );
+	                    console.log( "Error textStatus: " + textStatus );
+	                    console.log( "Error thrown: " + errorThrown );
+	                }
+	            } );
+            }
+
+            function teste3(){
+	            // Após o login , executar GetMethod com o auth-token obtido.
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                headers: {
+	                    "service_key": "3b91cab8-926f-49b6-ba00-920bcf934c2a",
+	                    "auth_token": sessionStorage.auth_token
+	                },
+	                dataType: "json",
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/get-method/",
+	                type: "GET",
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p>Teste 3: Após o login , executar GetMethod com o auth-token obtido. JSON Message: " + jsonObj.message + "</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    console.log( "HTTP Status: " + xhr.status );
+	                    console.log( "Error textStatus: " + textStatus );
+	                    console.log( "Error thrown: " + errorThrown );
+	                }
+	            } );
+            }
+
+            function teste4(){
+	            // Executar PostMethod com o auth token obtido
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                headers: {
+	                    "service_key": "3b91cab8-926f-49b6-ba00-920bcf934c2a",
+	                    "auth_token": sessionStorage.auth_token
+	                },
+	                dataType: "json",
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/post-method/",
+	                type: "POST",
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p>Teste 4: Executar PostMethod com o auth token obtido. JSON message: " + jsonObj.message + "</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    console.log( "HTTP Status: " + xhr.status );
+	                    console.log( "Error textStatus: " + textStatus );
+	                    console.log( "Error thrown: " + errorThrown );
+	                }
+	            } );
+            }
+
+            function teste5(){
+	            // Deslogando depois de efetuar os testes acima. Nenhum conteúdo esperado
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                headers: {
+	                    "service_key": "3b91cab8-926f-49b6-ba00-920bcf934c2a",
+	                    "auth_token": sessionStorage.auth_token
+	                },
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/logout/",
+	                type: "POST",
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p>Teste 5: Deslogando depois de efetuar os testes anteriores. Nenhum conteúdo esperado.</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    console.log( "HTTP Status: " + xhr.status );
+	                    console.log( "Error textStatus: " + textStatus );
+	                    console.log( "Error thrown: " + errorThrown );
+	                }
+	            } );
+            }
+
+            function teste6(){
+	            // Isto é o que acontece quando alguém reutiliza o token de autorização depois que um usuário foi desconectado
+	            $.ajax( {
+	                cache: false,
+	                crossDomain: true,
+	                headers: {
+	                    "service_key": "3b91cab8-926f-49b6-ba00-920bcf934c2a",
+	                    "auth_token": sessionStorage.auth_token
+	                },
+	                url: "http://localhost:8080/vitrineService/webresources/test-resource/get-method/",
+	                type: "GET",
+	                success: function( jsonObj, textStatus, xhr ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( ) + "<p style='color: red;'>Teste 6: Se esta parte for executada, algo deve estar errado</p>";
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                },
+	                error: function( xhr, textStatus, errorThrown ) {
+	                    var htmlContent = $( "#logMsgDiv" ).html( )
+	                            + "<p style='color: red;'>Teste 6: Isto é o que acontece quando alguém reutiliza o token de autorização depois que um usuário foi desconectado"
+	                            + "<br />HTTP Status: " + xhr.status + ", Acesso não autorizado ao get-method</p>";
+	
+	                    $( "#logMsgDiv" ).html( htmlContent );
+	                }
+	            } );
+            }
+        </script>
+    </body>
+    <input type="button" onclick="javascript:teste1();" value="Teste1"/>
+    <input type="button" onclick="javascript:teste2();" value="Teste2"/>
+    <input type="button" onclick="javascript:teste3();" value="Teste3"/>
+    <input type="button" onclick="javascript:teste4();" value="Teste4"/>
+    <input type="button" onclick="javascript:teste5();" value="Teste5"/>
+    <input type="button" onclick="javascript:teste6();" value="Teste6"/>
+</html>

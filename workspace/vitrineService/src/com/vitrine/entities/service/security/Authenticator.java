@@ -1,0 +1,255 @@
+package com.vitrine.entities.service.security;
+
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+import java.security.SignatureException;
+import java.util.ArrayList;
+import java.util.Base64;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.crypto.KeyGenerator;
+import javax.sql.DataSource;
+
+import com.auth0.jwt.JWTExpiredException;
+import com.auth0.jwt.JWTSigner;
+import com.auth0.jwt.JWTVerifier;
+import com.auth0.jwt.JWTVerifyException;
+import com.github.scribejava.apis.google.GoogleToken;
+import com.github.scribejava.core.model.OAuth2AccessToken;
+import com.vitrine.entities.Autorizacao;
+import com.vitrine.entities.Perfil;
+import com.vitrine.entities.Pessoa;
+import com.vitrine.entities.Usuario;
+import com.vitrine.entities.constants.EnumPerfil;
+import com.vitrine.entities.constants.EnumToken;
+import com.vitrine.entities.dao.EntityManager;
+import com.vitrine.entities.dao.EntityManager.EnumInstruction;
+import com.vitrine.entities.dao.jdbc.EntityManagerDAO;
+import com.vitrine.entities.service.UsuarioService;
+import com.vitrine.utils.FormatHelper;
+import com.vitrine.utils.Logger;
+
+/**
+ * 
+ * @author Familia
+ *
+ * Concentra somente médodos que necessitam acessar a 
+ * base de dados para autenticar o Usuario
+ */
+public final class Authenticator {
+
+	private static Authenticator authenticator = null;
+
+	public static final String URL_AUTHENTICATION_SUCCESS = "/vitrineDashboard/pages/index.html";
+	public static final String URL_LOGOUT = "/vitrineDashboard/pages/login.html";
+	public static final String URL_SOLICITACAO_ACESSO = "/vitrineDashboard/pages/solicitacaoAcesso.html";
+	public static final String URL_INPUT_SERVICE_KEY = "/vitrineDashboard/pages/chaveAcesso.html";
+
+	private static DataSource dataSource;
+
+	private Authenticator(DataSource dataSource) {
+		Authenticator.dataSource = dataSource;
+	}
+
+	public static Authenticator getInstance(DataSource dataSource) {
+		if (authenticator == null || Authenticator.dataSource == null) {
+			authenticator = new Authenticator(dataSource);
+		}
+
+		return authenticator;
+	}
+
+
+	/**
+	 * Não é necessário validar a senha do usuário, pois, o Servidor de
+	 * Autorização já se encarregou desta tarefa
+	 * 
+	 * Uma vez que todos os parâmetros são combinados, o authToken é gerado e
+	 * armazenado na base de dados, contendo o idUsuario
+	 * logado na sessão, o serviceKey e o tempo de expiração do token.
+	 * 
+	 * O authToken será necessário para cada chamada API REST e é válido apenas
+	 * dentro da sessão de login
+	 * 
+	 * @param accessToken
+	 * @param usuario
+	 * @param serviceKey
+	 * @return authToken
+	 */
+	public String login(OAuth2AccessToken accessToken, Usuario usuario,
+			String serviceKey) {
+
+		// TODO IMPORTANTE! avaliar como implementar a validação do serviceKey
+		return generateToken(accessToken, usuario, serviceKey);
+
+	}
+
+	private String generateToken(OAuth2AccessToken accessToken, Usuario usuario,
+			String serviceKey) {
+
+		JWTSigner signer = new JWTSigner(EnumToken.PARAMETERS.getSecretKey());
+
+		Map<String, Object> claims = new HashMap<String, Object>();
+		
+		claims.put("idUsuario", usuario.getIdUsuario());
+		claims.put("serviceKey", serviceKey);
+		claims.put("exp", FormatHelper.getAuthTokenLifetime());
+
+		String authToken = signer.sign(claims);
+
+		if(accessToken instanceof GoogleToken){
+			usuario.setRawResponse(((GoogleToken)accessToken).getRawResponse());
+			usuario.setAccessToken(((GoogleToken)accessToken).getAccessToken());
+			usuario.setTokenType(((GoogleToken)accessToken).getTokenType() != null?((GoogleToken)accessToken).getTokenType():null);
+			usuario.setExpiresIn(((GoogleToken)accessToken).getExpiresIn() != null?((GoogleToken)accessToken).getExpiresIn():null);
+			usuario.setRefreshToken(((GoogleToken)accessToken).getRefreshToken());
+			usuario.setScope(((GoogleToken)accessToken).getScope() != null?((GoogleToken)accessToken).getScope():null);
+			usuario.setOpenIdToken(((GoogleToken)accessToken).getOpenIdToken() != null?((GoogleToken)accessToken).getOpenIdToken():null);
+		}
+		
+		Autorizacao autorizacao = new Autorizacao(usuario.getIdUsuario(), authToken, serviceKey);
+		getGenericEntityManager().executeUpdate(usuario);
+		getGenericEntityManager().executeUpdate(autorizacao);
+		
+		
+		return authToken;
+	}
+
+	public void logout(String authToken){
+		Autorizacao autorizacao = new Autorizacao();
+		autorizacao.setAuthToken(authToken);
+		autorizacao = (Autorizacao) getGenericEntityManager().executeRetrieve(autorizacao);
+		
+		if(autorizacao != null && autorizacao.getIdUsuario() != null){
+			autorizacao.setAuthToken(null);
+			getGenericEntityManager().executeUpdate(autorizacao);
+		}
+		
+	}
+
+	public boolean isValidAuthentication(String authToken, String serviceKey, boolean ignoredExpiration) throws GeneralSecurityException {
+		
+		try {
+			Autorizacao autorizacao = verifyServiceKeyValid(serviceKey);
+			
+			if(autorizacao != null && 
+					autorizacao.getAuthToken() != null &&
+							autorizacao.getAuthToken().equals(authToken)){
+				
+				JWTVerifier verifier = new JWTVerifier(EnumToken.PARAMETERS.getSecretKey());
+				Map<String, Object> verificacao = (HashMap<String, Object>) verifier.verify(authToken);
+				
+				String serviceKeyToken = (String) verificacao.get("serviceKey");
+
+				if (serviceKeyToken == null || !serviceKeyToken.equals(serviceKey)) {
+					Logger.log("Suspect: isValidAuthentication(serviceKeyToken: " + serviceKeyToken + " - serviceKey: " + serviceKey, Logger.WARNING);
+					return false;
+				}
+				
+				String idUsuarioToken = (String) verificacao.get("idUsuario");
+				
+				if (idUsuarioToken == null || !idUsuarioToken.equals(autorizacao.getIdUsuario())) {
+					Logger.log("Suspect: isAuthTokenValid(usuarioToken: " + idUsuarioToken + " - autorizacao: " + autorizacao.getIdUsuario(), Logger.WARNING);
+					return false;
+				}
+				
+				return true;
+			}
+		} catch (InvalidKeyException | NoSuchAlgorithmException | IllegalStateException | SignatureException
+				| IOException | JWTVerifyException e) {
+
+			e.printStackTrace();
+
+			if (e instanceof JWTExpiredException) {
+				if(ignoredExpiration){
+					Logger.log("Ignorando expiração do Token" + authToken, Logger.WARNING);
+					return true;
+				}else{
+					throw new GeneralSecurityException("Token Expirado!", e.getCause());
+				}
+			}
+			if (e instanceof InvalidKeyException) {
+				throw new GeneralSecurityException("Chave do Token Inválida!", e.getCause());
+			}
+			if (e instanceof NoSuchAlgorithmException) {
+				throw new GeneralSecurityException("Algoritimo do Token não diponível!", e.getCause());
+			}
+			if (e instanceof IllegalStateException) {
+				throw new GeneralSecurityException("Método do Token executado em momento inapropiado!",
+						e.getCause());
+			}
+			if (e instanceof SignatureException) {
+				throw new GeneralSecurityException("Assinatura do Token Inválida!", e.getCause());
+			}
+			if (e instanceof IOException) {
+				throw new GeneralSecurityException("Problemas de IO na verificação do Token!", e.getCause());
+			}
+			if (e instanceof JWTVerifyException) {
+				throw new GeneralSecurityException("Problemas na Verificação do Token!", e.getCause());
+			}
+		}
+			
+		
+		return false;
+	}
+
+	public Autorizacao verifyServiceKeyValid(String serviceKey) throws GeneralSecurityException {
+		Autorizacao autorizacao = new Autorizacao();
+		autorizacao.setServiceKey(serviceKey);
+		autorizacao = (Autorizacao) getGenericEntityManager().executeRetrieve(autorizacao);
+		
+		if(autorizacao == null || autorizacao.getIdUsuario() == null){
+			throw new GeneralSecurityException("Erro - Chave de Serviço não encontrada.");
+		}
+		return autorizacao;
+	}
+
+	public Usuario getAuthenticatedUser(String authToken) {
+		Usuario usuario = new Usuario();
+		Autorizacao autorizacao = new Autorizacao();
+		autorizacao.setAuthToken(authToken);
+		autorizacao = (Autorizacao) getGenericEntityManager().executeRetrieve(autorizacao);
+		
+		if(autorizacao != null && autorizacao.getIdUsuario() !=null){
+			usuario.setIdUsuario(autorizacao.getIdUsuario());
+			usuario = (Usuario) getGenericEntityManager().executeRetrieve(usuario);
+		}
+		
+		return usuario;
+	}
+	
+	@SuppressWarnings("unchecked")
+	public boolean isUserAssigned(String authToken) {
+		Usuario usuario = getAuthenticatedUser(authToken);
+		if(usuario != null){
+			Collection<Perfil> perfil = new ArrayList<>();
+			perfil.addAll((Collection<? extends Perfil>) getGenericEntityManager()
+					.executeRetrieveRelation(usuario, new Perfil(),
+					EnumInstruction.RETRIEVE_PERFIS.getInstruction()));
+			
+			usuario.setPerfilCollection(perfil);
+		}
+		
+		return usuario.getPerfilCollection()
+				.contains(EnumPerfil.ADMINISTRADOR.getEntity()) ||
+				usuario.getPerfilCollection()
+				.contains(EnumPerfil.REPRESENTANTE.getEntity());
+	}
+	
+	private EntityManager<Object> getGenericEntityManager() {
+		EntityManager<Object> emDAO = new EntityManagerDAO<Object>(Authenticator.dataSource);
+		return emDAO;
+	}
+
+	public void createAuthorizer(Usuario usuario, String serviceKey) {
+		Autorizacao autorizacao = new Autorizacao(usuario.getIdUsuario(), null, serviceKey);
+		getGenericEntityManager().executeCreate(autorizacao);
+		
+	}
+
+}

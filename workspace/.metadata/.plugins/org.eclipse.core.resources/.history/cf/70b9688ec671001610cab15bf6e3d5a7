@@ -1,0 +1,170 @@
+package com.vitrine.entities.service.security;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.security.GeneralSecurityException;
+
+import javax.json.JsonObject;
+import javax.security.auth.login.LoginException;
+
+import com.github.scribejava.core.model.OAuth2AccessToken;
+import com.vitrine.entities.Usuario;
+import com.vitrine.entities.dao.EntityManager;
+
+public final class AuthenticatorService {
+
+	private static AuthenticatorService authenticator = null;
+
+	/** <username, password> */
+	private final Map<String, String> usersStorage = new HashMap<String, String>();
+	/** <service_key, username> */
+	private final Map<String, String> serviceKeysStorage = new HashMap<String, String>();
+	/** <service_key, auth_token> */
+	private final Map<String, Object> authorizationTokensStorage = new HashMap<String, Object>();
+
+	private AuthenticatorService() {
+		// The usersStorage pretty much represents a user table in the database
+		usersStorage.put("username1", "passwordForUser1");
+		usersStorage.put("username2", "passwordForUser2");
+		usersStorage.put("username3", "passwordForUser3");
+
+		/**
+		 * service_key são pré-geradas pelo sistema e é dado ao cliente
+		 * autorizado que quer ter acesso à API REST. Aqui, é dado o acesso
+		 * apenas ao username1 e username2 para serviço REST com as respectivas
+		 * service_key.
+		 */
+		serviceKeysStorage.put("f80ebc87-ad5c-4b29-9366-5359768df5a1", "username1");
+		serviceKeysStorage.put("3b91cab8-926f-49b6-ba00-920bcf934c2a", "username2");
+	}
+
+	public static AuthenticatorService getInstance() {
+		if (authenticator == null) {
+			authenticator = new AuthenticatorService();
+		}
+
+		return authenticator;
+	}
+
+	/**
+	 * Não é necessário validar a senha do usuário, pois, o Servidor de
+	 * Autorização já se encarregou desta tarefa
+	 * 
+	 * Uma vez que todos os parâmetros são combinados, o authToken é gerado e
+	 * armazenado no authorizationTokensStorage, contendo a entidade Usuario
+	 * logada na sessão, o userData e o accessToken obtido no Servidor de
+	 * Autorização.
+	 * 
+	 * O authToken será necessário para cada chamada API REST e é válido apenas
+	 * dentro da sessão de login
+	 * 
+	 * @param serviceKey
+	 * @param userData
+	 * @param accessToken
+	 * @return authToken
+	 * @throws LoginException
+	 */
+	public String login(String serviceKey, JsonObject userData, OAuth2AccessToken accessToken, Usuario usuario) {
+
+		// TODO IMPORTANTE! avaliar como implementar a validação do serviceKey
+
+		Map<String, Object> loginData = new HashMap<String, Object>();
+		loginData.put("usuario", usuario);
+		loginData.put("userData", userData);
+		loginData.put("accessToken", accessToken);
+
+		String authToken = UUID.randomUUID().toString();
+		authorizationTokensStorage.put(authToken, loginData);
+
+		return authToken;
+
+	}
+
+	public String login(String serviceKey, String username, String password) throws LoginException {
+		if (serviceKeysStorage.containsKey(serviceKey)) {
+			String usernameMatch = serviceKeysStorage.get(serviceKey);
+
+			if (usernameMatch.equals(username) && usersStorage.containsKey(username)) {
+				String passwordMatch = usersStorage.get(username);
+
+				if (passwordMatch.equals(password)) {
+
+					/**
+					 * Uma vez que todos os parâmetros são combinados , o
+					 * authToken será gerado e será armazenado no
+					 * authorizationTokensStorage . O authToken será necessário
+					 * para cada chamada API REST e é válido apenas dentro da
+					 * sessão de login
+					 */
+					String authToken = UUID.randomUUID().toString();
+					authorizationTokensStorage.put(authToken, username);
+
+					return authToken;
+				}
+			}
+		}
+
+		throw new LoginException("Don't Come Here Again!");
+	}
+
+	public void logout(String serviceKey, String authToken) throws GeneralSecurityException {
+		if (serviceKeysStorage.containsKey(serviceKey)) {
+			String usernameMatch1 = serviceKeysStorage.get(serviceKey);
+
+			if (authorizationTokensStorage.containsKey(authToken)) {
+				String usernameMatch2 = authorizationTokensStorage.get(authToken).toString();
+
+				if (usernameMatch1.equals(usernameMatch2)) {
+
+					/**
+					 * Quando um cliente deslogar, o token de autenticação será
+					 * removido e inválidado.
+					 */
+					authorizationTokensStorage.remove(authToken);
+					return;
+				}
+			}
+		}
+
+		throw new GeneralSecurityException("Chave de Serviço e Token de Autorização inválidos.");
+	}
+
+	/**
+	 * This method checks is the service key is valid
+	 *
+	 * @param serviceKey
+	 * @return TRUE if service key matches the pre-generated ones in service key
+	 *         storage. FALSE for otherwise.
+	 */
+	public boolean isServiceKeyValid(String serviceKey) {
+		return serviceKeysStorage.containsKey(serviceKey);
+	}
+
+	/**
+	 * The method that pre-validates if the client which invokes the REST API is
+	 * from a authorized and authenticated source.
+	 *
+	 * @param serviceKey
+	 *            The service key
+	 * @param authToken
+	 *            The authorization token generated after login
+	 * @return TRUE for acceptance and FALSE for denied.
+	 */
+	public boolean isAuthTokenValid(String serviceKey, String authToken) {
+		if (isServiceKeyValid(serviceKey)) {
+			String usernameMatch1 = serviceKeysStorage.get(serviceKey);
+
+			if (authorizationTokensStorage.containsKey(authToken)) {
+				String usernameMatch2 = authorizationTokensStorage.get(authToken).toString();
+
+				if (usernameMatch1.equals(usernameMatch2)) {
+					return true;
+				}
+			}
+		}
+
+		return false;
+	}
+
+}
